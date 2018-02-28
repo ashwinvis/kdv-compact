@@ -1,0 +1,10265 @@
+%!PS-Adobe-2.0
+%%Creator: TECPLOT
+%%Pages:1
+%%BoundingBox: 396 322 577 779
+%%DocumentFonts: Helvetica Helvetica-Bold Symbol Times-Roman Times-Bold Times-Italic Times-BoldItalic Courier Courier-Bold
+%%EndComments
+/tecplotdict 120 dict def
+tecplotdict begin
+/ed  {exch def} def
+/ftl {findfont exch scalefont setfont} def
+/ftr {/ISOLatin1-Times-Roman ftl} def
+/ftb {/ISOLatin1-Times-Bold ftl} def
+/fti {/ISOLatin1-Times-Italic ftl} def
+/ftib {/ISOLatin1-Times-BoldItalic ftl} def
+/fcr {/ISOLatin1-Courier ftl} def
+/fcb {/ISOLatin1-Courier-Bold ftl} def
+/fhn {/ISOLatin1-Helvetica ftl} def
+/fhb {/ISOLatin1-Helvetica-Bold ftl} def
+/fsy {/Symbol ftl} def
+/gs /gsave load def
+/gr /grestore load def
+/np /newpath load def
+/cp /closepath load def
+/g /setgray load def
+/lc {setlinecap} def
+/lj /setlinejoin load def
+/x /setrgbcolor load def
+/sd /setdash load def
+/sw {setlinewidth} def
+/cpt /currentpoint load def
+/m {moveto} def
+/rm /rmoveto load def
+/l /lineto load def
+/r /rlineto load def
+/sf /setflat load def
+/s /stroke load def
+/q {cpt s m} def
+/ro /rotate load def
+/sh /show load def
+/clp {cp gr gs np m l l l cp clip np cp} def
+/dorect
+{
+/height ed
+/width  ed
+m
+0 height r
+width 0 r
+0 height neg r
+cp
+} def
+/er {cp np dorect g fill 0 g cp} def
+/erc {cp np dorect x fill 0 g cp} def
+/br {cp np dorect g cp s} def
+/brc {cp np dorect x cp s} def
+/ii 0 def
+/n 0 def
+/CurA 0 def
+/Ry 0 def
+/Rx 0 def
+/CA 0 def
+/SA 0 def
+/SJ 0 def
+/SI 0 def
+/bi 0 def
+/i 0 def
+/ib 0 def
+/ig 0 def
+/ir 0 def
+/ishade 0 def
+/bshade 0 def
+/dcs
+{
+m
+dup dup dup
+-2 div dup
+rm
+0 r
+0 exch r
+neg 0 r
+cp
+} bind def
+/pg
+{
+/size ed
+/Ny ed
+/Nx ed
+/Y2 ed
+/X2 ed
+/Y1 ed
+/X1 ed
+Ny 1 gt
+{/Dy Y2 Y1 sub Ny 1 sub div def}
+{/Dy 0.0 def}
+ifelse
+Nx 1 gt
+{/Dx X2 X1 sub Nx 1 sub div def}
+{/Dx 0.0 def}
+ifelse
+Y1 Dy Y2 Dy 2 div add
+{
+X1 Dx X2 Dx 2 div add
+{
+1 index
+size 3 1 roll
+dcs fill
+Dx 0.0 eq
+{exit}
+if
+} for
+pop
+Dy 0.0 eq
+{exit}
+if
+} for
+} bind def
+/z
+{
+/ii ed
+rea ii get
+gra ii get
+bla ii get
+} def
+/lrgb
+{
+/ii ed
+/blue ed
+/green ed
+/red ed
+bla ii blue put
+gra ii green put
+rea ii red put
+} def
+/trace
+{
+cp np
+m
+1 1 n 
+{
+pop
+r
+} for
+cp
+} def
+/pf
+{
+/ishade ed
+/n ed 
+s
+trace
+ishade g fill
+} def
+/pb
+{
+/bshade ed
+/n ed 
+m
+1 1 n 
+{
+pop
+r
+} for
+bshade g s
+} def
+/pfb
+{
+/bshade ed
+/ishade ed
+/n ed 
+s 
+n 2 mul 2 add copy
+trace
+ishade g fill
+trace
+bshade g s
+} def
+/pfi
+{
+/i ed
+/n ed 
+s 
+trace
+i z x fill
+} def
+/pbi
+{
+/i ed
+/n ed 
+m
+1 1 n 
+{
+pop
+r
+} for
+i z x s
+} def
+/pfbi
+{
+/ii ed
+/bi ed
+/n ed 
+s 
+n 2 mul 2 add copy
+trace
+ii z x fill
+trace
+bi z x s
+} def
+/pfr
+{
+/ib ed
+/ig ed
+/ir ed
+/n ed 
+s 
+trace
+ir ig ib x fill
+} def
+/pbr
+{
+/ib ed
+/ig ed
+/ir ed
+/n ed 
+m
+1 1 n 
+{
+pop
+r
+} for
+ir ig ib x s
+} def
+/pfbr
+{
+/ib ed
+/ig ed
+/ir ed
+/ibb ed
+/ibg ed
+/ibr ed
+/n ed
+s
+n 2 mul 2 add copy
+trace
+ir ig ib x fill
+trace
+ibr ibg ibb x s
+} def
+/e
+{
+/Ry ed
+/Rx ed
+/CA ed
+/SA ed
+/SJ ed
+/SI ed
+/DelX SA cos Rx mul def
+/DelY SA sin Ry mul def
+/XI SI DelX add def
+/YI SJ DelY add def
+/OCX DelX def
+/OCY DelY def
+/N 0 def
+SA CA add
+CA
+SA 360 add
+{
+/CurA ed
+/CX CurA cos Rx mul def
+/CY CurA sin Ry mul def
+OCX CX sub 
+OCY CY sub 
+/OCX CX def
+/OCY CY def
+/N N 1 add def
+}
+for
+XI YI N
+} def
+%%EndProlog
+%%Page:? 1
+/getisofont
+{
+findfont
+dup length dict begin
+{
+1 index /FID ne {def}{pop pop} ifelse
+} forall
+/Encoding ISOLatin1Encoding def
+currentdict
+end
+} def
+/Helvetica             getisofont /ISOLatin1-Helvetica             exch definefont pop
+/Helvetica-Bold        getisofont /ISOLatin1-Helvetica-Bold        exch definefont pop
+/Helvetica-Oblique     getisofont /ISOLatin1-Helvetica-Oblique     exch definefont pop
+/Helvetica-BoldOblique getisofont /ISOLatin1-Helvetica-BoldOblique exch definefont pop
+/Times-Roman           getisofont /ISOLatin1-Times-Roman           exch definefont pop
+/Times-Bold            getisofont /ISOLatin1-Times-Bold            exch definefont pop
+/Times-BoldItalic      getisofont /ISOLatin1-Times-BoldItalic      exch definefont pop
+/Times-Italic          getisofont /ISOLatin1-Times-Italic          exch definefont pop
+/Courier               getisofont /ISOLatin1-Courier               exch definefont pop
+/Courier-Bold          getisofont /ISOLatin1-Courier-Bold          exch definefont pop
+/Courier-Oblique       getisofont /ISOLatin1-Courier-Oblique       exch definefont pop
+/Courier-BoldOblique   getisofont /ISOLatin1-Courier-BoldOblique   exch definefont pop
+/rea 3744 array def
+/gra 3744 array def
+/bla 3744 array def
+0 0 0 0 lrgb
+0.824 0 0 1 lrgb
+0 0.824 0 2 lrgb
+0.176 0.176 1 3 lrgb
+0 1 1 4 lrgb
+1 1 0.176 5 lrgb
+1 0 1 6 lrgb
+1 1 1 7 lrgb
+0.333 0.333 0.333 8 lrgb
+0.831 0.831 0.831 9 lrgb
+1 0.498 0 10 lrgb
+0.498 1 0 11 lrgb
+0 1 0.498 12 lrgb
+0 0.498 1 13 lrgb
+0.498 0 1 14 lrgb
+1 0 0.498 15 lrgb
+0.333 0 0 16 lrgb
+1 0.667 0.667 17 lrgb
+1 0.667 0.333 18 lrgb
+0.333 1 0.333 19 lrgb
+0.333 1 0.667 20 lrgb
+0.333 0.333 1 21 lrgb
+0.667 0.333 1 22 lrgb
+1 0.333 0.333 23 lrgb
+0.333 0.333 0 24 lrgb
+1 1 0.667 25 lrgb
+1 1 0.333 26 lrgb
+0 1 0.333 27 lrgb
+0.333 1 1 28 lrgb
+0.333 0 1 29 lrgb
+1 0.333 1 30 lrgb
+1 0.333 0 31 lrgb
+0 0.333 0 32 lrgb
+0.667 1 0.667 33 lrgb
+0.667 1 0.333 34 lrgb
+0 0.667 0.333 35 lrgb
+0.333 0.667 1 36 lrgb
+0.333 0 0.667 37 lrgb
+1 0.333 0.667 38 lrgb
+0.667 0.333 0 39 lrgb
+0 0.333 0.333 40 lrgb
+0.667 1 1 41 lrgb
+0.667 1 0 42 lrgb
+0 0.667 0 43 lrgb
+0 0.667 1 44 lrgb
+0 0 0.667 45 lrgb
+1 0 0.667 46 lrgb
+0.667 0 0 47 lrgb
+0 0 0.333 48 lrgb
+0.667 0.667 1 49 lrgb
+0.667 0.667 0 50 lrgb
+0.333 0.667 0 51 lrgb
+0 0.667 0.667 52 lrgb
+0 0.333 0.667 53 lrgb
+0.667 0 0.667 54 lrgb
+0.667 0 0.333 55 lrgb
+0.333 0 0.333 56 lrgb
+1 0.667 1 57 lrgb
+0.667 0.667 0.333 58 lrgb
+0.333 0.667 0.333 59 lrgb
+0.333 0.667 0.667 60 lrgb
+0.333 0.333 0.667 61 lrgb
+0.667 0.333 0.667 62 lrgb
+0.667 0.333 0.333 63 lrgb
+0.588 0.588 0.588 64 lrgb
+0.412 0.412 0.412 65 lrgb
+0 0 0 66 lrgb
+0 0 1 67 lrgb
+0 0.0118 1 68 lrgb
+0 0.0196 1 69 lrgb
+0 0.0314 1 70 lrgb
+0 0.0392 1 71 lrgb
+0 0.051 1 72 lrgb
+0 0.0588 1 73 lrgb
+0 0.0706 1 74 lrgb
+0 0.0784 1 75 lrgb
+0 0.0902 1 76 lrgb
+0 0.098 1 77 lrgb
+0 0.11 1 78 lrgb
+0 0.122 1 79 lrgb
+0 0.129 1 80 lrgb
+0 0.141 1 81 lrgb
+0 0.149 1 82 lrgb
+0 0.161 1 83 lrgb
+0 0.169 1 84 lrgb
+0 0.18 1 85 lrgb
+0 0.188 1 86 lrgb
+0 0.2 1 87 lrgb
+0 0.212 1 88 lrgb
+0 0.22 1 89 lrgb
+0 0.231 1 90 lrgb
+0 0.239 1 91 lrgb
+0 0.251 1 92 lrgb
+0 0.259 1 93 lrgb
+0 0.271 1 94 lrgb
+0 0.278 1 95 lrgb
+0 0.29 1 96 lrgb
+0 0.298 1 97 lrgb
+0 0.31 1 98 lrgb
+0 0.322 1 99 lrgb
+0 0.329 1 100 lrgb
+0 0.341 1 101 lrgb
+0 0.349 1 102 lrgb
+0 0.361 1 103 lrgb
+0 0.369 1 104 lrgb
+0 0.38 1 105 lrgb
+0 0.388 1 106 lrgb
+0 0.4 1 107 lrgb
+0 0.412 1 108 lrgb
+0 0.42 1 109 lrgb
+0 0.431 1 110 lrgb
+0 0.439 1 111 lrgb
+0 0.451 1 112 lrgb
+0 0.459 1 113 lrgb
+0 0.471 1 114 lrgb
+0 0.478 1 115 lrgb
+0 0.49 1 116 lrgb
+0 0.498 1 117 lrgb
+0 0.51 1 118 lrgb
+0 0.522 1 119 lrgb
+0 0.529 1 120 lrgb
+0 0.541 1 121 lrgb
+0 0.549 1 122 lrgb
+0 0.561 1 123 lrgb
+0 0.569 1 124 lrgb
+0 0.58 1 125 lrgb
+0 0.588 1 126 lrgb
+0 0.6 1 127 lrgb
+0 0.612 1 128 lrgb
+0 0.62 1 129 lrgb
+0 0.631 1 130 lrgb
+0 0.639 1 131 lrgb
+0 0.651 1 132 lrgb
+0 0.659 1 133 lrgb
+0 0.671 1 134 lrgb
+0 0.678 1 135 lrgb
+0 0.69 1 136 lrgb
+0 0.698 1 137 lrgb
+0 0.71 1 138 lrgb
+0 0.722 1 139 lrgb
+0 0.729 1 140 lrgb
+0 0.741 1 141 lrgb
+0 0.749 1 142 lrgb
+0 0.761 1 143 lrgb
+0 0.769 1 144 lrgb
+0 0.78 1 145 lrgb
+0 0.788 1 146 lrgb
+0 0.8 1 147 lrgb
+0 0.812 1 148 lrgb
+0 0.82 1 149 lrgb
+0 0.831 1 150 lrgb
+0 0.839 1 151 lrgb
+0 0.851 1 152 lrgb
+0 0.859 1 153 lrgb
+0 0.871 1 154 lrgb
+0 0.878 1 155 lrgb
+0 0.89 1 156 lrgb
+0 0.898 1 157 lrgb
+0 0.91 1 158 lrgb
+0 0.922 1 159 lrgb
+0 0.929 1 160 lrgb
+0 0.941 1 161 lrgb
+0 0.949 1 162 lrgb
+0 0.961 1 163 lrgb
+0 0.969 1 164 lrgb
+0 0.98 1 165 lrgb
+0 0.988 1 166 lrgb
+0 1 1 167 lrgb
+0 1 0.988 168 lrgb
+0 1 0.98 169 lrgb
+0 1 0.969 170 lrgb
+0 1 0.961 171 lrgb
+0 1 0.949 172 lrgb
+0 1 0.941 173 lrgb
+0 1 0.929 174 lrgb
+0 1 0.922 175 lrgb
+0 1 0.91 176 lrgb
+0 1 0.898 177 lrgb
+0 1 0.89 178 lrgb
+0 1 0.878 179 lrgb
+0 1 0.871 180 lrgb
+0 1 0.859 181 lrgb
+0 1 0.851 182 lrgb
+0 1 0.839 183 lrgb
+0 1 0.831 184 lrgb
+0 1 0.82 185 lrgb
+0 1 0.812 186 lrgb
+0 1 0.8 187 lrgb
+0 1 0.788 188 lrgb
+0 1 0.78 189 lrgb
+0 1 0.769 190 lrgb
+0 1 0.761 191 lrgb
+0 1 0.749 192 lrgb
+0 1 0.741 193 lrgb
+0 1 0.729 194 lrgb
+0 1 0.722 195 lrgb
+0 1 0.71 196 lrgb
+0 1 0.698 197 lrgb
+0 1 0.69 198 lrgb
+0 1 0.678 199 lrgb
+0 1 0.671 200 lrgb
+0 1 0.659 201 lrgb
+0 1 0.651 202 lrgb
+0 1 0.639 203 lrgb
+0 1 0.631 204 lrgb
+0 1 0.62 205 lrgb
+0 1 0.612 206 lrgb
+0 1 0.6 207 lrgb
+0 1 0.588 208 lrgb
+0 1 0.58 209 lrgb
+0 1 0.569 210 lrgb
+0 1 0.561 211 lrgb
+0 1 0.549 212 lrgb
+0 1 0.541 213 lrgb
+0 1 0.529 214 lrgb
+0 1 0.522 215 lrgb
+0 1 0.51 216 lrgb
+0 1 0.498 217 lrgb
+0 1 0.49 218 lrgb
+0 1 0.478 219 lrgb
+0 1 0.471 220 lrgb
+0 1 0.459 221 lrgb
+0 1 0.451 222 lrgb
+0 1 0.439 223 lrgb
+0 1 0.431 224 lrgb
+0 1 0.42 225 lrgb
+0 1 0.412 226 lrgb
+0 1 0.4 227 lrgb
+0 1 0.388 228 lrgb
+0 1 0.38 229 lrgb
+0 1 0.369 230 lrgb
+0 1 0.361 231 lrgb
+0 1 0.349 232 lrgb
+0 1 0.341 233 lrgb
+0 1 0.329 234 lrgb
+0 1 0.322 235 lrgb
+0 1 0.31 236 lrgb
+0 1 0.298 237 lrgb
+0 1 0.29 238 lrgb
+0 1 0.278 239 lrgb
+0 1 0.271 240 lrgb
+0 1 0.259 241 lrgb
+0 1 0.251 242 lrgb
+0 1 0.239 243 lrgb
+0 1 0.231 244 lrgb
+0 1 0.22 245 lrgb
+0 1 0.212 246 lrgb
+0 1 0.2 247 lrgb
+0 1 0.188 248 lrgb
+0 1 0.18 249 lrgb
+0 1 0.169 250 lrgb
+0 1 0.161 251 lrgb
+0 1 0.149 252 lrgb
+0 1 0.141 253 lrgb
+0 1 0.129 254 lrgb
+0 1 0.122 255 lrgb
+0 1 0.11 256 lrgb
+0 1 0.098 257 lrgb
+0 1 0.0902 258 lrgb
+0 1 0.0784 259 lrgb
+0 1 0.0706 260 lrgb
+0 1 0.0588 261 lrgb
+0 1 0.051 262 lrgb
+0 1 0.0392 263 lrgb
+0 1 0.0314 264 lrgb
+0 1 0.0196 265 lrgb
+0 1 0.0118 266 lrgb
+0 1 0 267 lrgb
+0.0118 1 0 268 lrgb
+0.0196 1 0 269 lrgb
+0.0314 1 0 270 lrgb
+0.0392 1 0 271 lrgb
+0.051 1 0 272 lrgb
+0.0588 1 0 273 lrgb
+0.0706 1 0 274 lrgb
+0.0784 1 0 275 lrgb
+0.0902 1 0 276 lrgb
+0.098 1 0 277 lrgb
+0.11 1 0 278 lrgb
+0.122 1 0 279 lrgb
+0.129 1 0 280 lrgb
+0.141 1 0 281 lrgb
+0.149 1 0 282 lrgb
+0.161 1 0 283 lrgb
+0.169 1 0 284 lrgb
+0.18 1 0 285 lrgb
+0.188 1 0 286 lrgb
+0.2 1 0 287 lrgb
+0.212 1 0 288 lrgb
+0.22 1 0 289 lrgb
+0.231 1 0 290 lrgb
+0.239 1 0 291 lrgb
+0.251 1 0 292 lrgb
+0.259 1 0 293 lrgb
+0.271 1 0 294 lrgb
+0.278 1 0 295 lrgb
+0.29 1 0 296 lrgb
+0.298 1 0 297 lrgb
+0.31 1 0 298 lrgb
+0.322 1 0 299 lrgb
+0.329 1 0 300 lrgb
+0.341 1 0 301 lrgb
+0.349 1 0 302 lrgb
+0.361 1 0 303 lrgb
+0.369 1 0 304 lrgb
+0.38 1 0 305 lrgb
+0.388 1 0 306 lrgb
+0.4 1 0 307 lrgb
+0.412 1 0 308 lrgb
+0.42 1 0 309 lrgb
+0.431 1 0 310 lrgb
+0.439 1 0 311 lrgb
+0.451 1 0 312 lrgb
+0.459 1 0 313 lrgb
+0.471 1 0 314 lrgb
+0.478 1 0 315 lrgb
+0.49 1 0 316 lrgb
+0.498 1 0 317 lrgb
+0.51 1 0 318 lrgb
+0.522 1 0 319 lrgb
+0.529 1 0 320 lrgb
+0.541 1 0 321 lrgb
+0.549 1 0 322 lrgb
+0.561 1 0 323 lrgb
+0.569 1 0 324 lrgb
+0.58 1 0 325 lrgb
+0.588 1 0 326 lrgb
+0.6 1 0 327 lrgb
+0.612 1 0 328 lrgb
+0.62 1 0 329 lrgb
+0.631 1 0 330 lrgb
+0.639 1 0 331 lrgb
+0.651 1 0 332 lrgb
+0.659 1 0 333 lrgb
+0.671 1 0 334 lrgb
+0.678 1 0 335 lrgb
+0.69 1 0 336 lrgb
+0.698 1 0 337 lrgb
+0.71 1 0 338 lrgb
+0.722 1 0 339 lrgb
+0.729 1 0 340 lrgb
+0.741 1 0 341 lrgb
+0.749 1 0 342 lrgb
+0.761 1 0 343 lrgb
+0.769 1 0 344 lrgb
+0.78 1 0 345 lrgb
+0.788 1 0 346 lrgb
+0.8 1 0 347 lrgb
+0.812 1 0 348 lrgb
+0.82 1 0 349 lrgb
+0.831 1 0 350 lrgb
+0.839 1 0 351 lrgb
+0.851 1 0 352 lrgb
+0.859 1 0 353 lrgb
+0.871 1 0 354 lrgb
+0.878 1 0 355 lrgb
+0.89 1 0 356 lrgb
+0.898 1 0 357 lrgb
+0.91 1 0 358 lrgb
+0.922 1 0 359 lrgb
+0.929 1 0 360 lrgb
+0.941 1 0 361 lrgb
+0.949 1 0 362 lrgb
+0.961 1 0 363 lrgb
+0.969 1 0 364 lrgb
+0.98 1 0 365 lrgb
+0.988 1 0 366 lrgb
+1 1 0 367 lrgb
+1 0.988 0 368 lrgb
+1 0.98 0 369 lrgb
+1 0.969 0 370 lrgb
+1 0.961 0 371 lrgb
+1 0.949 0 372 lrgb
+1 0.941 0 373 lrgb
+1 0.929 0 374 lrgb
+1 0.922 0 375 lrgb
+1 0.91 0 376 lrgb
+1 0.898 0 377 lrgb
+1 0.89 0 378 lrgb
+1 0.878 0 379 lrgb
+1 0.871 0 380 lrgb
+1 0.859 0 381 lrgb
+1 0.851 0 382 lrgb
+1 0.839 0 383 lrgb
+1 0.831 0 384 lrgb
+1 0.82 0 385 lrgb
+1 0.812 0 386 lrgb
+1 0.8 0 387 lrgb
+1 0.788 0 388 lrgb
+1 0.78 0 389 lrgb
+1 0.769 0 390 lrgb
+1 0.761 0 391 lrgb
+1 0.749 0 392 lrgb
+1 0.741 0 393 lrgb
+1 0.729 0 394 lrgb
+1 0.722 0 395 lrgb
+1 0.71 0 396 lrgb
+1 0.698 0 397 lrgb
+1 0.69 0 398 lrgb
+1 0.678 0 399 lrgb
+1 0.671 0 400 lrgb
+1 0.659 0 401 lrgb
+1 0.651 0 402 lrgb
+1 0.639 0 403 lrgb
+1 0.631 0 404 lrgb
+1 0.62 0 405 lrgb
+1 0.612 0 406 lrgb
+1 0.6 0 407 lrgb
+1 0.588 0 408 lrgb
+1 0.58 0 409 lrgb
+1 0.569 0 410 lrgb
+1 0.561 0 411 lrgb
+1 0.549 0 412 lrgb
+1 0.541 0 413 lrgb
+1 0.529 0 414 lrgb
+1 0.522 0 415 lrgb
+1 0.51 0 416 lrgb
+1 0.498 0 417 lrgb
+1 0.49 0 418 lrgb
+1 0.478 0 419 lrgb
+1 0.471 0 420 lrgb
+1 0.459 0 421 lrgb
+1 0.451 0 422 lrgb
+1 0.439 0 423 lrgb
+1 0.431 0 424 lrgb
+1 0.42 0 425 lrgb
+1 0.412 0 426 lrgb
+1 0.4 0 427 lrgb
+1 0.388 0 428 lrgb
+1 0.38 0 429 lrgb
+1 0.369 0 430 lrgb
+1 0.361 0 431 lrgb
+1 0.349 0 432 lrgb
+1 0.341 0 433 lrgb
+1 0.329 0 434 lrgb
+1 0.322 0 435 lrgb
+1 0.31 0 436 lrgb
+1 0.298 0 437 lrgb
+1 0.29 0 438 lrgb
+1 0.278 0 439 lrgb
+1 0.271 0 440 lrgb
+1 0.259 0 441 lrgb
+1 0.251 0 442 lrgb
+1 0.239 0 443 lrgb
+1 0.231 0 444 lrgb
+1 0.22 0 445 lrgb
+1 0.212 0 446 lrgb
+1 0.2 0 447 lrgb
+1 0.188 0 448 lrgb
+1 0.18 0 449 lrgb
+1 0.169 0 450 lrgb
+1 0.161 0 451 lrgb
+1 0.149 0 452 lrgb
+1 0.141 0 453 lrgb
+1 0.129 0 454 lrgb
+1 0.122 0 455 lrgb
+1 0.11 0 456 lrgb
+1 0.098 0 457 lrgb
+1 0.0902 0 458 lrgb
+1 0.0784 0 459 lrgb
+1 0.0706 0 460 lrgb
+1 0.0588 0 461 lrgb
+1 0.051 0 462 lrgb
+1 0.0392 0 463 lrgb
+1 0.0314 0 464 lrgb
+1 0.0196 0 465 lrgb
+1 0.0118 0 466 lrgb
+1 0 0 467 lrgb
+0 0 0 468 lrgb
+0.824 0 0 469 lrgb
+0 0.824 0 470 lrgb
+0.176 0.176 1 471 lrgb
+0 1 1 472 lrgb
+1 1 0.176 473 lrgb
+1 0 1 474 lrgb
+1 1 1 475 lrgb
+0.333 0.333 0.333 476 lrgb
+0.831 0.831 0.831 477 lrgb
+1 0.498 0 478 lrgb
+0.498 1 0 479 lrgb
+0 1 0.498 480 lrgb
+0 0.498 1 481 lrgb
+0.498 0 1 482 lrgb
+1 0 0.498 483 lrgb
+0.333 0 0 484 lrgb
+1 0.667 0.667 485 lrgb
+1 0.667 0.333 486 lrgb
+0.333 1 0.333 487 lrgb
+0.333 1 0.667 488 lrgb
+0.333 0.333 1 489 lrgb
+0.667 0.333 1 490 lrgb
+1 0.333 0.333 491 lrgb
+0.333 0.333 0 492 lrgb
+1 1 0.667 493 lrgb
+1 1 0.333 494 lrgb
+0 1 0.333 495 lrgb
+0.333 1 1 496 lrgb
+0.333 0 1 497 lrgb
+1 0.333 1 498 lrgb
+1 0.333 0 499 lrgb
+0 0.333 0 500 lrgb
+0.667 1 0.667 501 lrgb
+0.667 1 0.333 502 lrgb
+0 0.667 0.333 503 lrgb
+0.333 0.667 1 504 lrgb
+0.333 0 0.667 505 lrgb
+1 0.333 0.667 506 lrgb
+0.667 0.333 0 507 lrgb
+0 0.333 0.333 508 lrgb
+0.667 1 1 509 lrgb
+0.667 1 0 510 lrgb
+0 0.667 0 511 lrgb
+0 0.667 1 512 lrgb
+0 0 0.667 513 lrgb
+1 0 0.667 514 lrgb
+0.667 0 0 515 lrgb
+0 0 0.333 516 lrgb
+0.667 0.667 1 517 lrgb
+0.667 0.667 0 518 lrgb
+0.333 0.667 0 519 lrgb
+0 0.667 0.667 520 lrgb
+0 0.333 0.667 521 lrgb
+0.667 0 0.667 522 lrgb
+0.667 0 0.333 523 lrgb
+0.333 0 0.333 524 lrgb
+1 0.667 1 525 lrgb
+0.667 0.667 0.333 526 lrgb
+0.333 0.667 0.333 527 lrgb
+0.333 0.667 0.667 528 lrgb
+0.333 0.333 0.667 529 lrgb
+0.667 0.333 0.667 530 lrgb
+0.667 0.333 0.333 531 lrgb
+0.588 0.588 0.588 532 lrgb
+0.412 0.412 0.412 533 lrgb
+0 0 0 534 lrgb
+0 0 1 535 lrgb
+0 0.0118 1 536 lrgb
+0 0.0196 1 537 lrgb
+0 0.0314 1 538 lrgb
+0 0.0392 1 539 lrgb
+0 0.051 1 540 lrgb
+0 0.0588 1 541 lrgb
+0 0.0706 1 542 lrgb
+0 0.0784 1 543 lrgb
+0 0.0902 1 544 lrgb
+0 0.098 1 545 lrgb
+0 0.11 1 546 lrgb
+0 0.122 1 547 lrgb
+0 0.129 1 548 lrgb
+0 0.141 1 549 lrgb
+0 0.149 1 550 lrgb
+0 0.161 1 551 lrgb
+0 0.169 1 552 lrgb
+0 0.18 1 553 lrgb
+0 0.188 1 554 lrgb
+0 0.2 1 555 lrgb
+0 0.212 1 556 lrgb
+0 0.22 1 557 lrgb
+0 0.231 1 558 lrgb
+0 0.239 1 559 lrgb
+0 0.251 1 560 lrgb
+0 0.259 1 561 lrgb
+0 0.271 1 562 lrgb
+0 0.278 1 563 lrgb
+0 0.29 1 564 lrgb
+0 0.298 1 565 lrgb
+0 0.31 1 566 lrgb
+0 0.322 1 567 lrgb
+0 0.329 1 568 lrgb
+0 0.341 1 569 lrgb
+0 0.349 1 570 lrgb
+0 0.361 1 571 lrgb
+0 0.369 1 572 lrgb
+0 0.38 1 573 lrgb
+0 0.388 1 574 lrgb
+0 0.4 1 575 lrgb
+0 0.412 1 576 lrgb
+0 0.42 1 577 lrgb
+0 0.431 1 578 lrgb
+0 0.439 1 579 lrgb
+0 0.451 1 580 lrgb
+0 0.459 1 581 lrgb
+0 0.471 1 582 lrgb
+0 0.478 1 583 lrgb
+0 0.49 1 584 lrgb
+0 0.498 1 585 lrgb
+0 0.51 1 586 lrgb
+0 0.522 1 587 lrgb
+0 0.529 1 588 lrgb
+0 0.541 1 589 lrgb
+0 0.549 1 590 lrgb
+0 0.561 1 591 lrgb
+0 0.569 1 592 lrgb
+0 0.58 1 593 lrgb
+0 0.588 1 594 lrgb
+0 0.6 1 595 lrgb
+0 0.612 1 596 lrgb
+0 0.62 1 597 lrgb
+0 0.631 1 598 lrgb
+0 0.639 1 599 lrgb
+0 0.651 1 600 lrgb
+0 0.659 1 601 lrgb
+0 0.671 1 602 lrgb
+0 0.678 1 603 lrgb
+0 0.69 1 604 lrgb
+0 0.698 1 605 lrgb
+0 0.71 1 606 lrgb
+0 0.722 1 607 lrgb
+0 0.729 1 608 lrgb
+0 0.741 1 609 lrgb
+0 0.749 1 610 lrgb
+0 0.761 1 611 lrgb
+0 0.769 1 612 lrgb
+0 0.78 1 613 lrgb
+0 0.788 1 614 lrgb
+0 0.8 1 615 lrgb
+0 0.812 1 616 lrgb
+0 0.82 1 617 lrgb
+0 0.831 1 618 lrgb
+0 0.839 1 619 lrgb
+0 0.851 1 620 lrgb
+0 0.859 1 621 lrgb
+0 0.871 1 622 lrgb
+0 0.878 1 623 lrgb
+0 0.89 1 624 lrgb
+0 0.898 1 625 lrgb
+0 0.91 1 626 lrgb
+0 0.922 1 627 lrgb
+0 0.929 1 628 lrgb
+0 0.941 1 629 lrgb
+0 0.949 1 630 lrgb
+0 0.961 1 631 lrgb
+0 0.969 1 632 lrgb
+0 0.98 1 633 lrgb
+0 0.988 1 634 lrgb
+0 1 1 635 lrgb
+0 1 0.988 636 lrgb
+0 1 0.98 637 lrgb
+0 1 0.969 638 lrgb
+0 1 0.961 639 lrgb
+0 1 0.949 640 lrgb
+0 1 0.941 641 lrgb
+0 1 0.929 642 lrgb
+0 1 0.922 643 lrgb
+0 1 0.91 644 lrgb
+0 1 0.898 645 lrgb
+0 1 0.89 646 lrgb
+0 1 0.878 647 lrgb
+0 1 0.871 648 lrgb
+0 1 0.859 649 lrgb
+0 1 0.851 650 lrgb
+0 1 0.839 651 lrgb
+0 1 0.831 652 lrgb
+0 1 0.82 653 lrgb
+0 1 0.812 654 lrgb
+0 1 0.8 655 lrgb
+0 1 0.788 656 lrgb
+0 1 0.78 657 lrgb
+0 1 0.769 658 lrgb
+0 1 0.761 659 lrgb
+0 1 0.749 660 lrgb
+0 1 0.741 661 lrgb
+0 1 0.729 662 lrgb
+0 1 0.722 663 lrgb
+0 1 0.71 664 lrgb
+0 1 0.698 665 lrgb
+0 1 0.69 666 lrgb
+0 1 0.678 667 lrgb
+0 1 0.671 668 lrgb
+0 1 0.659 669 lrgb
+0 1 0.651 670 lrgb
+0 1 0.639 671 lrgb
+0 1 0.631 672 lrgb
+0 1 0.62 673 lrgb
+0 1 0.612 674 lrgb
+0 1 0.6 675 lrgb
+0 1 0.588 676 lrgb
+0 1 0.58 677 lrgb
+0 1 0.569 678 lrgb
+0 1 0.561 679 lrgb
+0 1 0.549 680 lrgb
+0 1 0.541 681 lrgb
+0 1 0.529 682 lrgb
+0 1 0.522 683 lrgb
+0 1 0.51 684 lrgb
+0 1 0.498 685 lrgb
+0 1 0.49 686 lrgb
+0 1 0.478 687 lrgb
+0 1 0.471 688 lrgb
+0 1 0.459 689 lrgb
+0 1 0.451 690 lrgb
+0 1 0.439 691 lrgb
+0 1 0.431 692 lrgb
+0 1 0.42 693 lrgb
+0 1 0.412 694 lrgb
+0 1 0.4 695 lrgb
+0 1 0.388 696 lrgb
+0 1 0.38 697 lrgb
+0 1 0.369 698 lrgb
+0 1 0.361 699 lrgb
+0 1 0.349 700 lrgb
+0 1 0.341 701 lrgb
+0 1 0.329 702 lrgb
+0 1 0.322 703 lrgb
+0 1 0.31 704 lrgb
+0 1 0.298 705 lrgb
+0 1 0.29 706 lrgb
+0 1 0.278 707 lrgb
+0 1 0.271 708 lrgb
+0 1 0.259 709 lrgb
+0 1 0.251 710 lrgb
+0 1 0.239 711 lrgb
+0 1 0.231 712 lrgb
+0 1 0.22 713 lrgb
+0 1 0.212 714 lrgb
+0 1 0.2 715 lrgb
+0 1 0.188 716 lrgb
+0 1 0.18 717 lrgb
+0 1 0.169 718 lrgb
+0 1 0.161 719 lrgb
+0 1 0.149 720 lrgb
+0 1 0.141 721 lrgb
+0 1 0.129 722 lrgb
+0 1 0.122 723 lrgb
+0 1 0.11 724 lrgb
+0 1 0.098 725 lrgb
+0 1 0.0902 726 lrgb
+0 1 0.0784 727 lrgb
+0 1 0.0706 728 lrgb
+0 1 0.0588 729 lrgb
+0 1 0.051 730 lrgb
+0 1 0.0392 731 lrgb
+0 1 0.0314 732 lrgb
+0 1 0.0196 733 lrgb
+0 1 0.0118 734 lrgb
+0 1 0 735 lrgb
+0.0118 1 0 736 lrgb
+0.0196 1 0 737 lrgb
+0.0314 1 0 738 lrgb
+0.0392 1 0 739 lrgb
+0.051 1 0 740 lrgb
+0.0588 1 0 741 lrgb
+0.0706 1 0 742 lrgb
+0.0784 1 0 743 lrgb
+0.0902 1 0 744 lrgb
+0.098 1 0 745 lrgb
+0.11 1 0 746 lrgb
+0.122 1 0 747 lrgb
+0.129 1 0 748 lrgb
+0.141 1 0 749 lrgb
+0.149 1 0 750 lrgb
+0.161 1 0 751 lrgb
+0.169 1 0 752 lrgb
+0.18 1 0 753 lrgb
+0.188 1 0 754 lrgb
+0.2 1 0 755 lrgb
+0.212 1 0 756 lrgb
+0.22 1 0 757 lrgb
+0.231 1 0 758 lrgb
+0.239 1 0 759 lrgb
+0.251 1 0 760 lrgb
+0.259 1 0 761 lrgb
+0.271 1 0 762 lrgb
+0.278 1 0 763 lrgb
+0.29 1 0 764 lrgb
+0.298 1 0 765 lrgb
+0.31 1 0 766 lrgb
+0.322 1 0 767 lrgb
+0.329 1 0 768 lrgb
+0.341 1 0 769 lrgb
+0.349 1 0 770 lrgb
+0.361 1 0 771 lrgb
+0.369 1 0 772 lrgb
+0.38 1 0 773 lrgb
+0.388 1 0 774 lrgb
+0.4 1 0 775 lrgb
+0.412 1 0 776 lrgb
+0.42 1 0 777 lrgb
+0.431 1 0 778 lrgb
+0.439 1 0 779 lrgb
+0.451 1 0 780 lrgb
+0.459 1 0 781 lrgb
+0.471 1 0 782 lrgb
+0.478 1 0 783 lrgb
+0.49 1 0 784 lrgb
+0.498 1 0 785 lrgb
+0.51 1 0 786 lrgb
+0.522 1 0 787 lrgb
+0.529 1 0 788 lrgb
+0.541 1 0 789 lrgb
+0.549 1 0 790 lrgb
+0.561 1 0 791 lrgb
+0.569 1 0 792 lrgb
+0.58 1 0 793 lrgb
+0.588 1 0 794 lrgb
+0.6 1 0 795 lrgb
+0.612 1 0 796 lrgb
+0.62 1 0 797 lrgb
+0.631 1 0 798 lrgb
+0.639 1 0 799 lrgb
+0.651 1 0 800 lrgb
+0.659 1 0 801 lrgb
+0.671 1 0 802 lrgb
+0.678 1 0 803 lrgb
+0.69 1 0 804 lrgb
+0.698 1 0 805 lrgb
+0.71 1 0 806 lrgb
+0.722 1 0 807 lrgb
+0.729 1 0 808 lrgb
+0.741 1 0 809 lrgb
+0.749 1 0 810 lrgb
+0.761 1 0 811 lrgb
+0.769 1 0 812 lrgb
+0.78 1 0 813 lrgb
+0.788 1 0 814 lrgb
+0.8 1 0 815 lrgb
+0.812 1 0 816 lrgb
+0.82 1 0 817 lrgb
+0.831 1 0 818 lrgb
+0.839 1 0 819 lrgb
+0.851 1 0 820 lrgb
+0.859 1 0 821 lrgb
+0.871 1 0 822 lrgb
+0.878 1 0 823 lrgb
+0.89 1 0 824 lrgb
+0.898 1 0 825 lrgb
+0.91 1 0 826 lrgb
+0.922 1 0 827 lrgb
+0.929 1 0 828 lrgb
+0.941 1 0 829 lrgb
+0.949 1 0 830 lrgb
+0.961 1 0 831 lrgb
+0.969 1 0 832 lrgb
+0.98 1 0 833 lrgb
+0.988 1 0 834 lrgb
+1 1 0 835 lrgb
+1 0.988 0 836 lrgb
+1 0.98 0 837 lrgb
+1 0.969 0 838 lrgb
+1 0.961 0 839 lrgb
+1 0.949 0 840 lrgb
+1 0.941 0 841 lrgb
+1 0.929 0 842 lrgb
+1 0.922 0 843 lrgb
+1 0.91 0 844 lrgb
+1 0.898 0 845 lrgb
+1 0.89 0 846 lrgb
+1 0.878 0 847 lrgb
+1 0.871 0 848 lrgb
+1 0.859 0 849 lrgb
+1 0.851 0 850 lrgb
+1 0.839 0 851 lrgb
+1 0.831 0 852 lrgb
+1 0.82 0 853 lrgb
+1 0.812 0 854 lrgb
+1 0.8 0 855 lrgb
+1 0.788 0 856 lrgb
+1 0.78 0 857 lrgb
+1 0.769 0 858 lrgb
+1 0.761 0 859 lrgb
+1 0.749 0 860 lrgb
+1 0.741 0 861 lrgb
+1 0.729 0 862 lrgb
+1 0.722 0 863 lrgb
+1 0.71 0 864 lrgb
+1 0.698 0 865 lrgb
+1 0.69 0 866 lrgb
+1 0.678 0 867 lrgb
+1 0.671 0 868 lrgb
+1 0.659 0 869 lrgb
+1 0.651 0 870 lrgb
+1 0.639 0 871 lrgb
+1 0.631 0 872 lrgb
+1 0.62 0 873 lrgb
+1 0.612 0 874 lrgb
+1 0.6 0 875 lrgb
+1 0.588 0 876 lrgb
+1 0.58 0 877 lrgb
+1 0.569 0 878 lrgb
+1 0.561 0 879 lrgb
+1 0.549 0 880 lrgb
+1 0.541 0 881 lrgb
+1 0.529 0 882 lrgb
+1 0.522 0 883 lrgb
+1 0.51 0 884 lrgb
+1 0.498 0 885 lrgb
+1 0.49 0 886 lrgb
+1 0.478 0 887 lrgb
+1 0.471 0 888 lrgb
+1 0.459 0 889 lrgb
+1 0.451 0 890 lrgb
+1 0.439 0 891 lrgb
+1 0.431 0 892 lrgb
+1 0.42 0 893 lrgb
+1 0.412 0 894 lrgb
+1 0.4 0 895 lrgb
+1 0.388 0 896 lrgb
+1 0.38 0 897 lrgb
+1 0.369 0 898 lrgb
+1 0.361 0 899 lrgb
+1 0.349 0 900 lrgb
+1 0.341 0 901 lrgb
+1 0.329 0 902 lrgb
+1 0.322 0 903 lrgb
+1 0.31 0 904 lrgb
+1 0.298 0 905 lrgb
+1 0.29 0 906 lrgb
+1 0.278 0 907 lrgb
+1 0.271 0 908 lrgb
+1 0.259 0 909 lrgb
+1 0.251 0 910 lrgb
+1 0.239 0 911 lrgb
+1 0.231 0 912 lrgb
+1 0.22 0 913 lrgb
+1 0.212 0 914 lrgb
+1 0.2 0 915 lrgb
+1 0.188 0 916 lrgb
+1 0.18 0 917 lrgb
+1 0.169 0 918 lrgb
+1 0.161 0 919 lrgb
+1 0.149 0 920 lrgb
+1 0.141 0 921 lrgb
+1 0.129 0 922 lrgb
+1 0.122 0 923 lrgb
+1 0.11 0 924 lrgb
+1 0.098 0 925 lrgb
+1 0.0902 0 926 lrgb
+1 0.0784 0 927 lrgb
+1 0.0706 0 928 lrgb
+1 0.0588 0 929 lrgb
+1 0.051 0 930 lrgb
+1 0.0392 0 931 lrgb
+1 0.0314 0 932 lrgb
+1 0.0196 0 933 lrgb
+1 0.0118 0 934 lrgb
+1 0 0 935 lrgb
+0 0 0 936 lrgb
+0.824 0 0 937 lrgb
+0 0.824 0 938 lrgb
+0.176 0.176 1 939 lrgb
+0 1 1 940 lrgb
+1 1 0.176 941 lrgb
+1 0 1 942 lrgb
+1 1 1 943 lrgb
+0.333 0.333 0.333 944 lrgb
+0.831 0.831 0.831 945 lrgb
+1 0.498 0 946 lrgb
+0.498 1 0 947 lrgb
+0 1 0.498 948 lrgb
+0 0.498 1 949 lrgb
+0.498 0 1 950 lrgb
+1 0 0.498 951 lrgb
+0.333 0 0 952 lrgb
+1 0.667 0.667 953 lrgb
+1 0.667 0.333 954 lrgb
+0.333 1 0.333 955 lrgb
+0.333 1 0.667 956 lrgb
+0.333 0.333 1 957 lrgb
+0.667 0.333 1 958 lrgb
+1 0.333 0.333 959 lrgb
+0.333 0.333 0 960 lrgb
+1 1 0.667 961 lrgb
+1 1 0.333 962 lrgb
+0 1 0.333 963 lrgb
+0.333 1 1 964 lrgb
+0.333 0 1 965 lrgb
+1 0.333 1 966 lrgb
+1 0.333 0 967 lrgb
+0 0.333 0 968 lrgb
+0.667 1 0.667 969 lrgb
+0.667 1 0.333 970 lrgb
+0 0.667 0.333 971 lrgb
+0.333 0.667 1 972 lrgb
+0.333 0 0.667 973 lrgb
+1 0.333 0.667 974 lrgb
+0.667 0.333 0 975 lrgb
+0 0.333 0.333 976 lrgb
+0.667 1 1 977 lrgb
+0.667 1 0 978 lrgb
+0 0.667 0 979 lrgb
+0 0.667 1 980 lrgb
+0 0 0.667 981 lrgb
+1 0 0.667 982 lrgb
+0.667 0 0 983 lrgb
+0 0 0.333 984 lrgb
+0.667 0.667 1 985 lrgb
+0.667 0.667 0 986 lrgb
+0.333 0.667 0 987 lrgb
+0 0.667 0.667 988 lrgb
+0 0.333 0.667 989 lrgb
+0.667 0 0.667 990 lrgb
+0.667 0 0.333 991 lrgb
+0.333 0 0.333 992 lrgb
+1 0.667 1 993 lrgb
+0.667 0.667 0.333 994 lrgb
+0.333 0.667 0.333 995 lrgb
+0.333 0.667 0.667 996 lrgb
+0.333 0.333 0.667 997 lrgb
+0.667 0.333 0.667 998 lrgb
+0.667 0.333 0.333 999 lrgb
+0.588 0.588 0.588 1000 lrgb
+0.412 0.412 0.412 1001 lrgb
+0 0 0 1002 lrgb
+0 0 1 1003 lrgb
+0 0.0118 1 1004 lrgb
+0 0.0196 1 1005 lrgb
+0 0.0314 1 1006 lrgb
+0 0.0392 1 1007 lrgb
+0 0.051 1 1008 lrgb
+0 0.0588 1 1009 lrgb
+0 0.0706 1 1010 lrgb
+0 0.0784 1 1011 lrgb
+0 0.0902 1 1012 lrgb
+0 0.098 1 1013 lrgb
+0 0.11 1 1014 lrgb
+0 0.122 1 1015 lrgb
+0 0.129 1 1016 lrgb
+0 0.141 1 1017 lrgb
+0 0.149 1 1018 lrgb
+0 0.161 1 1019 lrgb
+0 0.169 1 1020 lrgb
+0 0.18 1 1021 lrgb
+0 0.188 1 1022 lrgb
+0 0.2 1 1023 lrgb
+0 0.212 1 1024 lrgb
+0 0.22 1 1025 lrgb
+0 0.231 1 1026 lrgb
+0 0.239 1 1027 lrgb
+0 0.251 1 1028 lrgb
+0 0.259 1 1029 lrgb
+0 0.271 1 1030 lrgb
+0 0.278 1 1031 lrgb
+0 0.29 1 1032 lrgb
+0 0.298 1 1033 lrgb
+0 0.31 1 1034 lrgb
+0 0.322 1 1035 lrgb
+0 0.329 1 1036 lrgb
+0 0.341 1 1037 lrgb
+0 0.349 1 1038 lrgb
+0 0.361 1 1039 lrgb
+0 0.369 1 1040 lrgb
+0 0.38 1 1041 lrgb
+0 0.388 1 1042 lrgb
+0 0.4 1 1043 lrgb
+0 0.412 1 1044 lrgb
+0 0.42 1 1045 lrgb
+0 0.431 1 1046 lrgb
+0 0.439 1 1047 lrgb
+0 0.451 1 1048 lrgb
+0 0.459 1 1049 lrgb
+0 0.471 1 1050 lrgb
+0 0.478 1 1051 lrgb
+0 0.49 1 1052 lrgb
+0 0.498 1 1053 lrgb
+0 0.51 1 1054 lrgb
+0 0.522 1 1055 lrgb
+0 0.529 1 1056 lrgb
+0 0.541 1 1057 lrgb
+0 0.549 1 1058 lrgb
+0 0.561 1 1059 lrgb
+0 0.569 1 1060 lrgb
+0 0.58 1 1061 lrgb
+0 0.588 1 1062 lrgb
+0 0.6 1 1063 lrgb
+0 0.612 1 1064 lrgb
+0 0.62 1 1065 lrgb
+0 0.631 1 1066 lrgb
+0 0.639 1 1067 lrgb
+0 0.651 1 1068 lrgb
+0 0.659 1 1069 lrgb
+0 0.671 1 1070 lrgb
+0 0.678 1 1071 lrgb
+0 0.69 1 1072 lrgb
+0 0.698 1 1073 lrgb
+0 0.71 1 1074 lrgb
+0 0.722 1 1075 lrgb
+0 0.729 1 1076 lrgb
+0 0.741 1 1077 lrgb
+0 0.749 1 1078 lrgb
+0 0.761 1 1079 lrgb
+0 0.769 1 1080 lrgb
+0 0.78 1 1081 lrgb
+0 0.788 1 1082 lrgb
+0 0.8 1 1083 lrgb
+0 0.812 1 1084 lrgb
+0 0.82 1 1085 lrgb
+0 0.831 1 1086 lrgb
+0 0.839 1 1087 lrgb
+0 0.851 1 1088 lrgb
+0 0.859 1 1089 lrgb
+0 0.871 1 1090 lrgb
+0 0.878 1 1091 lrgb
+0 0.89 1 1092 lrgb
+0 0.898 1 1093 lrgb
+0 0.91 1 1094 lrgb
+0 0.922 1 1095 lrgb
+0 0.929 1 1096 lrgb
+0 0.941 1 1097 lrgb
+0 0.949 1 1098 lrgb
+0 0.961 1 1099 lrgb
+0 0.969 1 1100 lrgb
+0 0.98 1 1101 lrgb
+0 0.988 1 1102 lrgb
+0 1 1 1103 lrgb
+0 1 0.988 1104 lrgb
+0 1 0.98 1105 lrgb
+0 1 0.969 1106 lrgb
+0 1 0.961 1107 lrgb
+0 1 0.949 1108 lrgb
+0 1 0.941 1109 lrgb
+0 1 0.929 1110 lrgb
+0 1 0.922 1111 lrgb
+0 1 0.91 1112 lrgb
+0 1 0.898 1113 lrgb
+0 1 0.89 1114 lrgb
+0 1 0.878 1115 lrgb
+0 1 0.871 1116 lrgb
+0 1 0.859 1117 lrgb
+0 1 0.851 1118 lrgb
+0 1 0.839 1119 lrgb
+0 1 0.831 1120 lrgb
+0 1 0.82 1121 lrgb
+0 1 0.812 1122 lrgb
+0 1 0.8 1123 lrgb
+0 1 0.788 1124 lrgb
+0 1 0.78 1125 lrgb
+0 1 0.769 1126 lrgb
+0 1 0.761 1127 lrgb
+0 1 0.749 1128 lrgb
+0 1 0.741 1129 lrgb
+0 1 0.729 1130 lrgb
+0 1 0.722 1131 lrgb
+0 1 0.71 1132 lrgb
+0 1 0.698 1133 lrgb
+0 1 0.69 1134 lrgb
+0 1 0.678 1135 lrgb
+0 1 0.671 1136 lrgb
+0 1 0.659 1137 lrgb
+0 1 0.651 1138 lrgb
+0 1 0.639 1139 lrgb
+0 1 0.631 1140 lrgb
+0 1 0.62 1141 lrgb
+0 1 0.612 1142 lrgb
+0 1 0.6 1143 lrgb
+0 1 0.588 1144 lrgb
+0 1 0.58 1145 lrgb
+0 1 0.569 1146 lrgb
+0 1 0.561 1147 lrgb
+0 1 0.549 1148 lrgb
+0 1 0.541 1149 lrgb
+0 1 0.529 1150 lrgb
+0 1 0.522 1151 lrgb
+0 1 0.51 1152 lrgb
+0 1 0.498 1153 lrgb
+0 1 0.49 1154 lrgb
+0 1 0.478 1155 lrgb
+0 1 0.471 1156 lrgb
+0 1 0.459 1157 lrgb
+0 1 0.451 1158 lrgb
+0 1 0.439 1159 lrgb
+0 1 0.431 1160 lrgb
+0 1 0.42 1161 lrgb
+0 1 0.412 1162 lrgb
+0 1 0.4 1163 lrgb
+0 1 0.388 1164 lrgb
+0 1 0.38 1165 lrgb
+0 1 0.369 1166 lrgb
+0 1 0.361 1167 lrgb
+0 1 0.349 1168 lrgb
+0 1 0.341 1169 lrgb
+0 1 0.329 1170 lrgb
+0 1 0.322 1171 lrgb
+0 1 0.31 1172 lrgb
+0 1 0.298 1173 lrgb
+0 1 0.29 1174 lrgb
+0 1 0.278 1175 lrgb
+0 1 0.271 1176 lrgb
+0 1 0.259 1177 lrgb
+0 1 0.251 1178 lrgb
+0 1 0.239 1179 lrgb
+0 1 0.231 1180 lrgb
+0 1 0.22 1181 lrgb
+0 1 0.212 1182 lrgb
+0 1 0.2 1183 lrgb
+0 1 0.188 1184 lrgb
+0 1 0.18 1185 lrgb
+0 1 0.169 1186 lrgb
+0 1 0.161 1187 lrgb
+0 1 0.149 1188 lrgb
+0 1 0.141 1189 lrgb
+0 1 0.129 1190 lrgb
+0 1 0.122 1191 lrgb
+0 1 0.11 1192 lrgb
+0 1 0.098 1193 lrgb
+0 1 0.0902 1194 lrgb
+0 1 0.0784 1195 lrgb
+0 1 0.0706 1196 lrgb
+0 1 0.0588 1197 lrgb
+0 1 0.051 1198 lrgb
+0 1 0.0392 1199 lrgb
+0 1 0.0314 1200 lrgb
+0 1 0.0196 1201 lrgb
+0 1 0.0118 1202 lrgb
+0 1 0 1203 lrgb
+0.0118 1 0 1204 lrgb
+0.0196 1 0 1205 lrgb
+0.0314 1 0 1206 lrgb
+0.0392 1 0 1207 lrgb
+0.051 1 0 1208 lrgb
+0.0588 1 0 1209 lrgb
+0.0706 1 0 1210 lrgb
+0.0784 1 0 1211 lrgb
+0.0902 1 0 1212 lrgb
+0.098 1 0 1213 lrgb
+0.11 1 0 1214 lrgb
+0.122 1 0 1215 lrgb
+0.129 1 0 1216 lrgb
+0.141 1 0 1217 lrgb
+0.149 1 0 1218 lrgb
+0.161 1 0 1219 lrgb
+0.169 1 0 1220 lrgb
+0.18 1 0 1221 lrgb
+0.188 1 0 1222 lrgb
+0.2 1 0 1223 lrgb
+0.212 1 0 1224 lrgb
+0.22 1 0 1225 lrgb
+0.231 1 0 1226 lrgb
+0.239 1 0 1227 lrgb
+0.251 1 0 1228 lrgb
+0.259 1 0 1229 lrgb
+0.271 1 0 1230 lrgb
+0.278 1 0 1231 lrgb
+0.29 1 0 1232 lrgb
+0.298 1 0 1233 lrgb
+0.31 1 0 1234 lrgb
+0.322 1 0 1235 lrgb
+0.329 1 0 1236 lrgb
+0.341 1 0 1237 lrgb
+0.349 1 0 1238 lrgb
+0.361 1 0 1239 lrgb
+0.369 1 0 1240 lrgb
+0.38 1 0 1241 lrgb
+0.388 1 0 1242 lrgb
+0.4 1 0 1243 lrgb
+0.412 1 0 1244 lrgb
+0.42 1 0 1245 lrgb
+0.431 1 0 1246 lrgb
+0.439 1 0 1247 lrgb
+0.451 1 0 1248 lrgb
+0.459 1 0 1249 lrgb
+0.471 1 0 1250 lrgb
+0.478 1 0 1251 lrgb
+0.49 1 0 1252 lrgb
+0.498 1 0 1253 lrgb
+0.51 1 0 1254 lrgb
+0.522 1 0 1255 lrgb
+0.529 1 0 1256 lrgb
+0.541 1 0 1257 lrgb
+0.549 1 0 1258 lrgb
+0.561 1 0 1259 lrgb
+0.569 1 0 1260 lrgb
+0.58 1 0 1261 lrgb
+0.588 1 0 1262 lrgb
+0.6 1 0 1263 lrgb
+0.612 1 0 1264 lrgb
+0.62 1 0 1265 lrgb
+0.631 1 0 1266 lrgb
+0.639 1 0 1267 lrgb
+0.651 1 0 1268 lrgb
+0.659 1 0 1269 lrgb
+0.671 1 0 1270 lrgb
+0.678 1 0 1271 lrgb
+0.69 1 0 1272 lrgb
+0.698 1 0 1273 lrgb
+0.71 1 0 1274 lrgb
+0.722 1 0 1275 lrgb
+0.729 1 0 1276 lrgb
+0.741 1 0 1277 lrgb
+0.749 1 0 1278 lrgb
+0.761 1 0 1279 lrgb
+0.769 1 0 1280 lrgb
+0.78 1 0 1281 lrgb
+0.788 1 0 1282 lrgb
+0.8 1 0 1283 lrgb
+0.812 1 0 1284 lrgb
+0.82 1 0 1285 lrgb
+0.831 1 0 1286 lrgb
+0.839 1 0 1287 lrgb
+0.851 1 0 1288 lrgb
+0.859 1 0 1289 lrgb
+0.871 1 0 1290 lrgb
+0.878 1 0 1291 lrgb
+0.89 1 0 1292 lrgb
+0.898 1 0 1293 lrgb
+0.91 1 0 1294 lrgb
+0.922 1 0 1295 lrgb
+0.929 1 0 1296 lrgb
+0.941 1 0 1297 lrgb
+0.949 1 0 1298 lrgb
+0.961 1 0 1299 lrgb
+0.969 1 0 1300 lrgb
+0.98 1 0 1301 lrgb
+0.988 1 0 1302 lrgb
+1 1 0 1303 lrgb
+1 0.988 0 1304 lrgb
+1 0.98 0 1305 lrgb
+1 0.969 0 1306 lrgb
+1 0.961 0 1307 lrgb
+1 0.949 0 1308 lrgb
+1 0.941 0 1309 lrgb
+1 0.929 0 1310 lrgb
+1 0.922 0 1311 lrgb
+1 0.91 0 1312 lrgb
+1 0.898 0 1313 lrgb
+1 0.89 0 1314 lrgb
+1 0.878 0 1315 lrgb
+1 0.871 0 1316 lrgb
+1 0.859 0 1317 lrgb
+1 0.851 0 1318 lrgb
+1 0.839 0 1319 lrgb
+1 0.831 0 1320 lrgb
+1 0.82 0 1321 lrgb
+1 0.812 0 1322 lrgb
+1 0.8 0 1323 lrgb
+1 0.788 0 1324 lrgb
+1 0.78 0 1325 lrgb
+1 0.769 0 1326 lrgb
+1 0.761 0 1327 lrgb
+1 0.749 0 1328 lrgb
+1 0.741 0 1329 lrgb
+1 0.729 0 1330 lrgb
+1 0.722 0 1331 lrgb
+1 0.71 0 1332 lrgb
+1 0.698 0 1333 lrgb
+1 0.69 0 1334 lrgb
+1 0.678 0 1335 lrgb
+1 0.671 0 1336 lrgb
+1 0.659 0 1337 lrgb
+1 0.651 0 1338 lrgb
+1 0.639 0 1339 lrgb
+1 0.631 0 1340 lrgb
+1 0.62 0 1341 lrgb
+1 0.612 0 1342 lrgb
+1 0.6 0 1343 lrgb
+1 0.588 0 1344 lrgb
+1 0.58 0 1345 lrgb
+1 0.569 0 1346 lrgb
+1 0.561 0 1347 lrgb
+1 0.549 0 1348 lrgb
+1 0.541 0 1349 lrgb
+1 0.529 0 1350 lrgb
+1 0.522 0 1351 lrgb
+1 0.51 0 1352 lrgb
+1 0.498 0 1353 lrgb
+1 0.49 0 1354 lrgb
+1 0.478 0 1355 lrgb
+1 0.471 0 1356 lrgb
+1 0.459 0 1357 lrgb
+1 0.451 0 1358 lrgb
+1 0.439 0 1359 lrgb
+1 0.431 0 1360 lrgb
+1 0.42 0 1361 lrgb
+1 0.412 0 1362 lrgb
+1 0.4 0 1363 lrgb
+1 0.388 0 1364 lrgb
+1 0.38 0 1365 lrgb
+1 0.369 0 1366 lrgb
+1 0.361 0 1367 lrgb
+1 0.349 0 1368 lrgb
+1 0.341 0 1369 lrgb
+1 0.329 0 1370 lrgb
+1 0.322 0 1371 lrgb
+1 0.31 0 1372 lrgb
+1 0.298 0 1373 lrgb
+1 0.29 0 1374 lrgb
+1 0.278 0 1375 lrgb
+1 0.271 0 1376 lrgb
+1 0.259 0 1377 lrgb
+1 0.251 0 1378 lrgb
+1 0.239 0 1379 lrgb
+1 0.231 0 1380 lrgb
+1 0.22 0 1381 lrgb
+1 0.212 0 1382 lrgb
+1 0.2 0 1383 lrgb
+1 0.188 0 1384 lrgb
+1 0.18 0 1385 lrgb
+1 0.169 0 1386 lrgb
+1 0.161 0 1387 lrgb
+1 0.149 0 1388 lrgb
+1 0.141 0 1389 lrgb
+1 0.129 0 1390 lrgb
+1 0.122 0 1391 lrgb
+1 0.11 0 1392 lrgb
+1 0.098 0 1393 lrgb
+1 0.0902 0 1394 lrgb
+1 0.0784 0 1395 lrgb
+1 0.0706 0 1396 lrgb
+1 0.0588 0 1397 lrgb
+1 0.051 0 1398 lrgb
+1 0.0392 0 1399 lrgb
+1 0.0314 0 1400 lrgb
+1 0.0196 0 1401 lrgb
+1 0.0118 0 1402 lrgb
+1 0 0 1403 lrgb
+0 0 0 1404 lrgb
+0.824 0 0 1405 lrgb
+0 0.824 0 1406 lrgb
+0.176 0.176 1 1407 lrgb
+0 1 1 1408 lrgb
+1 1 0.176 1409 lrgb
+1 0 1 1410 lrgb
+1 1 1 1411 lrgb
+0.333 0.333 0.333 1412 lrgb
+0.831 0.831 0.831 1413 lrgb
+1 0.498 0 1414 lrgb
+0.498 1 0 1415 lrgb
+0 1 0.498 1416 lrgb
+0 0.498 1 1417 lrgb
+0.498 0 1 1418 lrgb
+1 0 0.498 1419 lrgb
+0.333 0 0 1420 lrgb
+1 0.667 0.667 1421 lrgb
+1 0.667 0.333 1422 lrgb
+0.333 1 0.333 1423 lrgb
+0.333 1 0.667 1424 lrgb
+0.333 0.333 1 1425 lrgb
+0.667 0.333 1 1426 lrgb
+1 0.333 0.333 1427 lrgb
+0.333 0.333 0 1428 lrgb
+1 1 0.667 1429 lrgb
+1 1 0.333 1430 lrgb
+0 1 0.333 1431 lrgb
+0.333 1 1 1432 lrgb
+0.333 0 1 1433 lrgb
+1 0.333 1 1434 lrgb
+1 0.333 0 1435 lrgb
+0 0.333 0 1436 lrgb
+0.667 1 0.667 1437 lrgb
+0.667 1 0.333 1438 lrgb
+0 0.667 0.333 1439 lrgb
+0.333 0.667 1 1440 lrgb
+0.333 0 0.667 1441 lrgb
+1 0.333 0.667 1442 lrgb
+0.667 0.333 0 1443 lrgb
+0 0.333 0.333 1444 lrgb
+0.667 1 1 1445 lrgb
+0.667 1 0 1446 lrgb
+0 0.667 0 1447 lrgb
+0 0.667 1 1448 lrgb
+0 0 0.667 1449 lrgb
+1 0 0.667 1450 lrgb
+0.667 0 0 1451 lrgb
+0 0 0.333 1452 lrgb
+0.667 0.667 1 1453 lrgb
+0.667 0.667 0 1454 lrgb
+0.333 0.667 0 1455 lrgb
+0 0.667 0.667 1456 lrgb
+0 0.333 0.667 1457 lrgb
+0.667 0 0.667 1458 lrgb
+0.667 0 0.333 1459 lrgb
+0.333 0 0.333 1460 lrgb
+1 0.667 1 1461 lrgb
+0.667 0.667 0.333 1462 lrgb
+0.333 0.667 0.333 1463 lrgb
+0.333 0.667 0.667 1464 lrgb
+0.333 0.333 0.667 1465 lrgb
+0.667 0.333 0.667 1466 lrgb
+0.667 0.333 0.333 1467 lrgb
+0.588 0.588 0.588 1468 lrgb
+0.412 0.412 0.412 1469 lrgb
+0 0 0 1470 lrgb
+0 0 1 1471 lrgb
+0 0.0118 1 1472 lrgb
+0 0.0196 1 1473 lrgb
+0 0.0314 1 1474 lrgb
+0 0.0392 1 1475 lrgb
+0 0.051 1 1476 lrgb
+0 0.0588 1 1477 lrgb
+0 0.0706 1 1478 lrgb
+0 0.0784 1 1479 lrgb
+0 0.0902 1 1480 lrgb
+0 0.098 1 1481 lrgb
+0 0.11 1 1482 lrgb
+0 0.122 1 1483 lrgb
+0 0.129 1 1484 lrgb
+0 0.141 1 1485 lrgb
+0 0.149 1 1486 lrgb
+0 0.161 1 1487 lrgb
+0 0.169 1 1488 lrgb
+0 0.18 1 1489 lrgb
+0 0.188 1 1490 lrgb
+0 0.2 1 1491 lrgb
+0 0.212 1 1492 lrgb
+0 0.22 1 1493 lrgb
+0 0.231 1 1494 lrgb
+0 0.239 1 1495 lrgb
+0 0.251 1 1496 lrgb
+0 0.259 1 1497 lrgb
+0 0.271 1 1498 lrgb
+0 0.278 1 1499 lrgb
+0 0.29 1 1500 lrgb
+0 0.298 1 1501 lrgb
+0 0.31 1 1502 lrgb
+0 0.322 1 1503 lrgb
+0 0.329 1 1504 lrgb
+0 0.341 1 1505 lrgb
+0 0.349 1 1506 lrgb
+0 0.361 1 1507 lrgb
+0 0.369 1 1508 lrgb
+0 0.38 1 1509 lrgb
+0 0.388 1 1510 lrgb
+0 0.4 1 1511 lrgb
+0 0.412 1 1512 lrgb
+0 0.42 1 1513 lrgb
+0 0.431 1 1514 lrgb
+0 0.439 1 1515 lrgb
+0 0.451 1 1516 lrgb
+0 0.459 1 1517 lrgb
+0 0.471 1 1518 lrgb
+0 0.478 1 1519 lrgb
+0 0.49 1 1520 lrgb
+0 0.498 1 1521 lrgb
+0 0.51 1 1522 lrgb
+0 0.522 1 1523 lrgb
+0 0.529 1 1524 lrgb
+0 0.541 1 1525 lrgb
+0 0.549 1 1526 lrgb
+0 0.561 1 1527 lrgb
+0 0.569 1 1528 lrgb
+0 0.58 1 1529 lrgb
+0 0.588 1 1530 lrgb
+0 0.6 1 1531 lrgb
+0 0.612 1 1532 lrgb
+0 0.62 1 1533 lrgb
+0 0.631 1 1534 lrgb
+0 0.639 1 1535 lrgb
+0 0.651 1 1536 lrgb
+0 0.659 1 1537 lrgb
+0 0.671 1 1538 lrgb
+0 0.678 1 1539 lrgb
+0 0.69 1 1540 lrgb
+0 0.698 1 1541 lrgb
+0 0.71 1 1542 lrgb
+0 0.722 1 1543 lrgb
+0 0.729 1 1544 lrgb
+0 0.741 1 1545 lrgb
+0 0.749 1 1546 lrgb
+0 0.761 1 1547 lrgb
+0 0.769 1 1548 lrgb
+0 0.78 1 1549 lrgb
+0 0.788 1 1550 lrgb
+0 0.8 1 1551 lrgb
+0 0.812 1 1552 lrgb
+0 0.82 1 1553 lrgb
+0 0.831 1 1554 lrgb
+0 0.839 1 1555 lrgb
+0 0.851 1 1556 lrgb
+0 0.859 1 1557 lrgb
+0 0.871 1 1558 lrgb
+0 0.878 1 1559 lrgb
+0 0.89 1 1560 lrgb
+0 0.898 1 1561 lrgb
+0 0.91 1 1562 lrgb
+0 0.922 1 1563 lrgb
+0 0.929 1 1564 lrgb
+0 0.941 1 1565 lrgb
+0 0.949 1 1566 lrgb
+0 0.961 1 1567 lrgb
+0 0.969 1 1568 lrgb
+0 0.98 1 1569 lrgb
+0 0.988 1 1570 lrgb
+0 1 1 1571 lrgb
+0 1 0.988 1572 lrgb
+0 1 0.98 1573 lrgb
+0 1 0.969 1574 lrgb
+0 1 0.961 1575 lrgb
+0 1 0.949 1576 lrgb
+0 1 0.941 1577 lrgb
+0 1 0.929 1578 lrgb
+0 1 0.922 1579 lrgb
+0 1 0.91 1580 lrgb
+0 1 0.898 1581 lrgb
+0 1 0.89 1582 lrgb
+0 1 0.878 1583 lrgb
+0 1 0.871 1584 lrgb
+0 1 0.859 1585 lrgb
+0 1 0.851 1586 lrgb
+0 1 0.839 1587 lrgb
+0 1 0.831 1588 lrgb
+0 1 0.82 1589 lrgb
+0 1 0.812 1590 lrgb
+0 1 0.8 1591 lrgb
+0 1 0.788 1592 lrgb
+0 1 0.78 1593 lrgb
+0 1 0.769 1594 lrgb
+0 1 0.761 1595 lrgb
+0 1 0.749 1596 lrgb
+0 1 0.741 1597 lrgb
+0 1 0.729 1598 lrgb
+0 1 0.722 1599 lrgb
+0 1 0.71 1600 lrgb
+0 1 0.698 1601 lrgb
+0 1 0.69 1602 lrgb
+0 1 0.678 1603 lrgb
+0 1 0.671 1604 lrgb
+0 1 0.659 1605 lrgb
+0 1 0.651 1606 lrgb
+0 1 0.639 1607 lrgb
+0 1 0.631 1608 lrgb
+0 1 0.62 1609 lrgb
+0 1 0.612 1610 lrgb
+0 1 0.6 1611 lrgb
+0 1 0.588 1612 lrgb
+0 1 0.58 1613 lrgb
+0 1 0.569 1614 lrgb
+0 1 0.561 1615 lrgb
+0 1 0.549 1616 lrgb
+0 1 0.541 1617 lrgb
+0 1 0.529 1618 lrgb
+0 1 0.522 1619 lrgb
+0 1 0.51 1620 lrgb
+0 1 0.498 1621 lrgb
+0 1 0.49 1622 lrgb
+0 1 0.478 1623 lrgb
+0 1 0.471 1624 lrgb
+0 1 0.459 1625 lrgb
+0 1 0.451 1626 lrgb
+0 1 0.439 1627 lrgb
+0 1 0.431 1628 lrgb
+0 1 0.42 1629 lrgb
+0 1 0.412 1630 lrgb
+0 1 0.4 1631 lrgb
+0 1 0.388 1632 lrgb
+0 1 0.38 1633 lrgb
+0 1 0.369 1634 lrgb
+0 1 0.361 1635 lrgb
+0 1 0.349 1636 lrgb
+0 1 0.341 1637 lrgb
+0 1 0.329 1638 lrgb
+0 1 0.322 1639 lrgb
+0 1 0.31 1640 lrgb
+0 1 0.298 1641 lrgb
+0 1 0.29 1642 lrgb
+0 1 0.278 1643 lrgb
+0 1 0.271 1644 lrgb
+0 1 0.259 1645 lrgb
+0 1 0.251 1646 lrgb
+0 1 0.239 1647 lrgb
+0 1 0.231 1648 lrgb
+0 1 0.22 1649 lrgb
+0 1 0.212 1650 lrgb
+0 1 0.2 1651 lrgb
+0 1 0.188 1652 lrgb
+0 1 0.18 1653 lrgb
+0 1 0.169 1654 lrgb
+0 1 0.161 1655 lrgb
+0 1 0.149 1656 lrgb
+0 1 0.141 1657 lrgb
+0 1 0.129 1658 lrgb
+0 1 0.122 1659 lrgb
+0 1 0.11 1660 lrgb
+0 1 0.098 1661 lrgb
+0 1 0.0902 1662 lrgb
+0 1 0.0784 1663 lrgb
+0 1 0.0706 1664 lrgb
+0 1 0.0588 1665 lrgb
+0 1 0.051 1666 lrgb
+0 1 0.0392 1667 lrgb
+0 1 0.0314 1668 lrgb
+0 1 0.0196 1669 lrgb
+0 1 0.0118 1670 lrgb
+0 1 0 1671 lrgb
+0.0118 1 0 1672 lrgb
+0.0196 1 0 1673 lrgb
+0.0314 1 0 1674 lrgb
+0.0392 1 0 1675 lrgb
+0.051 1 0 1676 lrgb
+0.0588 1 0 1677 lrgb
+0.0706 1 0 1678 lrgb
+0.0784 1 0 1679 lrgb
+0.0902 1 0 1680 lrgb
+0.098 1 0 1681 lrgb
+0.11 1 0 1682 lrgb
+0.122 1 0 1683 lrgb
+0.129 1 0 1684 lrgb
+0.141 1 0 1685 lrgb
+0.149 1 0 1686 lrgb
+0.161 1 0 1687 lrgb
+0.169 1 0 1688 lrgb
+0.18 1 0 1689 lrgb
+0.188 1 0 1690 lrgb
+0.2 1 0 1691 lrgb
+0.212 1 0 1692 lrgb
+0.22 1 0 1693 lrgb
+0.231 1 0 1694 lrgb
+0.239 1 0 1695 lrgb
+0.251 1 0 1696 lrgb
+0.259 1 0 1697 lrgb
+0.271 1 0 1698 lrgb
+0.278 1 0 1699 lrgb
+0.29 1 0 1700 lrgb
+0.298 1 0 1701 lrgb
+0.31 1 0 1702 lrgb
+0.322 1 0 1703 lrgb
+0.329 1 0 1704 lrgb
+0.341 1 0 1705 lrgb
+0.349 1 0 1706 lrgb
+0.361 1 0 1707 lrgb
+0.369 1 0 1708 lrgb
+0.38 1 0 1709 lrgb
+0.388 1 0 1710 lrgb
+0.4 1 0 1711 lrgb
+0.412 1 0 1712 lrgb
+0.42 1 0 1713 lrgb
+0.431 1 0 1714 lrgb
+0.439 1 0 1715 lrgb
+0.451 1 0 1716 lrgb
+0.459 1 0 1717 lrgb
+0.471 1 0 1718 lrgb
+0.478 1 0 1719 lrgb
+0.49 1 0 1720 lrgb
+0.498 1 0 1721 lrgb
+0.51 1 0 1722 lrgb
+0.522 1 0 1723 lrgb
+0.529 1 0 1724 lrgb
+0.541 1 0 1725 lrgb
+0.549 1 0 1726 lrgb
+0.561 1 0 1727 lrgb
+0.569 1 0 1728 lrgb
+0.58 1 0 1729 lrgb
+0.588 1 0 1730 lrgb
+0.6 1 0 1731 lrgb
+0.612 1 0 1732 lrgb
+0.62 1 0 1733 lrgb
+0.631 1 0 1734 lrgb
+0.639 1 0 1735 lrgb
+0.651 1 0 1736 lrgb
+0.659 1 0 1737 lrgb
+0.671 1 0 1738 lrgb
+0.678 1 0 1739 lrgb
+0.69 1 0 1740 lrgb
+0.698 1 0 1741 lrgb
+0.71 1 0 1742 lrgb
+0.722 1 0 1743 lrgb
+0.729 1 0 1744 lrgb
+0.741 1 0 1745 lrgb
+0.749 1 0 1746 lrgb
+0.761 1 0 1747 lrgb
+0.769 1 0 1748 lrgb
+0.78 1 0 1749 lrgb
+0.788 1 0 1750 lrgb
+0.8 1 0 1751 lrgb
+0.812 1 0 1752 lrgb
+0.82 1 0 1753 lrgb
+0.831 1 0 1754 lrgb
+0.839 1 0 1755 lrgb
+0.851 1 0 1756 lrgb
+0.859 1 0 1757 lrgb
+0.871 1 0 1758 lrgb
+0.878 1 0 1759 lrgb
+0.89 1 0 1760 lrgb
+0.898 1 0 1761 lrgb
+0.91 1 0 1762 lrgb
+0.922 1 0 1763 lrgb
+0.929 1 0 1764 lrgb
+0.941 1 0 1765 lrgb
+0.949 1 0 1766 lrgb
+0.961 1 0 1767 lrgb
+0.969 1 0 1768 lrgb
+0.98 1 0 1769 lrgb
+0.988 1 0 1770 lrgb
+1 1 0 1771 lrgb
+1 0.988 0 1772 lrgb
+1 0.98 0 1773 lrgb
+1 0.969 0 1774 lrgb
+1 0.961 0 1775 lrgb
+1 0.949 0 1776 lrgb
+1 0.941 0 1777 lrgb
+1 0.929 0 1778 lrgb
+1 0.922 0 1779 lrgb
+1 0.91 0 1780 lrgb
+1 0.898 0 1781 lrgb
+1 0.89 0 1782 lrgb
+1 0.878 0 1783 lrgb
+1 0.871 0 1784 lrgb
+1 0.859 0 1785 lrgb
+1 0.851 0 1786 lrgb
+1 0.839 0 1787 lrgb
+1 0.831 0 1788 lrgb
+1 0.82 0 1789 lrgb
+1 0.812 0 1790 lrgb
+1 0.8 0 1791 lrgb
+1 0.788 0 1792 lrgb
+1 0.78 0 1793 lrgb
+1 0.769 0 1794 lrgb
+1 0.761 0 1795 lrgb
+1 0.749 0 1796 lrgb
+1 0.741 0 1797 lrgb
+1 0.729 0 1798 lrgb
+1 0.722 0 1799 lrgb
+1 0.71 0 1800 lrgb
+1 0.698 0 1801 lrgb
+1 0.69 0 1802 lrgb
+1 0.678 0 1803 lrgb
+1 0.671 0 1804 lrgb
+1 0.659 0 1805 lrgb
+1 0.651 0 1806 lrgb
+1 0.639 0 1807 lrgb
+1 0.631 0 1808 lrgb
+1 0.62 0 1809 lrgb
+1 0.612 0 1810 lrgb
+1 0.6 0 1811 lrgb
+1 0.588 0 1812 lrgb
+1 0.58 0 1813 lrgb
+1 0.569 0 1814 lrgb
+1 0.561 0 1815 lrgb
+1 0.549 0 1816 lrgb
+1 0.541 0 1817 lrgb
+1 0.529 0 1818 lrgb
+1 0.522 0 1819 lrgb
+1 0.51 0 1820 lrgb
+1 0.498 0 1821 lrgb
+1 0.49 0 1822 lrgb
+1 0.478 0 1823 lrgb
+1 0.471 0 1824 lrgb
+1 0.459 0 1825 lrgb
+1 0.451 0 1826 lrgb
+1 0.439 0 1827 lrgb
+1 0.431 0 1828 lrgb
+1 0.42 0 1829 lrgb
+1 0.412 0 1830 lrgb
+1 0.4 0 1831 lrgb
+1 0.388 0 1832 lrgb
+1 0.38 0 1833 lrgb
+1 0.369 0 1834 lrgb
+1 0.361 0 1835 lrgb
+1 0.349 0 1836 lrgb
+1 0.341 0 1837 lrgb
+1 0.329 0 1838 lrgb
+1 0.322 0 1839 lrgb
+1 0.31 0 1840 lrgb
+1 0.298 0 1841 lrgb
+1 0.29 0 1842 lrgb
+1 0.278 0 1843 lrgb
+1 0.271 0 1844 lrgb
+1 0.259 0 1845 lrgb
+1 0.251 0 1846 lrgb
+1 0.239 0 1847 lrgb
+1 0.231 0 1848 lrgb
+1 0.22 0 1849 lrgb
+1 0.212 0 1850 lrgb
+1 0.2 0 1851 lrgb
+1 0.188 0 1852 lrgb
+1 0.18 0 1853 lrgb
+1 0.169 0 1854 lrgb
+1 0.161 0 1855 lrgb
+1 0.149 0 1856 lrgb
+1 0.141 0 1857 lrgb
+1 0.129 0 1858 lrgb
+1 0.122 0 1859 lrgb
+1 0.11 0 1860 lrgb
+1 0.098 0 1861 lrgb
+1 0.0902 0 1862 lrgb
+1 0.0784 0 1863 lrgb
+1 0.0706 0 1864 lrgb
+1 0.0588 0 1865 lrgb
+1 0.051 0 1866 lrgb
+1 0.0392 0 1867 lrgb
+1 0.0314 0 1868 lrgb
+1 0.0196 0 1869 lrgb
+1 0.0118 0 1870 lrgb
+1 0 0 1871 lrgb
+0 0 0 1872 lrgb
+0.824 0 0 1873 lrgb
+0 0.824 0 1874 lrgb
+0.176 0.176 1 1875 lrgb
+0 1 1 1876 lrgb
+1 1 0.176 1877 lrgb
+1 0 1 1878 lrgb
+1 1 1 1879 lrgb
+0.333 0.333 0.333 1880 lrgb
+0.831 0.831 0.831 1881 lrgb
+1 0.498 0 1882 lrgb
+0.498 1 0 1883 lrgb
+0 1 0.498 1884 lrgb
+0 0.498 1 1885 lrgb
+0.498 0 1 1886 lrgb
+1 0 0.498 1887 lrgb
+0.333 0 0 1888 lrgb
+1 0.667 0.667 1889 lrgb
+1 0.667 0.333 1890 lrgb
+0.333 1 0.333 1891 lrgb
+0.333 1 0.667 1892 lrgb
+0.333 0.333 1 1893 lrgb
+0.667 0.333 1 1894 lrgb
+1 0.333 0.333 1895 lrgb
+0.333 0.333 0 1896 lrgb
+1 1 0.667 1897 lrgb
+1 1 0.333 1898 lrgb
+0 1 0.333 1899 lrgb
+0.333 1 1 1900 lrgb
+0.333 0 1 1901 lrgb
+1 0.333 1 1902 lrgb
+1 0.333 0 1903 lrgb
+0 0.333 0 1904 lrgb
+0.667 1 0.667 1905 lrgb
+0.667 1 0.333 1906 lrgb
+0 0.667 0.333 1907 lrgb
+0.333 0.667 1 1908 lrgb
+0.333 0 0.667 1909 lrgb
+1 0.333 0.667 1910 lrgb
+0.667 0.333 0 1911 lrgb
+0 0.333 0.333 1912 lrgb
+0.667 1 1 1913 lrgb
+0.667 1 0 1914 lrgb
+0 0.667 0 1915 lrgb
+0 0.667 1 1916 lrgb
+0 0 0.667 1917 lrgb
+1 0 0.667 1918 lrgb
+0.667 0 0 1919 lrgb
+0 0 0.333 1920 lrgb
+0.667 0.667 1 1921 lrgb
+0.667 0.667 0 1922 lrgb
+0.333 0.667 0 1923 lrgb
+0 0.667 0.667 1924 lrgb
+0 0.333 0.667 1925 lrgb
+0.667 0 0.667 1926 lrgb
+0.667 0 0.333 1927 lrgb
+0.333 0 0.333 1928 lrgb
+1 0.667 1 1929 lrgb
+0.667 0.667 0.333 1930 lrgb
+0.333 0.667 0.333 1931 lrgb
+0.333 0.667 0.667 1932 lrgb
+0.333 0.333 0.667 1933 lrgb
+0.667 0.333 0.667 1934 lrgb
+0.667 0.333 0.333 1935 lrgb
+0.588 0.588 0.588 1936 lrgb
+0.412 0.412 0.412 1937 lrgb
+0 0 0 1938 lrgb
+0 0 1 1939 lrgb
+0 0.0118 1 1940 lrgb
+0 0.0196 1 1941 lrgb
+0 0.0314 1 1942 lrgb
+0 0.0392 1 1943 lrgb
+0 0.051 1 1944 lrgb
+0 0.0588 1 1945 lrgb
+0 0.0706 1 1946 lrgb
+0 0.0784 1 1947 lrgb
+0 0.0902 1 1948 lrgb
+0 0.098 1 1949 lrgb
+0 0.11 1 1950 lrgb
+0 0.122 1 1951 lrgb
+0 0.129 1 1952 lrgb
+0 0.141 1 1953 lrgb
+0 0.149 1 1954 lrgb
+0 0.161 1 1955 lrgb
+0 0.169 1 1956 lrgb
+0 0.18 1 1957 lrgb
+0 0.188 1 1958 lrgb
+0 0.2 1 1959 lrgb
+0 0.212 1 1960 lrgb
+0 0.22 1 1961 lrgb
+0 0.231 1 1962 lrgb
+0 0.239 1 1963 lrgb
+0 0.251 1 1964 lrgb
+0 0.259 1 1965 lrgb
+0 0.271 1 1966 lrgb
+0 0.278 1 1967 lrgb
+0 0.29 1 1968 lrgb
+0 0.298 1 1969 lrgb
+0 0.31 1 1970 lrgb
+0 0.322 1 1971 lrgb
+0 0.329 1 1972 lrgb
+0 0.341 1 1973 lrgb
+0 0.349 1 1974 lrgb
+0 0.361 1 1975 lrgb
+0 0.369 1 1976 lrgb
+0 0.38 1 1977 lrgb
+0 0.388 1 1978 lrgb
+0 0.4 1 1979 lrgb
+0 0.412 1 1980 lrgb
+0 0.42 1 1981 lrgb
+0 0.431 1 1982 lrgb
+0 0.439 1 1983 lrgb
+0 0.451 1 1984 lrgb
+0 0.459 1 1985 lrgb
+0 0.471 1 1986 lrgb
+0 0.478 1 1987 lrgb
+0 0.49 1 1988 lrgb
+0 0.498 1 1989 lrgb
+0 0.51 1 1990 lrgb
+0 0.522 1 1991 lrgb
+0 0.529 1 1992 lrgb
+0 0.541 1 1993 lrgb
+0 0.549 1 1994 lrgb
+0 0.561 1 1995 lrgb
+0 0.569 1 1996 lrgb
+0 0.58 1 1997 lrgb
+0 0.588 1 1998 lrgb
+0 0.6 1 1999 lrgb
+0 0.612 1 2000 lrgb
+0 0.62 1 2001 lrgb
+0 0.631 1 2002 lrgb
+0 0.639 1 2003 lrgb
+0 0.651 1 2004 lrgb
+0 0.659 1 2005 lrgb
+0 0.671 1 2006 lrgb
+0 0.678 1 2007 lrgb
+0 0.69 1 2008 lrgb
+0 0.698 1 2009 lrgb
+0 0.71 1 2010 lrgb
+0 0.722 1 2011 lrgb
+0 0.729 1 2012 lrgb
+0 0.741 1 2013 lrgb
+0 0.749 1 2014 lrgb
+0 0.761 1 2015 lrgb
+0 0.769 1 2016 lrgb
+0 0.78 1 2017 lrgb
+0 0.788 1 2018 lrgb
+0 0.8 1 2019 lrgb
+0 0.812 1 2020 lrgb
+0 0.82 1 2021 lrgb
+0 0.831 1 2022 lrgb
+0 0.839 1 2023 lrgb
+0 0.851 1 2024 lrgb
+0 0.859 1 2025 lrgb
+0 0.871 1 2026 lrgb
+0 0.878 1 2027 lrgb
+0 0.89 1 2028 lrgb
+0 0.898 1 2029 lrgb
+0 0.91 1 2030 lrgb
+0 0.922 1 2031 lrgb
+0 0.929 1 2032 lrgb
+0 0.941 1 2033 lrgb
+0 0.949 1 2034 lrgb
+0 0.961 1 2035 lrgb
+0 0.969 1 2036 lrgb
+0 0.98 1 2037 lrgb
+0 0.988 1 2038 lrgb
+0 1 1 2039 lrgb
+0 1 0.988 2040 lrgb
+0 1 0.98 2041 lrgb
+0 1 0.969 2042 lrgb
+0 1 0.961 2043 lrgb
+0 1 0.949 2044 lrgb
+0 1 0.941 2045 lrgb
+0 1 0.929 2046 lrgb
+0 1 0.922 2047 lrgb
+0 1 0.91 2048 lrgb
+0 1 0.898 2049 lrgb
+0 1 0.89 2050 lrgb
+0 1 0.878 2051 lrgb
+0 1 0.871 2052 lrgb
+0 1 0.859 2053 lrgb
+0 1 0.851 2054 lrgb
+0 1 0.839 2055 lrgb
+0 1 0.831 2056 lrgb
+0 1 0.82 2057 lrgb
+0 1 0.812 2058 lrgb
+0 1 0.8 2059 lrgb
+0 1 0.788 2060 lrgb
+0 1 0.78 2061 lrgb
+0 1 0.769 2062 lrgb
+0 1 0.761 2063 lrgb
+0 1 0.749 2064 lrgb
+0 1 0.741 2065 lrgb
+0 1 0.729 2066 lrgb
+0 1 0.722 2067 lrgb
+0 1 0.71 2068 lrgb
+0 1 0.698 2069 lrgb
+0 1 0.69 2070 lrgb
+0 1 0.678 2071 lrgb
+0 1 0.671 2072 lrgb
+0 1 0.659 2073 lrgb
+0 1 0.651 2074 lrgb
+0 1 0.639 2075 lrgb
+0 1 0.631 2076 lrgb
+0 1 0.62 2077 lrgb
+0 1 0.612 2078 lrgb
+0 1 0.6 2079 lrgb
+0 1 0.588 2080 lrgb
+0 1 0.58 2081 lrgb
+0 1 0.569 2082 lrgb
+0 1 0.561 2083 lrgb
+0 1 0.549 2084 lrgb
+0 1 0.541 2085 lrgb
+0 1 0.529 2086 lrgb
+0 1 0.522 2087 lrgb
+0 1 0.51 2088 lrgb
+0 1 0.498 2089 lrgb
+0 1 0.49 2090 lrgb
+0 1 0.478 2091 lrgb
+0 1 0.471 2092 lrgb
+0 1 0.459 2093 lrgb
+0 1 0.451 2094 lrgb
+0 1 0.439 2095 lrgb
+0 1 0.431 2096 lrgb
+0 1 0.42 2097 lrgb
+0 1 0.412 2098 lrgb
+0 1 0.4 2099 lrgb
+0 1 0.388 2100 lrgb
+0 1 0.38 2101 lrgb
+0 1 0.369 2102 lrgb
+0 1 0.361 2103 lrgb
+0 1 0.349 2104 lrgb
+0 1 0.341 2105 lrgb
+0 1 0.329 2106 lrgb
+0 1 0.322 2107 lrgb
+0 1 0.31 2108 lrgb
+0 1 0.298 2109 lrgb
+0 1 0.29 2110 lrgb
+0 1 0.278 2111 lrgb
+0 1 0.271 2112 lrgb
+0 1 0.259 2113 lrgb
+0 1 0.251 2114 lrgb
+0 1 0.239 2115 lrgb
+0 1 0.231 2116 lrgb
+0 1 0.22 2117 lrgb
+0 1 0.212 2118 lrgb
+0 1 0.2 2119 lrgb
+0 1 0.188 2120 lrgb
+0 1 0.18 2121 lrgb
+0 1 0.169 2122 lrgb
+0 1 0.161 2123 lrgb
+0 1 0.149 2124 lrgb
+0 1 0.141 2125 lrgb
+0 1 0.129 2126 lrgb
+0 1 0.122 2127 lrgb
+0 1 0.11 2128 lrgb
+0 1 0.098 2129 lrgb
+0 1 0.0902 2130 lrgb
+0 1 0.0784 2131 lrgb
+0 1 0.0706 2132 lrgb
+0 1 0.0588 2133 lrgb
+0 1 0.051 2134 lrgb
+0 1 0.0392 2135 lrgb
+0 1 0.0314 2136 lrgb
+0 1 0.0196 2137 lrgb
+0 1 0.0118 2138 lrgb
+0 1 0 2139 lrgb
+0.0118 1 0 2140 lrgb
+0.0196 1 0 2141 lrgb
+0.0314 1 0 2142 lrgb
+0.0392 1 0 2143 lrgb
+0.051 1 0 2144 lrgb
+0.0588 1 0 2145 lrgb
+0.0706 1 0 2146 lrgb
+0.0784 1 0 2147 lrgb
+0.0902 1 0 2148 lrgb
+0.098 1 0 2149 lrgb
+0.11 1 0 2150 lrgb
+0.122 1 0 2151 lrgb
+0.129 1 0 2152 lrgb
+0.141 1 0 2153 lrgb
+0.149 1 0 2154 lrgb
+0.161 1 0 2155 lrgb
+0.169 1 0 2156 lrgb
+0.18 1 0 2157 lrgb
+0.188 1 0 2158 lrgb
+0.2 1 0 2159 lrgb
+0.212 1 0 2160 lrgb
+0.22 1 0 2161 lrgb
+0.231 1 0 2162 lrgb
+0.239 1 0 2163 lrgb
+0.251 1 0 2164 lrgb
+0.259 1 0 2165 lrgb
+0.271 1 0 2166 lrgb
+0.278 1 0 2167 lrgb
+0.29 1 0 2168 lrgb
+0.298 1 0 2169 lrgb
+0.31 1 0 2170 lrgb
+0.322 1 0 2171 lrgb
+0.329 1 0 2172 lrgb
+0.341 1 0 2173 lrgb
+0.349 1 0 2174 lrgb
+0.361 1 0 2175 lrgb
+0.369 1 0 2176 lrgb
+0.38 1 0 2177 lrgb
+0.388 1 0 2178 lrgb
+0.4 1 0 2179 lrgb
+0.412 1 0 2180 lrgb
+0.42 1 0 2181 lrgb
+0.431 1 0 2182 lrgb
+0.439 1 0 2183 lrgb
+0.451 1 0 2184 lrgb
+0.459 1 0 2185 lrgb
+0.471 1 0 2186 lrgb
+0.478 1 0 2187 lrgb
+0.49 1 0 2188 lrgb
+0.498 1 0 2189 lrgb
+0.51 1 0 2190 lrgb
+0.522 1 0 2191 lrgb
+0.529 1 0 2192 lrgb
+0.541 1 0 2193 lrgb
+0.549 1 0 2194 lrgb
+0.561 1 0 2195 lrgb
+0.569 1 0 2196 lrgb
+0.58 1 0 2197 lrgb
+0.588 1 0 2198 lrgb
+0.6 1 0 2199 lrgb
+0.612 1 0 2200 lrgb
+0.62 1 0 2201 lrgb
+0.631 1 0 2202 lrgb
+0.639 1 0 2203 lrgb
+0.651 1 0 2204 lrgb
+0.659 1 0 2205 lrgb
+0.671 1 0 2206 lrgb
+0.678 1 0 2207 lrgb
+0.69 1 0 2208 lrgb
+0.698 1 0 2209 lrgb
+0.71 1 0 2210 lrgb
+0.722 1 0 2211 lrgb
+0.729 1 0 2212 lrgb
+0.741 1 0 2213 lrgb
+0.749 1 0 2214 lrgb
+0.761 1 0 2215 lrgb
+0.769 1 0 2216 lrgb
+0.78 1 0 2217 lrgb
+0.788 1 0 2218 lrgb
+0.8 1 0 2219 lrgb
+0.812 1 0 2220 lrgb
+0.82 1 0 2221 lrgb
+0.831 1 0 2222 lrgb
+0.839 1 0 2223 lrgb
+0.851 1 0 2224 lrgb
+0.859 1 0 2225 lrgb
+0.871 1 0 2226 lrgb
+0.878 1 0 2227 lrgb
+0.89 1 0 2228 lrgb
+0.898 1 0 2229 lrgb
+0.91 1 0 2230 lrgb
+0.922 1 0 2231 lrgb
+0.929 1 0 2232 lrgb
+0.941 1 0 2233 lrgb
+0.949 1 0 2234 lrgb
+0.961 1 0 2235 lrgb
+0.969 1 0 2236 lrgb
+0.98 1 0 2237 lrgb
+0.988 1 0 2238 lrgb
+1 1 0 2239 lrgb
+1 0.988 0 2240 lrgb
+1 0.98 0 2241 lrgb
+1 0.969 0 2242 lrgb
+1 0.961 0 2243 lrgb
+1 0.949 0 2244 lrgb
+1 0.941 0 2245 lrgb
+1 0.929 0 2246 lrgb
+1 0.922 0 2247 lrgb
+1 0.91 0 2248 lrgb
+1 0.898 0 2249 lrgb
+1 0.89 0 2250 lrgb
+1 0.878 0 2251 lrgb
+1 0.871 0 2252 lrgb
+1 0.859 0 2253 lrgb
+1 0.851 0 2254 lrgb
+1 0.839 0 2255 lrgb
+1 0.831 0 2256 lrgb
+1 0.82 0 2257 lrgb
+1 0.812 0 2258 lrgb
+1 0.8 0 2259 lrgb
+1 0.788 0 2260 lrgb
+1 0.78 0 2261 lrgb
+1 0.769 0 2262 lrgb
+1 0.761 0 2263 lrgb
+1 0.749 0 2264 lrgb
+1 0.741 0 2265 lrgb
+1 0.729 0 2266 lrgb
+1 0.722 0 2267 lrgb
+1 0.71 0 2268 lrgb
+1 0.698 0 2269 lrgb
+1 0.69 0 2270 lrgb
+1 0.678 0 2271 lrgb
+1 0.671 0 2272 lrgb
+1 0.659 0 2273 lrgb
+1 0.651 0 2274 lrgb
+1 0.639 0 2275 lrgb
+1 0.631 0 2276 lrgb
+1 0.62 0 2277 lrgb
+1 0.612 0 2278 lrgb
+1 0.6 0 2279 lrgb
+1 0.588 0 2280 lrgb
+1 0.58 0 2281 lrgb
+1 0.569 0 2282 lrgb
+1 0.561 0 2283 lrgb
+1 0.549 0 2284 lrgb
+1 0.541 0 2285 lrgb
+1 0.529 0 2286 lrgb
+1 0.522 0 2287 lrgb
+1 0.51 0 2288 lrgb
+1 0.498 0 2289 lrgb
+1 0.49 0 2290 lrgb
+1 0.478 0 2291 lrgb
+1 0.471 0 2292 lrgb
+1 0.459 0 2293 lrgb
+1 0.451 0 2294 lrgb
+1 0.439 0 2295 lrgb
+1 0.431 0 2296 lrgb
+1 0.42 0 2297 lrgb
+1 0.412 0 2298 lrgb
+1 0.4 0 2299 lrgb
+1 0.388 0 2300 lrgb
+1 0.38 0 2301 lrgb
+1 0.369 0 2302 lrgb
+1 0.361 0 2303 lrgb
+1 0.349 0 2304 lrgb
+1 0.341 0 2305 lrgb
+1 0.329 0 2306 lrgb
+1 0.322 0 2307 lrgb
+1 0.31 0 2308 lrgb
+1 0.298 0 2309 lrgb
+1 0.29 0 2310 lrgb
+1 0.278 0 2311 lrgb
+1 0.271 0 2312 lrgb
+1 0.259 0 2313 lrgb
+1 0.251 0 2314 lrgb
+1 0.239 0 2315 lrgb
+1 0.231 0 2316 lrgb
+1 0.22 0 2317 lrgb
+1 0.212 0 2318 lrgb
+1 0.2 0 2319 lrgb
+1 0.188 0 2320 lrgb
+1 0.18 0 2321 lrgb
+1 0.169 0 2322 lrgb
+1 0.161 0 2323 lrgb
+1 0.149 0 2324 lrgb
+1 0.141 0 2325 lrgb
+1 0.129 0 2326 lrgb
+1 0.122 0 2327 lrgb
+1 0.11 0 2328 lrgb
+1 0.098 0 2329 lrgb
+1 0.0902 0 2330 lrgb
+1 0.0784 0 2331 lrgb
+1 0.0706 0 2332 lrgb
+1 0.0588 0 2333 lrgb
+1 0.051 0 2334 lrgb
+1 0.0392 0 2335 lrgb
+1 0.0314 0 2336 lrgb
+1 0.0196 0 2337 lrgb
+1 0.0118 0 2338 lrgb
+1 0 0 2339 lrgb
+0 0 0 2340 lrgb
+0.824 0 0 2341 lrgb
+0 0.824 0 2342 lrgb
+0.176 0.176 1 2343 lrgb
+0 1 1 2344 lrgb
+1 1 0.176 2345 lrgb
+1 0 1 2346 lrgb
+1 1 1 2347 lrgb
+0.333 0.333 0.333 2348 lrgb
+0.831 0.831 0.831 2349 lrgb
+1 0.498 0 2350 lrgb
+0.498 1 0 2351 lrgb
+0 1 0.498 2352 lrgb
+0 0.498 1 2353 lrgb
+0.498 0 1 2354 lrgb
+1 0 0.498 2355 lrgb
+0.333 0 0 2356 lrgb
+1 0.667 0.667 2357 lrgb
+1 0.667 0.333 2358 lrgb
+0.333 1 0.333 2359 lrgb
+0.333 1 0.667 2360 lrgb
+0.333 0.333 1 2361 lrgb
+0.667 0.333 1 2362 lrgb
+1 0.333 0.333 2363 lrgb
+0.333 0.333 0 2364 lrgb
+1 1 0.667 2365 lrgb
+1 1 0.333 2366 lrgb
+0 1 0.333 2367 lrgb
+0.333 1 1 2368 lrgb
+0.333 0 1 2369 lrgb
+1 0.333 1 2370 lrgb
+1 0.333 0 2371 lrgb
+0 0.333 0 2372 lrgb
+0.667 1 0.667 2373 lrgb
+0.667 1 0.333 2374 lrgb
+0 0.667 0.333 2375 lrgb
+0.333 0.667 1 2376 lrgb
+0.333 0 0.667 2377 lrgb
+1 0.333 0.667 2378 lrgb
+0.667 0.333 0 2379 lrgb
+0 0.333 0.333 2380 lrgb
+0.667 1 1 2381 lrgb
+0.667 1 0 2382 lrgb
+0 0.667 0 2383 lrgb
+0 0.667 1 2384 lrgb
+0 0 0.667 2385 lrgb
+1 0 0.667 2386 lrgb
+0.667 0 0 2387 lrgb
+0 0 0.333 2388 lrgb
+0.667 0.667 1 2389 lrgb
+0.667 0.667 0 2390 lrgb
+0.333 0.667 0 2391 lrgb
+0 0.667 0.667 2392 lrgb
+0 0.333 0.667 2393 lrgb
+0.667 0 0.667 2394 lrgb
+0.667 0 0.333 2395 lrgb
+0.333 0 0.333 2396 lrgb
+1 0.667 1 2397 lrgb
+0.667 0.667 0.333 2398 lrgb
+0.333 0.667 0.333 2399 lrgb
+0.333 0.667 0.667 2400 lrgb
+0.333 0.333 0.667 2401 lrgb
+0.667 0.333 0.667 2402 lrgb
+0.667 0.333 0.333 2403 lrgb
+0.588 0.588 0.588 2404 lrgb
+0.412 0.412 0.412 2405 lrgb
+0 0 0 2406 lrgb
+0 0 1 2407 lrgb
+0 0.0118 1 2408 lrgb
+0 0.0196 1 2409 lrgb
+0 0.0314 1 2410 lrgb
+0 0.0392 1 2411 lrgb
+0 0.051 1 2412 lrgb
+0 0.0588 1 2413 lrgb
+0 0.0706 1 2414 lrgb
+0 0.0784 1 2415 lrgb
+0 0.0902 1 2416 lrgb
+0 0.098 1 2417 lrgb
+0 0.11 1 2418 lrgb
+0 0.122 1 2419 lrgb
+0 0.129 1 2420 lrgb
+0 0.141 1 2421 lrgb
+0 0.149 1 2422 lrgb
+0 0.161 1 2423 lrgb
+0 0.169 1 2424 lrgb
+0 0.18 1 2425 lrgb
+0 0.188 1 2426 lrgb
+0 0.2 1 2427 lrgb
+0 0.212 1 2428 lrgb
+0 0.22 1 2429 lrgb
+0 0.231 1 2430 lrgb
+0 0.239 1 2431 lrgb
+0 0.251 1 2432 lrgb
+0 0.259 1 2433 lrgb
+0 0.271 1 2434 lrgb
+0 0.278 1 2435 lrgb
+0 0.29 1 2436 lrgb
+0 0.298 1 2437 lrgb
+0 0.31 1 2438 lrgb
+0 0.322 1 2439 lrgb
+0 0.329 1 2440 lrgb
+0 0.341 1 2441 lrgb
+0 0.349 1 2442 lrgb
+0 0.361 1 2443 lrgb
+0 0.369 1 2444 lrgb
+0 0.38 1 2445 lrgb
+0 0.388 1 2446 lrgb
+0 0.4 1 2447 lrgb
+0 0.412 1 2448 lrgb
+0 0.42 1 2449 lrgb
+0 0.431 1 2450 lrgb
+0 0.439 1 2451 lrgb
+0 0.451 1 2452 lrgb
+0 0.459 1 2453 lrgb
+0 0.471 1 2454 lrgb
+0 0.478 1 2455 lrgb
+0 0.49 1 2456 lrgb
+0 0.498 1 2457 lrgb
+0 0.51 1 2458 lrgb
+0 0.522 1 2459 lrgb
+0 0.529 1 2460 lrgb
+0 0.541 1 2461 lrgb
+0 0.549 1 2462 lrgb
+0 0.561 1 2463 lrgb
+0 0.569 1 2464 lrgb
+0 0.58 1 2465 lrgb
+0 0.588 1 2466 lrgb
+0 0.6 1 2467 lrgb
+0 0.612 1 2468 lrgb
+0 0.62 1 2469 lrgb
+0 0.631 1 2470 lrgb
+0 0.639 1 2471 lrgb
+0 0.651 1 2472 lrgb
+0 0.659 1 2473 lrgb
+0 0.671 1 2474 lrgb
+0 0.678 1 2475 lrgb
+0 0.69 1 2476 lrgb
+0 0.698 1 2477 lrgb
+0 0.71 1 2478 lrgb
+0 0.722 1 2479 lrgb
+0 0.729 1 2480 lrgb
+0 0.741 1 2481 lrgb
+0 0.749 1 2482 lrgb
+0 0.761 1 2483 lrgb
+0 0.769 1 2484 lrgb
+0 0.78 1 2485 lrgb
+0 0.788 1 2486 lrgb
+0 0.8 1 2487 lrgb
+0 0.812 1 2488 lrgb
+0 0.82 1 2489 lrgb
+0 0.831 1 2490 lrgb
+0 0.839 1 2491 lrgb
+0 0.851 1 2492 lrgb
+0 0.859 1 2493 lrgb
+0 0.871 1 2494 lrgb
+0 0.878 1 2495 lrgb
+0 0.89 1 2496 lrgb
+0 0.898 1 2497 lrgb
+0 0.91 1 2498 lrgb
+0 0.922 1 2499 lrgb
+0 0.929 1 2500 lrgb
+0 0.941 1 2501 lrgb
+0 0.949 1 2502 lrgb
+0 0.961 1 2503 lrgb
+0 0.969 1 2504 lrgb
+0 0.98 1 2505 lrgb
+0 0.988 1 2506 lrgb
+0 1 1 2507 lrgb
+0 1 0.988 2508 lrgb
+0 1 0.98 2509 lrgb
+0 1 0.969 2510 lrgb
+0 1 0.961 2511 lrgb
+0 1 0.949 2512 lrgb
+0 1 0.941 2513 lrgb
+0 1 0.929 2514 lrgb
+0 1 0.922 2515 lrgb
+0 1 0.91 2516 lrgb
+0 1 0.898 2517 lrgb
+0 1 0.89 2518 lrgb
+0 1 0.878 2519 lrgb
+0 1 0.871 2520 lrgb
+0 1 0.859 2521 lrgb
+0 1 0.851 2522 lrgb
+0 1 0.839 2523 lrgb
+0 1 0.831 2524 lrgb
+0 1 0.82 2525 lrgb
+0 1 0.812 2526 lrgb
+0 1 0.8 2527 lrgb
+0 1 0.788 2528 lrgb
+0 1 0.78 2529 lrgb
+0 1 0.769 2530 lrgb
+0 1 0.761 2531 lrgb
+0 1 0.749 2532 lrgb
+0 1 0.741 2533 lrgb
+0 1 0.729 2534 lrgb
+0 1 0.722 2535 lrgb
+0 1 0.71 2536 lrgb
+0 1 0.698 2537 lrgb
+0 1 0.69 2538 lrgb
+0 1 0.678 2539 lrgb
+0 1 0.671 2540 lrgb
+0 1 0.659 2541 lrgb
+0 1 0.651 2542 lrgb
+0 1 0.639 2543 lrgb
+0 1 0.631 2544 lrgb
+0 1 0.62 2545 lrgb
+0 1 0.612 2546 lrgb
+0 1 0.6 2547 lrgb
+0 1 0.588 2548 lrgb
+0 1 0.58 2549 lrgb
+0 1 0.569 2550 lrgb
+0 1 0.561 2551 lrgb
+0 1 0.549 2552 lrgb
+0 1 0.541 2553 lrgb
+0 1 0.529 2554 lrgb
+0 1 0.522 2555 lrgb
+0 1 0.51 2556 lrgb
+0 1 0.498 2557 lrgb
+0 1 0.49 2558 lrgb
+0 1 0.478 2559 lrgb
+0 1 0.471 2560 lrgb
+0 1 0.459 2561 lrgb
+0 1 0.451 2562 lrgb
+0 1 0.439 2563 lrgb
+0 1 0.431 2564 lrgb
+0 1 0.42 2565 lrgb
+0 1 0.412 2566 lrgb
+0 1 0.4 2567 lrgb
+0 1 0.388 2568 lrgb
+0 1 0.38 2569 lrgb
+0 1 0.369 2570 lrgb
+0 1 0.361 2571 lrgb
+0 1 0.349 2572 lrgb
+0 1 0.341 2573 lrgb
+0 1 0.329 2574 lrgb
+0 1 0.322 2575 lrgb
+0 1 0.31 2576 lrgb
+0 1 0.298 2577 lrgb
+0 1 0.29 2578 lrgb
+0 1 0.278 2579 lrgb
+0 1 0.271 2580 lrgb
+0 1 0.259 2581 lrgb
+0 1 0.251 2582 lrgb
+0 1 0.239 2583 lrgb
+0 1 0.231 2584 lrgb
+0 1 0.22 2585 lrgb
+0 1 0.212 2586 lrgb
+0 1 0.2 2587 lrgb
+0 1 0.188 2588 lrgb
+0 1 0.18 2589 lrgb
+0 1 0.169 2590 lrgb
+0 1 0.161 2591 lrgb
+0 1 0.149 2592 lrgb
+0 1 0.141 2593 lrgb
+0 1 0.129 2594 lrgb
+0 1 0.122 2595 lrgb
+0 1 0.11 2596 lrgb
+0 1 0.098 2597 lrgb
+0 1 0.0902 2598 lrgb
+0 1 0.0784 2599 lrgb
+0 1 0.0706 2600 lrgb
+0 1 0.0588 2601 lrgb
+0 1 0.051 2602 lrgb
+0 1 0.0392 2603 lrgb
+0 1 0.0314 2604 lrgb
+0 1 0.0196 2605 lrgb
+0 1 0.0118 2606 lrgb
+0 1 0 2607 lrgb
+0.0118 1 0 2608 lrgb
+0.0196 1 0 2609 lrgb
+0.0314 1 0 2610 lrgb
+0.0392 1 0 2611 lrgb
+0.051 1 0 2612 lrgb
+0.0588 1 0 2613 lrgb
+0.0706 1 0 2614 lrgb
+0.0784 1 0 2615 lrgb
+0.0902 1 0 2616 lrgb
+0.098 1 0 2617 lrgb
+0.11 1 0 2618 lrgb
+0.122 1 0 2619 lrgb
+0.129 1 0 2620 lrgb
+0.141 1 0 2621 lrgb
+0.149 1 0 2622 lrgb
+0.161 1 0 2623 lrgb
+0.169 1 0 2624 lrgb
+0.18 1 0 2625 lrgb
+0.188 1 0 2626 lrgb
+0.2 1 0 2627 lrgb
+0.212 1 0 2628 lrgb
+0.22 1 0 2629 lrgb
+0.231 1 0 2630 lrgb
+0.239 1 0 2631 lrgb
+0.251 1 0 2632 lrgb
+0.259 1 0 2633 lrgb
+0.271 1 0 2634 lrgb
+0.278 1 0 2635 lrgb
+0.29 1 0 2636 lrgb
+0.298 1 0 2637 lrgb
+0.31 1 0 2638 lrgb
+0.322 1 0 2639 lrgb
+0.329 1 0 2640 lrgb
+0.341 1 0 2641 lrgb
+0.349 1 0 2642 lrgb
+0.361 1 0 2643 lrgb
+0.369 1 0 2644 lrgb
+0.38 1 0 2645 lrgb
+0.388 1 0 2646 lrgb
+0.4 1 0 2647 lrgb
+0.412 1 0 2648 lrgb
+0.42 1 0 2649 lrgb
+0.431 1 0 2650 lrgb
+0.439 1 0 2651 lrgb
+0.451 1 0 2652 lrgb
+0.459 1 0 2653 lrgb
+0.471 1 0 2654 lrgb
+0.478 1 0 2655 lrgb
+0.49 1 0 2656 lrgb
+0.498 1 0 2657 lrgb
+0.51 1 0 2658 lrgb
+0.522 1 0 2659 lrgb
+0.529 1 0 2660 lrgb
+0.541 1 0 2661 lrgb
+0.549 1 0 2662 lrgb
+0.561 1 0 2663 lrgb
+0.569 1 0 2664 lrgb
+0.58 1 0 2665 lrgb
+0.588 1 0 2666 lrgb
+0.6 1 0 2667 lrgb
+0.612 1 0 2668 lrgb
+0.62 1 0 2669 lrgb
+0.631 1 0 2670 lrgb
+0.639 1 0 2671 lrgb
+0.651 1 0 2672 lrgb
+0.659 1 0 2673 lrgb
+0.671 1 0 2674 lrgb
+0.678 1 0 2675 lrgb
+0.69 1 0 2676 lrgb
+0.698 1 0 2677 lrgb
+0.71 1 0 2678 lrgb
+0.722 1 0 2679 lrgb
+0.729 1 0 2680 lrgb
+0.741 1 0 2681 lrgb
+0.749 1 0 2682 lrgb
+0.761 1 0 2683 lrgb
+0.769 1 0 2684 lrgb
+0.78 1 0 2685 lrgb
+0.788 1 0 2686 lrgb
+0.8 1 0 2687 lrgb
+0.812 1 0 2688 lrgb
+0.82 1 0 2689 lrgb
+0.831 1 0 2690 lrgb
+0.839 1 0 2691 lrgb
+0.851 1 0 2692 lrgb
+0.859 1 0 2693 lrgb
+0.871 1 0 2694 lrgb
+0.878 1 0 2695 lrgb
+0.89 1 0 2696 lrgb
+0.898 1 0 2697 lrgb
+0.91 1 0 2698 lrgb
+0.922 1 0 2699 lrgb
+0.929 1 0 2700 lrgb
+0.941 1 0 2701 lrgb
+0.949 1 0 2702 lrgb
+0.961 1 0 2703 lrgb
+0.969 1 0 2704 lrgb
+0.98 1 0 2705 lrgb
+0.988 1 0 2706 lrgb
+1 1 0 2707 lrgb
+1 0.988 0 2708 lrgb
+1 0.98 0 2709 lrgb
+1 0.969 0 2710 lrgb
+1 0.961 0 2711 lrgb
+1 0.949 0 2712 lrgb
+1 0.941 0 2713 lrgb
+1 0.929 0 2714 lrgb
+1 0.922 0 2715 lrgb
+1 0.91 0 2716 lrgb
+1 0.898 0 2717 lrgb
+1 0.89 0 2718 lrgb
+1 0.878 0 2719 lrgb
+1 0.871 0 2720 lrgb
+1 0.859 0 2721 lrgb
+1 0.851 0 2722 lrgb
+1 0.839 0 2723 lrgb
+1 0.831 0 2724 lrgb
+1 0.82 0 2725 lrgb
+1 0.812 0 2726 lrgb
+1 0.8 0 2727 lrgb
+1 0.788 0 2728 lrgb
+1 0.78 0 2729 lrgb
+1 0.769 0 2730 lrgb
+1 0.761 0 2731 lrgb
+1 0.749 0 2732 lrgb
+1 0.741 0 2733 lrgb
+1 0.729 0 2734 lrgb
+1 0.722 0 2735 lrgb
+1 0.71 0 2736 lrgb
+1 0.698 0 2737 lrgb
+1 0.69 0 2738 lrgb
+1 0.678 0 2739 lrgb
+1 0.671 0 2740 lrgb
+1 0.659 0 2741 lrgb
+1 0.651 0 2742 lrgb
+1 0.639 0 2743 lrgb
+1 0.631 0 2744 lrgb
+1 0.62 0 2745 lrgb
+1 0.612 0 2746 lrgb
+1 0.6 0 2747 lrgb
+1 0.588 0 2748 lrgb
+1 0.58 0 2749 lrgb
+1 0.569 0 2750 lrgb
+1 0.561 0 2751 lrgb
+1 0.549 0 2752 lrgb
+1 0.541 0 2753 lrgb
+1 0.529 0 2754 lrgb
+1 0.522 0 2755 lrgb
+1 0.51 0 2756 lrgb
+1 0.498 0 2757 lrgb
+1 0.49 0 2758 lrgb
+1 0.478 0 2759 lrgb
+1 0.471 0 2760 lrgb
+1 0.459 0 2761 lrgb
+1 0.451 0 2762 lrgb
+1 0.439 0 2763 lrgb
+1 0.431 0 2764 lrgb
+1 0.42 0 2765 lrgb
+1 0.412 0 2766 lrgb
+1 0.4 0 2767 lrgb
+1 0.388 0 2768 lrgb
+1 0.38 0 2769 lrgb
+1 0.369 0 2770 lrgb
+1 0.361 0 2771 lrgb
+1 0.349 0 2772 lrgb
+1 0.341 0 2773 lrgb
+1 0.329 0 2774 lrgb
+1 0.322 0 2775 lrgb
+1 0.31 0 2776 lrgb
+1 0.298 0 2777 lrgb
+1 0.29 0 2778 lrgb
+1 0.278 0 2779 lrgb
+1 0.271 0 2780 lrgb
+1 0.259 0 2781 lrgb
+1 0.251 0 2782 lrgb
+1 0.239 0 2783 lrgb
+1 0.231 0 2784 lrgb
+1 0.22 0 2785 lrgb
+1 0.212 0 2786 lrgb
+1 0.2 0 2787 lrgb
+1 0.188 0 2788 lrgb
+1 0.18 0 2789 lrgb
+1 0.169 0 2790 lrgb
+1 0.161 0 2791 lrgb
+1 0.149 0 2792 lrgb
+1 0.141 0 2793 lrgb
+1 0.129 0 2794 lrgb
+1 0.122 0 2795 lrgb
+1 0.11 0 2796 lrgb
+1 0.098 0 2797 lrgb
+1 0.0902 0 2798 lrgb
+1 0.0784 0 2799 lrgb
+1 0.0706 0 2800 lrgb
+1 0.0588 0 2801 lrgb
+1 0.051 0 2802 lrgb
+1 0.0392 0 2803 lrgb
+1 0.0314 0 2804 lrgb
+1 0.0196 0 2805 lrgb
+1 0.0118 0 2806 lrgb
+1 0 0 2807 lrgb
+0 0 0 2808 lrgb
+0.824 0 0 2809 lrgb
+0 0.824 0 2810 lrgb
+0.176 0.176 1 2811 lrgb
+0 1 1 2812 lrgb
+1 1 0.176 2813 lrgb
+1 0 1 2814 lrgb
+1 1 1 2815 lrgb
+0.333 0.333 0.333 2816 lrgb
+0.831 0.831 0.831 2817 lrgb
+1 0.498 0 2818 lrgb
+0.498 1 0 2819 lrgb
+0 1 0.498 2820 lrgb
+0 0.498 1 2821 lrgb
+0.498 0 1 2822 lrgb
+1 0 0.498 2823 lrgb
+0.333 0 0 2824 lrgb
+1 0.667 0.667 2825 lrgb
+1 0.667 0.333 2826 lrgb
+0.333 1 0.333 2827 lrgb
+0.333 1 0.667 2828 lrgb
+0.333 0.333 1 2829 lrgb
+0.667 0.333 1 2830 lrgb
+1 0.333 0.333 2831 lrgb
+0.333 0.333 0 2832 lrgb
+1 1 0.667 2833 lrgb
+1 1 0.333 2834 lrgb
+0 1 0.333 2835 lrgb
+0.333 1 1 2836 lrgb
+0.333 0 1 2837 lrgb
+1 0.333 1 2838 lrgb
+1 0.333 0 2839 lrgb
+0 0.333 0 2840 lrgb
+0.667 1 0.667 2841 lrgb
+0.667 1 0.333 2842 lrgb
+0 0.667 0.333 2843 lrgb
+0.333 0.667 1 2844 lrgb
+0.333 0 0.667 2845 lrgb
+1 0.333 0.667 2846 lrgb
+0.667 0.333 0 2847 lrgb
+0 0.333 0.333 2848 lrgb
+0.667 1 1 2849 lrgb
+0.667 1 0 2850 lrgb
+0 0.667 0 2851 lrgb
+0 0.667 1 2852 lrgb
+0 0 0.667 2853 lrgb
+1 0 0.667 2854 lrgb
+0.667 0 0 2855 lrgb
+0 0 0.333 2856 lrgb
+0.667 0.667 1 2857 lrgb
+0.667 0.667 0 2858 lrgb
+0.333 0.667 0 2859 lrgb
+0 0.667 0.667 2860 lrgb
+0 0.333 0.667 2861 lrgb
+0.667 0 0.667 2862 lrgb
+0.667 0 0.333 2863 lrgb
+0.333 0 0.333 2864 lrgb
+1 0.667 1 2865 lrgb
+0.667 0.667 0.333 2866 lrgb
+0.333 0.667 0.333 2867 lrgb
+0.333 0.667 0.667 2868 lrgb
+0.333 0.333 0.667 2869 lrgb
+0.667 0.333 0.667 2870 lrgb
+0.667 0.333 0.333 2871 lrgb
+0.588 0.588 0.588 2872 lrgb
+0.412 0.412 0.412 2873 lrgb
+0 0 0 2874 lrgb
+0 0 1 2875 lrgb
+0 0.0118 1 2876 lrgb
+0 0.0196 1 2877 lrgb
+0 0.0314 1 2878 lrgb
+0 0.0392 1 2879 lrgb
+0 0.051 1 2880 lrgb
+0 0.0588 1 2881 lrgb
+0 0.0706 1 2882 lrgb
+0 0.0784 1 2883 lrgb
+0 0.0902 1 2884 lrgb
+0 0.098 1 2885 lrgb
+0 0.11 1 2886 lrgb
+0 0.122 1 2887 lrgb
+0 0.129 1 2888 lrgb
+0 0.141 1 2889 lrgb
+0 0.149 1 2890 lrgb
+0 0.161 1 2891 lrgb
+0 0.169 1 2892 lrgb
+0 0.18 1 2893 lrgb
+0 0.188 1 2894 lrgb
+0 0.2 1 2895 lrgb
+0 0.212 1 2896 lrgb
+0 0.22 1 2897 lrgb
+0 0.231 1 2898 lrgb
+0 0.239 1 2899 lrgb
+0 0.251 1 2900 lrgb
+0 0.259 1 2901 lrgb
+0 0.271 1 2902 lrgb
+0 0.278 1 2903 lrgb
+0 0.29 1 2904 lrgb
+0 0.298 1 2905 lrgb
+0 0.31 1 2906 lrgb
+0 0.322 1 2907 lrgb
+0 0.329 1 2908 lrgb
+0 0.341 1 2909 lrgb
+0 0.349 1 2910 lrgb
+0 0.361 1 2911 lrgb
+0 0.369 1 2912 lrgb
+0 0.38 1 2913 lrgb
+0 0.388 1 2914 lrgb
+0 0.4 1 2915 lrgb
+0 0.412 1 2916 lrgb
+0 0.42 1 2917 lrgb
+0 0.431 1 2918 lrgb
+0 0.439 1 2919 lrgb
+0 0.451 1 2920 lrgb
+0 0.459 1 2921 lrgb
+0 0.471 1 2922 lrgb
+0 0.478 1 2923 lrgb
+0 0.49 1 2924 lrgb
+0 0.498 1 2925 lrgb
+0 0.51 1 2926 lrgb
+0 0.522 1 2927 lrgb
+0 0.529 1 2928 lrgb
+0 0.541 1 2929 lrgb
+0 0.549 1 2930 lrgb
+0 0.561 1 2931 lrgb
+0 0.569 1 2932 lrgb
+0 0.58 1 2933 lrgb
+0 0.588 1 2934 lrgb
+0 0.6 1 2935 lrgb
+0 0.612 1 2936 lrgb
+0 0.62 1 2937 lrgb
+0 0.631 1 2938 lrgb
+0 0.639 1 2939 lrgb
+0 0.651 1 2940 lrgb
+0 0.659 1 2941 lrgb
+0 0.671 1 2942 lrgb
+0 0.678 1 2943 lrgb
+0 0.69 1 2944 lrgb
+0 0.698 1 2945 lrgb
+0 0.71 1 2946 lrgb
+0 0.722 1 2947 lrgb
+0 0.729 1 2948 lrgb
+0 0.741 1 2949 lrgb
+0 0.749 1 2950 lrgb
+0 0.761 1 2951 lrgb
+0 0.769 1 2952 lrgb
+0 0.78 1 2953 lrgb
+0 0.788 1 2954 lrgb
+0 0.8 1 2955 lrgb
+0 0.812 1 2956 lrgb
+0 0.82 1 2957 lrgb
+0 0.831 1 2958 lrgb
+0 0.839 1 2959 lrgb
+0 0.851 1 2960 lrgb
+0 0.859 1 2961 lrgb
+0 0.871 1 2962 lrgb
+0 0.878 1 2963 lrgb
+0 0.89 1 2964 lrgb
+0 0.898 1 2965 lrgb
+0 0.91 1 2966 lrgb
+0 0.922 1 2967 lrgb
+0 0.929 1 2968 lrgb
+0 0.941 1 2969 lrgb
+0 0.949 1 2970 lrgb
+0 0.961 1 2971 lrgb
+0 0.969 1 2972 lrgb
+0 0.98 1 2973 lrgb
+0 0.988 1 2974 lrgb
+0 1 1 2975 lrgb
+0 1 0.988 2976 lrgb
+0 1 0.98 2977 lrgb
+0 1 0.969 2978 lrgb
+0 1 0.961 2979 lrgb
+0 1 0.949 2980 lrgb
+0 1 0.941 2981 lrgb
+0 1 0.929 2982 lrgb
+0 1 0.922 2983 lrgb
+0 1 0.91 2984 lrgb
+0 1 0.898 2985 lrgb
+0 1 0.89 2986 lrgb
+0 1 0.878 2987 lrgb
+0 1 0.871 2988 lrgb
+0 1 0.859 2989 lrgb
+0 1 0.851 2990 lrgb
+0 1 0.839 2991 lrgb
+0 1 0.831 2992 lrgb
+0 1 0.82 2993 lrgb
+0 1 0.812 2994 lrgb
+0 1 0.8 2995 lrgb
+0 1 0.788 2996 lrgb
+0 1 0.78 2997 lrgb
+0 1 0.769 2998 lrgb
+0 1 0.761 2999 lrgb
+0 1 0.749 3000 lrgb
+0 1 0.741 3001 lrgb
+0 1 0.729 3002 lrgb
+0 1 0.722 3003 lrgb
+0 1 0.71 3004 lrgb
+0 1 0.698 3005 lrgb
+0 1 0.69 3006 lrgb
+0 1 0.678 3007 lrgb
+0 1 0.671 3008 lrgb
+0 1 0.659 3009 lrgb
+0 1 0.651 3010 lrgb
+0 1 0.639 3011 lrgb
+0 1 0.631 3012 lrgb
+0 1 0.62 3013 lrgb
+0 1 0.612 3014 lrgb
+0 1 0.6 3015 lrgb
+0 1 0.588 3016 lrgb
+0 1 0.58 3017 lrgb
+0 1 0.569 3018 lrgb
+0 1 0.561 3019 lrgb
+0 1 0.549 3020 lrgb
+0 1 0.541 3021 lrgb
+0 1 0.529 3022 lrgb
+0 1 0.522 3023 lrgb
+0 1 0.51 3024 lrgb
+0 1 0.498 3025 lrgb
+0 1 0.49 3026 lrgb
+0 1 0.478 3027 lrgb
+0 1 0.471 3028 lrgb
+0 1 0.459 3029 lrgb
+0 1 0.451 3030 lrgb
+0 1 0.439 3031 lrgb
+0 1 0.431 3032 lrgb
+0 1 0.42 3033 lrgb
+0 1 0.412 3034 lrgb
+0 1 0.4 3035 lrgb
+0 1 0.388 3036 lrgb
+0 1 0.38 3037 lrgb
+0 1 0.369 3038 lrgb
+0 1 0.361 3039 lrgb
+0 1 0.349 3040 lrgb
+0 1 0.341 3041 lrgb
+0 1 0.329 3042 lrgb
+0 1 0.322 3043 lrgb
+0 1 0.31 3044 lrgb
+0 1 0.298 3045 lrgb
+0 1 0.29 3046 lrgb
+0 1 0.278 3047 lrgb
+0 1 0.271 3048 lrgb
+0 1 0.259 3049 lrgb
+0 1 0.251 3050 lrgb
+0 1 0.239 3051 lrgb
+0 1 0.231 3052 lrgb
+0 1 0.22 3053 lrgb
+0 1 0.212 3054 lrgb
+0 1 0.2 3055 lrgb
+0 1 0.188 3056 lrgb
+0 1 0.18 3057 lrgb
+0 1 0.169 3058 lrgb
+0 1 0.161 3059 lrgb
+0 1 0.149 3060 lrgb
+0 1 0.141 3061 lrgb
+0 1 0.129 3062 lrgb
+0 1 0.122 3063 lrgb
+0 1 0.11 3064 lrgb
+0 1 0.098 3065 lrgb
+0 1 0.0902 3066 lrgb
+0 1 0.0784 3067 lrgb
+0 1 0.0706 3068 lrgb
+0 1 0.0588 3069 lrgb
+0 1 0.051 3070 lrgb
+0 1 0.0392 3071 lrgb
+0 1 0.0314 3072 lrgb
+0 1 0.0196 3073 lrgb
+0 1 0.0118 3074 lrgb
+0 1 0 3075 lrgb
+0.0118 1 0 3076 lrgb
+0.0196 1 0 3077 lrgb
+0.0314 1 0 3078 lrgb
+0.0392 1 0 3079 lrgb
+0.051 1 0 3080 lrgb
+0.0588 1 0 3081 lrgb
+0.0706 1 0 3082 lrgb
+0.0784 1 0 3083 lrgb
+0.0902 1 0 3084 lrgb
+0.098 1 0 3085 lrgb
+0.11 1 0 3086 lrgb
+0.122 1 0 3087 lrgb
+0.129 1 0 3088 lrgb
+0.141 1 0 3089 lrgb
+0.149 1 0 3090 lrgb
+0.161 1 0 3091 lrgb
+0.169 1 0 3092 lrgb
+0.18 1 0 3093 lrgb
+0.188 1 0 3094 lrgb
+0.2 1 0 3095 lrgb
+0.212 1 0 3096 lrgb
+0.22 1 0 3097 lrgb
+0.231 1 0 3098 lrgb
+0.239 1 0 3099 lrgb
+0.251 1 0 3100 lrgb
+0.259 1 0 3101 lrgb
+0.271 1 0 3102 lrgb
+0.278 1 0 3103 lrgb
+0.29 1 0 3104 lrgb
+0.298 1 0 3105 lrgb
+0.31 1 0 3106 lrgb
+0.322 1 0 3107 lrgb
+0.329 1 0 3108 lrgb
+0.341 1 0 3109 lrgb
+0.349 1 0 3110 lrgb
+0.361 1 0 3111 lrgb
+0.369 1 0 3112 lrgb
+0.38 1 0 3113 lrgb
+0.388 1 0 3114 lrgb
+0.4 1 0 3115 lrgb
+0.412 1 0 3116 lrgb
+0.42 1 0 3117 lrgb
+0.431 1 0 3118 lrgb
+0.439 1 0 3119 lrgb
+0.451 1 0 3120 lrgb
+0.459 1 0 3121 lrgb
+0.471 1 0 3122 lrgb
+0.478 1 0 3123 lrgb
+0.49 1 0 3124 lrgb
+0.498 1 0 3125 lrgb
+0.51 1 0 3126 lrgb
+0.522 1 0 3127 lrgb
+0.529 1 0 3128 lrgb
+0.541 1 0 3129 lrgb
+0.549 1 0 3130 lrgb
+0.561 1 0 3131 lrgb
+0.569 1 0 3132 lrgb
+0.58 1 0 3133 lrgb
+0.588 1 0 3134 lrgb
+0.6 1 0 3135 lrgb
+0.612 1 0 3136 lrgb
+0.62 1 0 3137 lrgb
+0.631 1 0 3138 lrgb
+0.639 1 0 3139 lrgb
+0.651 1 0 3140 lrgb
+0.659 1 0 3141 lrgb
+0.671 1 0 3142 lrgb
+0.678 1 0 3143 lrgb
+0.69 1 0 3144 lrgb
+0.698 1 0 3145 lrgb
+0.71 1 0 3146 lrgb
+0.722 1 0 3147 lrgb
+0.729 1 0 3148 lrgb
+0.741 1 0 3149 lrgb
+0.749 1 0 3150 lrgb
+0.761 1 0 3151 lrgb
+0.769 1 0 3152 lrgb
+0.78 1 0 3153 lrgb
+0.788 1 0 3154 lrgb
+0.8 1 0 3155 lrgb
+0.812 1 0 3156 lrgb
+0.82 1 0 3157 lrgb
+0.831 1 0 3158 lrgb
+0.839 1 0 3159 lrgb
+0.851 1 0 3160 lrgb
+0.859 1 0 3161 lrgb
+0.871 1 0 3162 lrgb
+0.878 1 0 3163 lrgb
+0.89 1 0 3164 lrgb
+0.898 1 0 3165 lrgb
+0.91 1 0 3166 lrgb
+0.922 1 0 3167 lrgb
+0.929 1 0 3168 lrgb
+0.941 1 0 3169 lrgb
+0.949 1 0 3170 lrgb
+0.961 1 0 3171 lrgb
+0.969 1 0 3172 lrgb
+0.98 1 0 3173 lrgb
+0.988 1 0 3174 lrgb
+1 1 0 3175 lrgb
+1 0.988 0 3176 lrgb
+1 0.98 0 3177 lrgb
+1 0.969 0 3178 lrgb
+1 0.961 0 3179 lrgb
+1 0.949 0 3180 lrgb
+1 0.941 0 3181 lrgb
+1 0.929 0 3182 lrgb
+1 0.922 0 3183 lrgb
+1 0.91 0 3184 lrgb
+1 0.898 0 3185 lrgb
+1 0.89 0 3186 lrgb
+1 0.878 0 3187 lrgb
+1 0.871 0 3188 lrgb
+1 0.859 0 3189 lrgb
+1 0.851 0 3190 lrgb
+1 0.839 0 3191 lrgb
+1 0.831 0 3192 lrgb
+1 0.82 0 3193 lrgb
+1 0.812 0 3194 lrgb
+1 0.8 0 3195 lrgb
+1 0.788 0 3196 lrgb
+1 0.78 0 3197 lrgb
+1 0.769 0 3198 lrgb
+1 0.761 0 3199 lrgb
+1 0.749 0 3200 lrgb
+1 0.741 0 3201 lrgb
+1 0.729 0 3202 lrgb
+1 0.722 0 3203 lrgb
+1 0.71 0 3204 lrgb
+1 0.698 0 3205 lrgb
+1 0.69 0 3206 lrgb
+1 0.678 0 3207 lrgb
+1 0.671 0 3208 lrgb
+1 0.659 0 3209 lrgb
+1 0.651 0 3210 lrgb
+1 0.639 0 3211 lrgb
+1 0.631 0 3212 lrgb
+1 0.62 0 3213 lrgb
+1 0.612 0 3214 lrgb
+1 0.6 0 3215 lrgb
+1 0.588 0 3216 lrgb
+1 0.58 0 3217 lrgb
+1 0.569 0 3218 lrgb
+1 0.561 0 3219 lrgb
+1 0.549 0 3220 lrgb
+1 0.541 0 3221 lrgb
+1 0.529 0 3222 lrgb
+1 0.522 0 3223 lrgb
+1 0.51 0 3224 lrgb
+1 0.498 0 3225 lrgb
+1 0.49 0 3226 lrgb
+1 0.478 0 3227 lrgb
+1 0.471 0 3228 lrgb
+1 0.459 0 3229 lrgb
+1 0.451 0 3230 lrgb
+1 0.439 0 3231 lrgb
+1 0.431 0 3232 lrgb
+1 0.42 0 3233 lrgb
+1 0.412 0 3234 lrgb
+1 0.4 0 3235 lrgb
+1 0.388 0 3236 lrgb
+1 0.38 0 3237 lrgb
+1 0.369 0 3238 lrgb
+1 0.361 0 3239 lrgb
+1 0.349 0 3240 lrgb
+1 0.341 0 3241 lrgb
+1 0.329 0 3242 lrgb
+1 0.322 0 3243 lrgb
+1 0.31 0 3244 lrgb
+1 0.298 0 3245 lrgb
+1 0.29 0 3246 lrgb
+1 0.278 0 3247 lrgb
+1 0.271 0 3248 lrgb
+1 0.259 0 3249 lrgb
+1 0.251 0 3250 lrgb
+1 0.239 0 3251 lrgb
+1 0.231 0 3252 lrgb
+1 0.22 0 3253 lrgb
+1 0.212 0 3254 lrgb
+1 0.2 0 3255 lrgb
+1 0.188 0 3256 lrgb
+1 0.18 0 3257 lrgb
+1 0.169 0 3258 lrgb
+1 0.161 0 3259 lrgb
+1 0.149 0 3260 lrgb
+1 0.141 0 3261 lrgb
+1 0.129 0 3262 lrgb
+1 0.122 0 3263 lrgb
+1 0.11 0 3264 lrgb
+1 0.098 0 3265 lrgb
+1 0.0902 0 3266 lrgb
+1 0.0784 0 3267 lrgb
+1 0.0706 0 3268 lrgb
+1 0.0588 0 3269 lrgb
+1 0.051 0 3270 lrgb
+1 0.0392 0 3271 lrgb
+1 0.0314 0 3272 lrgb
+1 0.0196 0 3273 lrgb
+1 0.0118 0 3274 lrgb
+1 0 0 3275 lrgb
+0 0 0 3276 lrgb
+0.824 0 0 3277 lrgb
+0 0.824 0 3278 lrgb
+0.176 0.176 1 3279 lrgb
+0 1 1 3280 lrgb
+1 1 0.176 3281 lrgb
+1 0 1 3282 lrgb
+1 1 1 3283 lrgb
+0.333 0.333 0.333 3284 lrgb
+0.831 0.831 0.831 3285 lrgb
+1 0.498 0 3286 lrgb
+0.498 1 0 3287 lrgb
+0 1 0.498 3288 lrgb
+0 0.498 1 3289 lrgb
+0.498 0 1 3290 lrgb
+1 0 0.498 3291 lrgb
+0.333 0 0 3292 lrgb
+1 0.667 0.667 3293 lrgb
+1 0.667 0.333 3294 lrgb
+0.333 1 0.333 3295 lrgb
+0.333 1 0.667 3296 lrgb
+0.333 0.333 1 3297 lrgb
+0.667 0.333 1 3298 lrgb
+1 0.333 0.333 3299 lrgb
+0.333 0.333 0 3300 lrgb
+1 1 0.667 3301 lrgb
+1 1 0.333 3302 lrgb
+0 1 0.333 3303 lrgb
+0.333 1 1 3304 lrgb
+0.333 0 1 3305 lrgb
+1 0.333 1 3306 lrgb
+1 0.333 0 3307 lrgb
+0 0.333 0 3308 lrgb
+0.667 1 0.667 3309 lrgb
+0.667 1 0.333 3310 lrgb
+0 0.667 0.333 3311 lrgb
+0.333 0.667 1 3312 lrgb
+0.333 0 0.667 3313 lrgb
+1 0.333 0.667 3314 lrgb
+0.667 0.333 0 3315 lrgb
+0 0.333 0.333 3316 lrgb
+0.667 1 1 3317 lrgb
+0.667 1 0 3318 lrgb
+0 0.667 0 3319 lrgb
+0 0.667 1 3320 lrgb
+0 0 0.667 3321 lrgb
+1 0 0.667 3322 lrgb
+0.667 0 0 3323 lrgb
+0 0 0.333 3324 lrgb
+0.667 0.667 1 3325 lrgb
+0.667 0.667 0 3326 lrgb
+0.333 0.667 0 3327 lrgb
+0 0.667 0.667 3328 lrgb
+0 0.333 0.667 3329 lrgb
+0.667 0 0.667 3330 lrgb
+0.667 0 0.333 3331 lrgb
+0.333 0 0.333 3332 lrgb
+1 0.667 1 3333 lrgb
+0.667 0.667 0.333 3334 lrgb
+0.333 0.667 0.333 3335 lrgb
+0.333 0.667 0.667 3336 lrgb
+0.333 0.333 0.667 3337 lrgb
+0.667 0.333 0.667 3338 lrgb
+0.667 0.333 0.333 3339 lrgb
+0.588 0.588 0.588 3340 lrgb
+0.412 0.412 0.412 3341 lrgb
+0 0 0 3342 lrgb
+0 0 1 3343 lrgb
+0 0.0118 1 3344 lrgb
+0 0.0196 1 3345 lrgb
+0 0.0314 1 3346 lrgb
+0 0.0392 1 3347 lrgb
+0 0.051 1 3348 lrgb
+0 0.0588 1 3349 lrgb
+0 0.0706 1 3350 lrgb
+0 0.0784 1 3351 lrgb
+0 0.0902 1 3352 lrgb
+0 0.098 1 3353 lrgb
+0 0.11 1 3354 lrgb
+0 0.122 1 3355 lrgb
+0 0.129 1 3356 lrgb
+0 0.141 1 3357 lrgb
+0 0.149 1 3358 lrgb
+0 0.161 1 3359 lrgb
+0 0.169 1 3360 lrgb
+0 0.18 1 3361 lrgb
+0 0.188 1 3362 lrgb
+0 0.2 1 3363 lrgb
+0 0.212 1 3364 lrgb
+0 0.22 1 3365 lrgb
+0 0.231 1 3366 lrgb
+0 0.239 1 3367 lrgb
+0 0.251 1 3368 lrgb
+0 0.259 1 3369 lrgb
+0 0.271 1 3370 lrgb
+0 0.278 1 3371 lrgb
+0 0.29 1 3372 lrgb
+0 0.298 1 3373 lrgb
+0 0.31 1 3374 lrgb
+0 0.322 1 3375 lrgb
+0 0.329 1 3376 lrgb
+0 0.341 1 3377 lrgb
+0 0.349 1 3378 lrgb
+0 0.361 1 3379 lrgb
+0 0.369 1 3380 lrgb
+0 0.38 1 3381 lrgb
+0 0.388 1 3382 lrgb
+0 0.4 1 3383 lrgb
+0 0.412 1 3384 lrgb
+0 0.42 1 3385 lrgb
+0 0.431 1 3386 lrgb
+0 0.439 1 3387 lrgb
+0 0.451 1 3388 lrgb
+0 0.459 1 3389 lrgb
+0 0.471 1 3390 lrgb
+0 0.478 1 3391 lrgb
+0 0.49 1 3392 lrgb
+0 0.498 1 3393 lrgb
+0 0.51 1 3394 lrgb
+0 0.522 1 3395 lrgb
+0 0.529 1 3396 lrgb
+0 0.541 1 3397 lrgb
+0 0.549 1 3398 lrgb
+0 0.561 1 3399 lrgb
+0 0.569 1 3400 lrgb
+0 0.58 1 3401 lrgb
+0 0.588 1 3402 lrgb
+0 0.6 1 3403 lrgb
+0 0.612 1 3404 lrgb
+0 0.62 1 3405 lrgb
+0 0.631 1 3406 lrgb
+0 0.639 1 3407 lrgb
+0 0.651 1 3408 lrgb
+0 0.659 1 3409 lrgb
+0 0.671 1 3410 lrgb
+0 0.678 1 3411 lrgb
+0 0.69 1 3412 lrgb
+0 0.698 1 3413 lrgb
+0 0.71 1 3414 lrgb
+0 0.722 1 3415 lrgb
+0 0.729 1 3416 lrgb
+0 0.741 1 3417 lrgb
+0 0.749 1 3418 lrgb
+0 0.761 1 3419 lrgb
+0 0.769 1 3420 lrgb
+0 0.78 1 3421 lrgb
+0 0.788 1 3422 lrgb
+0 0.8 1 3423 lrgb
+0 0.812 1 3424 lrgb
+0 0.82 1 3425 lrgb
+0 0.831 1 3426 lrgb
+0 0.839 1 3427 lrgb
+0 0.851 1 3428 lrgb
+0 0.859 1 3429 lrgb
+0 0.871 1 3430 lrgb
+0 0.878 1 3431 lrgb
+0 0.89 1 3432 lrgb
+0 0.898 1 3433 lrgb
+0 0.91 1 3434 lrgb
+0 0.922 1 3435 lrgb
+0 0.929 1 3436 lrgb
+0 0.941 1 3437 lrgb
+0 0.949 1 3438 lrgb
+0 0.961 1 3439 lrgb
+0 0.969 1 3440 lrgb
+0 0.98 1 3441 lrgb
+0 0.988 1 3442 lrgb
+0 1 1 3443 lrgb
+0 1 0.988 3444 lrgb
+0 1 0.98 3445 lrgb
+0 1 0.969 3446 lrgb
+0 1 0.961 3447 lrgb
+0 1 0.949 3448 lrgb
+0 1 0.941 3449 lrgb
+0 1 0.929 3450 lrgb
+0 1 0.922 3451 lrgb
+0 1 0.91 3452 lrgb
+0 1 0.898 3453 lrgb
+0 1 0.89 3454 lrgb
+0 1 0.878 3455 lrgb
+0 1 0.871 3456 lrgb
+0 1 0.859 3457 lrgb
+0 1 0.851 3458 lrgb
+0 1 0.839 3459 lrgb
+0 1 0.831 3460 lrgb
+0 1 0.82 3461 lrgb
+0 1 0.812 3462 lrgb
+0 1 0.8 3463 lrgb
+0 1 0.788 3464 lrgb
+0 1 0.78 3465 lrgb
+0 1 0.769 3466 lrgb
+0 1 0.761 3467 lrgb
+0 1 0.749 3468 lrgb
+0 1 0.741 3469 lrgb
+0 1 0.729 3470 lrgb
+0 1 0.722 3471 lrgb
+0 1 0.71 3472 lrgb
+0 1 0.698 3473 lrgb
+0 1 0.69 3474 lrgb
+0 1 0.678 3475 lrgb
+0 1 0.671 3476 lrgb
+0 1 0.659 3477 lrgb
+0 1 0.651 3478 lrgb
+0 1 0.639 3479 lrgb
+0 1 0.631 3480 lrgb
+0 1 0.62 3481 lrgb
+0 1 0.612 3482 lrgb
+0 1 0.6 3483 lrgb
+0 1 0.588 3484 lrgb
+0 1 0.58 3485 lrgb
+0 1 0.569 3486 lrgb
+0 1 0.561 3487 lrgb
+0 1 0.549 3488 lrgb
+0 1 0.541 3489 lrgb
+0 1 0.529 3490 lrgb
+0 1 0.522 3491 lrgb
+0 1 0.51 3492 lrgb
+0 1 0.498 3493 lrgb
+0 1 0.49 3494 lrgb
+0 1 0.478 3495 lrgb
+0 1 0.471 3496 lrgb
+0 1 0.459 3497 lrgb
+0 1 0.451 3498 lrgb
+0 1 0.439 3499 lrgb
+0 1 0.431 3500 lrgb
+0 1 0.42 3501 lrgb
+0 1 0.412 3502 lrgb
+0 1 0.4 3503 lrgb
+0 1 0.388 3504 lrgb
+0 1 0.38 3505 lrgb
+0 1 0.369 3506 lrgb
+0 1 0.361 3507 lrgb
+0 1 0.349 3508 lrgb
+0 1 0.341 3509 lrgb
+0 1 0.329 3510 lrgb
+0 1 0.322 3511 lrgb
+0 1 0.31 3512 lrgb
+0 1 0.298 3513 lrgb
+0 1 0.29 3514 lrgb
+0 1 0.278 3515 lrgb
+0 1 0.271 3516 lrgb
+0 1 0.259 3517 lrgb
+0 1 0.251 3518 lrgb
+0 1 0.239 3519 lrgb
+0 1 0.231 3520 lrgb
+0 1 0.22 3521 lrgb
+0 1 0.212 3522 lrgb
+0 1 0.2 3523 lrgb
+0 1 0.188 3524 lrgb
+0 1 0.18 3525 lrgb
+0 1 0.169 3526 lrgb
+0 1 0.161 3527 lrgb
+0 1 0.149 3528 lrgb
+0 1 0.141 3529 lrgb
+0 1 0.129 3530 lrgb
+0 1 0.122 3531 lrgb
+0 1 0.11 3532 lrgb
+0 1 0.098 3533 lrgb
+0 1 0.0902 3534 lrgb
+0 1 0.0784 3535 lrgb
+0 1 0.0706 3536 lrgb
+0 1 0.0588 3537 lrgb
+0 1 0.051 3538 lrgb
+0 1 0.0392 3539 lrgb
+0 1 0.0314 3540 lrgb
+0 1 0.0196 3541 lrgb
+0 1 0.0118 3542 lrgb
+0 1 0 3543 lrgb
+0.0118 1 0 3544 lrgb
+0.0196 1 0 3545 lrgb
+0.0314 1 0 3546 lrgb
+0.0392 1 0 3547 lrgb
+0.051 1 0 3548 lrgb
+0.0588 1 0 3549 lrgb
+0.0706 1 0 3550 lrgb
+0.0784 1 0 3551 lrgb
+0.0902 1 0 3552 lrgb
+0.098 1 0 3553 lrgb
+0.11 1 0 3554 lrgb
+0.122 1 0 3555 lrgb
+0.129 1 0 3556 lrgb
+0.141 1 0 3557 lrgb
+0.149 1 0 3558 lrgb
+0.161 1 0 3559 lrgb
+0.169 1 0 3560 lrgb
+0.18 1 0 3561 lrgb
+0.188 1 0 3562 lrgb
+0.2 1 0 3563 lrgb
+0.212 1 0 3564 lrgb
+0.22 1 0 3565 lrgb
+0.231 1 0 3566 lrgb
+0.239 1 0 3567 lrgb
+0.251 1 0 3568 lrgb
+0.259 1 0 3569 lrgb
+0.271 1 0 3570 lrgb
+0.278 1 0 3571 lrgb
+0.29 1 0 3572 lrgb
+0.298 1 0 3573 lrgb
+0.31 1 0 3574 lrgb
+0.322 1 0 3575 lrgb
+0.329 1 0 3576 lrgb
+0.341 1 0 3577 lrgb
+0.349 1 0 3578 lrgb
+0.361 1 0 3579 lrgb
+0.369 1 0 3580 lrgb
+0.38 1 0 3581 lrgb
+0.388 1 0 3582 lrgb
+0.4 1 0 3583 lrgb
+0.412 1 0 3584 lrgb
+0.42 1 0 3585 lrgb
+0.431 1 0 3586 lrgb
+0.439 1 0 3587 lrgb
+0.451 1 0 3588 lrgb
+0.459 1 0 3589 lrgb
+0.471 1 0 3590 lrgb
+0.478 1 0 3591 lrgb
+0.49 1 0 3592 lrgb
+0.498 1 0 3593 lrgb
+0.51 1 0 3594 lrgb
+0.522 1 0 3595 lrgb
+0.529 1 0 3596 lrgb
+0.541 1 0 3597 lrgb
+0.549 1 0 3598 lrgb
+0.561 1 0 3599 lrgb
+0.569 1 0 3600 lrgb
+0.58 1 0 3601 lrgb
+0.588 1 0 3602 lrgb
+0.6 1 0 3603 lrgb
+0.612 1 0 3604 lrgb
+0.62 1 0 3605 lrgb
+0.631 1 0 3606 lrgb
+0.639 1 0 3607 lrgb
+0.651 1 0 3608 lrgb
+0.659 1 0 3609 lrgb
+0.671 1 0 3610 lrgb
+0.678 1 0 3611 lrgb
+0.69 1 0 3612 lrgb
+0.698 1 0 3613 lrgb
+0.71 1 0 3614 lrgb
+0.722 1 0 3615 lrgb
+0.729 1 0 3616 lrgb
+0.741 1 0 3617 lrgb
+0.749 1 0 3618 lrgb
+0.761 1 0 3619 lrgb
+0.769 1 0 3620 lrgb
+0.78 1 0 3621 lrgb
+0.788 1 0 3622 lrgb
+0.8 1 0 3623 lrgb
+0.812 1 0 3624 lrgb
+0.82 1 0 3625 lrgb
+0.831 1 0 3626 lrgb
+0.839 1 0 3627 lrgb
+0.851 1 0 3628 lrgb
+0.859 1 0 3629 lrgb
+0.871 1 0 3630 lrgb
+0.878 1 0 3631 lrgb
+0.89 1 0 3632 lrgb
+0.898 1 0 3633 lrgb
+0.91 1 0 3634 lrgb
+0.922 1 0 3635 lrgb
+0.929 1 0 3636 lrgb
+0.941 1 0 3637 lrgb
+0.949 1 0 3638 lrgb
+0.961 1 0 3639 lrgb
+0.969 1 0 3640 lrgb
+0.98 1 0 3641 lrgb
+0.988 1 0 3642 lrgb
+1 1 0 3643 lrgb
+1 0.988 0 3644 lrgb
+1 0.98 0 3645 lrgb
+1 0.969 0 3646 lrgb
+1 0.961 0 3647 lrgb
+1 0.949 0 3648 lrgb
+1 0.941 0 3649 lrgb
+1 0.929 0 3650 lrgb
+1 0.922 0 3651 lrgb
+1 0.91 0 3652 lrgb
+1 0.898 0 3653 lrgb
+1 0.89 0 3654 lrgb
+1 0.878 0 3655 lrgb
+1 0.871 0 3656 lrgb
+1 0.859 0 3657 lrgb
+1 0.851 0 3658 lrgb
+1 0.839 0 3659 lrgb
+1 0.831 0 3660 lrgb
+1 0.82 0 3661 lrgb
+1 0.812 0 3662 lrgb
+1 0.8 0 3663 lrgb
+1 0.788 0 3664 lrgb
+1 0.78 0 3665 lrgb
+1 0.769 0 3666 lrgb
+1 0.761 0 3667 lrgb
+1 0.749 0 3668 lrgb
+1 0.741 0 3669 lrgb
+1 0.729 0 3670 lrgb
+1 0.722 0 3671 lrgb
+1 0.71 0 3672 lrgb
+1 0.698 0 3673 lrgb
+1 0.69 0 3674 lrgb
+1 0.678 0 3675 lrgb
+1 0.671 0 3676 lrgb
+1 0.659 0 3677 lrgb
+1 0.651 0 3678 lrgb
+1 0.639 0 3679 lrgb
+1 0.631 0 3680 lrgb
+1 0.62 0 3681 lrgb
+1 0.612 0 3682 lrgb
+1 0.6 0 3683 lrgb
+1 0.588 0 3684 lrgb
+1 0.58 0 3685 lrgb
+1 0.569 0 3686 lrgb
+1 0.561 0 3687 lrgb
+1 0.549 0 3688 lrgb
+1 0.541 0 3689 lrgb
+1 0.529 0 3690 lrgb
+1 0.522 0 3691 lrgb
+1 0.51 0 3692 lrgb
+1 0.498 0 3693 lrgb
+1 0.49 0 3694 lrgb
+1 0.478 0 3695 lrgb
+1 0.471 0 3696 lrgb
+1 0.459 0 3697 lrgb
+1 0.451 0 3698 lrgb
+1 0.439 0 3699 lrgb
+1 0.431 0 3700 lrgb
+1 0.42 0 3701 lrgb
+1 0.412 0 3702 lrgb
+1 0.4 0 3703 lrgb
+1 0.388 0 3704 lrgb
+1 0.38 0 3705 lrgb
+1 0.369 0 3706 lrgb
+1 0.361 0 3707 lrgb
+1 0.349 0 3708 lrgb
+1 0.341 0 3709 lrgb
+1 0.329 0 3710 lrgb
+1 0.322 0 3711 lrgb
+1 0.31 0 3712 lrgb
+1 0.298 0 3713 lrgb
+1 0.29 0 3714 lrgb
+1 0.278 0 3715 lrgb
+1 0.271 0 3716 lrgb
+1 0.259 0 3717 lrgb
+1 0.251 0 3718 lrgb
+1 0.239 0 3719 lrgb
+1 0.231 0 3720 lrgb
+1 0.22 0 3721 lrgb
+1 0.212 0 3722 lrgb
+1 0.2 0 3723 lrgb
+1 0.188 0 3724 lrgb
+1 0.18 0 3725 lrgb
+1 0.169 0 3726 lrgb
+1 0.161 0 3727 lrgb
+1 0.149 0 3728 lrgb
+1 0.141 0 3729 lrgb
+1 0.129 0 3730 lrgb
+1 0.122 0 3731 lrgb
+1 0.11 0 3732 lrgb
+1 0.098 0 3733 lrgb
+1 0.0902 0 3734 lrgb
+1 0.0784 0 3735 lrgb
+1 0.0706 0 3736 lrgb
+1 0.0588 0 3737 lrgb
+1 0.051 0 3738 lrgb
+1 0.0392 0 3739 lrgb
+1 0.0314 0 3740 lrgb
+1 0.0196 0 3741 lrgb
+1 0.0118 0 3742 lrgb
+1 0 0 3743 lrgb
+5 setmiterlimit
+0.025 0.025 scale np
+gs
+15414 18505 15414 25519 23524 25519 23524 18505 clp
+7 z 15898 18988 7142 6048 erc
+17168 19652 17168 23885 22799 23885 22799 19652 clp
+1 z x 24 sw
+0 lc
+0 lj
+[] 0 sd
+17169 21605 m
+17172 21620 l
+17175 21634 l
+17178 21647 l
+17180 21658 l
+17183 21668 l
+17186 21677 l
+17189 21684 l
+17191 21691 l
+17194 21697 l
+17197 21702 l
+17200 21706 l
+17202 21710 l
+17205 21712 l
+17208 21714 l
+17211 21715 l
+17213 21716 l
+17216 21715 l
+17219 21714 l
+17222 21712 l
+17224 21709 l
+17227 21705 l
+17230 21700 l
+17233 21693 l
+17235 21686 l
+17238 21677 l
+17241 21667 l
+17244 21656 l
+17246 21642 l
+17249 21627 l
+17252 21609 l
+17255 21589 l
+17257 21565 l
+17260 21537 l
+17263 21503 l
+17266 21462 l
+17268 21410 l
+17271 21338 l
+17274 21227 l
+17277 20972 l
+17279 21046 l
+17282 21247 l
+17285 21344 l
+17288 21407 l
+17290 21454 l
+17293 21490 l
+17296 21519 l
+17299 21542 l
+17301 21562 l
+17304 21578 l
+17307 21591 l
+17310 21602 l
+17312 21611 l
+17315 21618 l
+17318 21623 l
+17320 21626 l
+17323 21628 l
+17326 21628 l
+17329 21627 l
+17331 21624 l
+17334 21619 l
+17337 21613 l
+17340 21604 l
+17342 21594 l
+17345 21582 l
+17348 21566 l
+17351 21548 l
+17353 21527 l
+17356 21500 l
+17359 21469 l
+17362 21429 l
+17364 21379 l
+17367 21310 l
+17370 21205 l
+17373 20973 l
+17375 20992 l
+17378 21210 l
+17381 21313 l
+17384 21382 l
+17386 21433 l
+17389 21474 l
+17392 21510 l
+17395 21541 l
+17397 21569 l
+17400 21596 l
+17403 21622 l
+17406 21647 l
+17408 21672 l
+17411 21697 l
+17414 21721 l
+17417 21746 l
+17419 21771 l
+17422 21796 l
+17425 21821 l
+17428 21846 l
+17430 21871 l
+17433 21896 l
+17436 21921 l
+17439 21945 l
+17441 21969 l
+17444 21992 l
+17447 22016 l
+17450 22039 l
+17452 22061 l
+17455 22084 l
+17458 22105 l
+17460 22127 l
+17463 22148 l
+17466 22170 l
+17469 22190 l
+17471 22211 l
+17474 22232 l
+17477 22252 l
+17480 22272 l
+17482 22292 l
+17485 22312 l
+17488 22332 l
+17491 22352 l
+17493 22372 l
+17496 22392 l
+17499 22412 l
+17502 22431 l
+17504 22451 l
+17507 22471 l
+17510 22490 l
+17513 22510 l
+17515 22530 l
+17518 22549 l
+17521 22568 l
+17524 22588 l
+17526 22607 l
+17529 22626 l
+17532 22646 l
+17535 22665 l
+17537 22684 l
+17540 22702 l
+17543 22721 l
+17546 22740 l
+17548 22758 l
+17551 22777 l
+17554 22795 l
+17557 22813 l
+17559 22831 l
+17562 22848 l
+17565 22866 l
+17568 22883 l
+17570 22900 l
+17573 22917 l
+17576 22933 l
+17579 22949 l
+17581 22964 l
+17584 22979 l
+17587 22994 l
+17590 23008 l
+17592 23021 l
+17595 23034 l
+17598 23046 l
+17601 23057 l
+17603 23068 l
+17606 23077 l
+17609 23086 l
+17611 23093 l
+17614 23099 l
+17617 23104 l
+17620 23107 l
+17622 23109 l
+17625 23109 l
+17628 23106 l
+17631 23101 l
+17633 23094 l
+17636 23083 l
+17639 23068 l
+17642 23049 l
+17644 23025 l
+17647 22993 l
+17650 22950 l
+17653 22892 l
+17655 22804 l
+17658 22638 l
+17661 22369 l
+17664 22726 l
+17666 22847 l
+17669 22920 l
+17672 22971 l
+17675 23009 l
+17677 23038 l
+17680 23060 l
+17683 23077 l
+17686 23090 l
+17688 23100 l
+17691 23106 l
+17694 23110 l
+17697 23112 l
+17699 23111 l
+17702 23109 l
+17705 23105 l
+17708 23100 l
+17710 23093 l
+17713 23086 l
+17716 23077 l
+17719 23067 l
+17721 23056 l
+17724 23044 l
+17727 23032 l
+17730 23018 l
+17732 23005 l
+17735 22990 l
+17738 22975 l
+17741 22960 l
+17743 22944 l
+17746 22928 l
+17749 22912 l
+17752 22895 l
+17754 22878 l
+17757 22860 l
+17760 22842 l
+17762 22825 l
+17765 22807 l
+17768 22788 l
+17771 22770 l
+17773 22751 l
+17776 22733 l
+17779 22714 l
+17782 22695 l
+17784 22676 l
+17787 22658 l
+17790 22639 l
+17793 22619 l
+17795 22600 l
+17798 22581 l
+17801 22562 l
+17804 22543 l
+17806 22524 l
+17809 22505 l
+17812 22486 l
+17815 22467 l
+17817 22447 l
+17820 22428 l
+17823 22409 l
+17826 22390 l
+17828 22371 l
+17831 22352 l
+17834 22332 l
+17837 22313 l
+17839 22294 l
+17842 22275 l
+17845 22255 l
+17848 22236 l
+17850 22217 l
+17853 22197 l
+17856 22178 l
+17859 22159 l
+17861 22140 l
+17864 22120 l
+17867 22101 l
+17870 22082 l
+17872 22063 l
+17875 22044 l
+17878 22025 l
+17881 22006 l
+17883 21988 l
+17886 21969 l
+17889 21951 l
+17892 21932 l
+17894 21914 l
+17897 21896 l
+17900 21878 l
+17903 21861 l
+17905 21843 l
+17908 21825 l
+17911 21808 l
+17913 21791 l
+17916 21774 l
+17919 21757 l
+17922 21741 l
+17924 21725 l
+17927 21710 l
+17930 21695 l
+17933 21681 l
+17935 21667 l
+17938 21654 l
+17941 21641 l
+17944 21629 l
+17946 21617 l
+17949 21606 l
+17952 21594 l
+17955 21583 l
+17957 21572 l
+17960 21561 l
+17963 21549 l
+17966 21537 l
+17968 21525 l
+17971 21511 l
+17974 21497 l
+17977 21482 l
+17979 21466 l
+17982 21449 l
+17985 21430 l
+17988 21409 l
+17990 21385 l
+17993 21357 l
+17996 21325 l
+17999 21285 l
+18001 21233 l
+18004 21161 l
+18007 21042 l
+18010 20694 l
+18012 20960 l
+18015 21133 l
+18018 21229 l
+18021 21295 l
+18023 21347 l
+18026 21390 l
+18029 21426 l
+18032 21457 l
+18034 21484 l
+18037 21508 l
+18040 21530 l
+18043 21550 l
+18045 21568 l
+18048 21585 l
+18051 21600 l
+18053 21614 l
+18056 21627 l
+18059 21639 l
+18062 21650 l
+18064 21660 l
+18067 21670 l
+18070 21679 l
+18073 21687 l
+18075 21695 l
+18078 21702 l
+18081 21708 l
+18084 21714 l
+18086 21719 l
+18089 21724 l
+18092 21728 l
+18095 21731 l
+18097 21734 l
+18100 21736 l
+18103 21738 l
+18106 21739 l
+18108 21739 l
+18111 21738 l
+18114 21737 l
+18117 21734 l
+18119 21731 l
+18122 21726 l
+18125 21721 l
+18128 21714 l
+18130 21706 l
+18133 21696 l
+18136 21685 l
+18139 21673 l
+18141 21658 l
+18144 21642 l
+18147 21623 l
+18150 21603 l
+18152 21579 l
+18155 21553 l
+18158 21523 l
+18161 21489 l
+18163 21449 l
+18166 21402 l
+18169 21344 l
+18172 21268 l
+18174 21155 l
+18177 20915 l
+18180 20929 l
+18183 21140 l
+18185 21237 l
+18188 21298 l
+18191 21342 l
+18194 21376 l
+18196 21403 l
+18199 21426 l
+18202 21445 l
+18204 21462 l
+18207 21477 l
+18210 21491 l
+18213 21503 l
+18215 21514 l
+18218 21525 l
+18221 21535 l
+18224 21544 l
+18226 21553 l
+18229 21562 l
+18232 21571 l
+18235 21579 l
+18237 21588 l
+18240 21596 l
+18243 21604 l
+18246 21612 l
+18248 21620 l
+18251 21627 l
+18254 21635 l
+18257 21642 l
+18259 21649 l
+18262 21656 l
+18265 21662 l
+18268 21669 l
+18270 21675 l
+18273 21680 l
+18276 21685 l
+18279 21689 l
+18281 21693 l
+18284 21696 l
+18287 21698 l
+18290 21700 l
+18292 21700 l
+18295 21700 l
+18298 21699 l
+18301 21698 l
+18303 21695 l
+18306 21692 l
+18309 21688 l
+18312 21683 l
+18314 21677 l
+18317 21670 l
+18320 21663 l
+18323 21655 l
+18325 21647 l
+18328 21637 l
+18331 21628 l
+18334 21617 l
+18336 21606 l
+18339 21595 l
+18342 21583 l
+18345 21571 l
+18347 21558 l
+18350 21544 l
+18353 21531 l
+18355 21517 l
+18358 21503 l
+18361 21489 l
+18364 21475 l
+18366 21462 l
+18369 21449 l
+18372 21437 l
+18375 21427 l
+18377 21419 l
+18380 21412 l
+18383 21408 l
+18386 21406 l
+18388 21406 l
+18391 21408 l
+18394 21412 l
+18397 21418 l
+18399 21425 l
+18402 21433 l
+18405 21441 l
+18408 21449 l
+18410 21458 l
+18413 21466 l
+18416 21474 l
+18419 21480 l
+18421 21486 l
+18424 21490 l
+18427 21493 l
+18430 21494 l
+18432 21493 l
+18435 21491 l
+18438 21485 l
+18441 21477 l
+18443 21465 l
+18446 21450 l
+18449 21429 l
+18452 21401 l
+18454 21364 l
+18457 21311 l
+18460 21231 l
+18463 21080 l
+18465 20727 l
+18468 21154 l
+18471 21288 l
+18474 21371 l
+18476 21432 l
+18479 21480 l
+18482 21519 l
+18485 21552 l
+18487 21580 l
+18490 21605 l
+18493 21627 l
+18495 21647 l
+18498 21664 l
+18501 21679 l
+18504 21693 l
+18506 21705 l
+18509 21717 l
+18512 21727 l
+18515 21736 l
+18517 21744 l
+18520 21751 l
+18523 21758 l
+18526 21764 l
+18528 21769 l
+18531 21773 l
+18534 21777 l
+18537 21780 l
+18539 21783 l
+18542 21785 l
+18545 21786 l
+18548 21787 l
+18550 21787 l
+18553 21787 l
+18556 21786 l
+18559 21784 l
+18561 21781 l
+18564 21778 l
+18567 21774 l
+18570 21769 l
+18572 21763 l
+18575 21756 l
+18578 21748 l
+18581 21739 l
+18583 21729 l
+18586 21717 l
+18589 21703 l
+18592 21688 l
+18594 21671 l
+18597 21652 l
+18600 21630 l
+18603 21606 l
+18605 21580 l
+18608 21550 l
+18611 21517 l
+18614 21479 l
+18616 21437 l
+18619 21388 l
+18622 21332 l
+18625 21265 l
+18627 21182 l
+18630 21071 l
+18633 20892 l
+18636 20389 l
+18638 20867 l
+18641 20965 l
+18644 21006 l
+18646 21019 l
+18649 21015 l
+18652 20996 l
+18655 20961 l
+18657 20910 l
+18660 20835 l
+18663 20716 l
+18666 20454 l
+18668 20481 l
+18671 20656 l
+18674 20706 l
+18677 20696 l
+18679 20598 l
+18682 20264 l
+18685 20744 l
+18688 20910 l
+18690 21020 l
+18693 21105 l
+18696 21175 l
+18699 21235 l
+18701 21286 l
+18704 21332 l
+18707 21372 l
+18710 21408 l
+18712 21440 l
+18715 21469 l
+18718 21494 l
+18721 21517 l
+18723 21537 l
+18726 21555 l
+18729 21570 l
+18732 21583 l
+18734 21594 l
+18737 21603 l
+18740 21610 l
+18743 21615 l
+18745 21618 l
+18748 21620 l
+18751 21621 l
+18754 21621 l
+18756 21619 l
+18759 21617 l
+18762 21615 l
+18765 21613 l
+18767 21610 l
+18770 21609 l
+18773 21608 l
+18776 21608 l
+18778 21610 l
+18781 21613 l
+18784 21617 l
+18787 21623 l
+18789 21630 l
+18792 21638 l
+18795 21647 l
+18797 21656 l
+18800 21666 l
+18803 21676 l
+18806 21686 l
+18808 21695 l
+18811 21704 l
+18814 21712 l
+18817 21720 l
+18819 21727 l
+18822 21733 l
+18825 21739 l
+18828 21743 l
+18830 21748 l
+18833 21751 l
+18836 21754 l
+18839 21756 l
+18841 21757 l
+18844 21758 l
+18847 21758 l
+18850 21758 l
+18852 21757 l
+18855 21755 l
+18858 21754 l
+18861 21752 l
+18863 21749 l
+18866 21746 l
+18869 21743 l
+18872 21739 l
+18874 21735 l
+18877 21730 l
+18880 21725 l
+18883 21720 l
+18885 21714 l
+18888 21708 l
+18891 21701 l
+18894 21694 l
+18896 21687 l
+18899 21679 l
+18902 21670 l
+18905 21661 l
+18907 21651 l
+18910 21641 l
+18913 21630 l
+18916 21617 l
+18918 21604 l
+18921 21590 l
+18924 21575 l
+18927 21558 l
+18929 21541 l
+18932 21521 l
+18935 21500 l
+18938 21477 l
+18940 21452 l
+18943 21423 l
+18946 21390 l
+18948 21350 l
+18951 21302 l
+18954 21239 l
+18957 21147 l
+18959 20969 l
+18962 20787 l
+18965 21097 l
+18968 21219 l
+18970 21297 l
+18973 21356 l
+18976 21403 l
+18979 21443 l
+18981 21478 l
+18984 21508 l
+18987 21536 l
+18990 21560 l
+18992 21583 l
+18995 21603 l
+18998 21621 l
+19001 21638 l
+19003 21653 l
+19006 21666 l
+19009 21678 l
+19012 21688 l
+19014 21697 l
+19017 21705 l
+19020 21711 l
+19023 21716 l
+19025 21720 l
+19028 21722 l
+19031 21724 l
+19034 21725 l
+19036 21724 l
+19039 21723 l
+19042 21721 l
+19045 21718 l
+19047 21715 l
+19050 21711 l
+19053 21707 l
+19056 21703 l
+19058 21698 l
+19061 21692 l
+19064 21687 l
+19067 21681 l
+19069 21675 l
+19072 21669 l
+19075 21663 l
+19078 21656 l
+19080 21650 l
+19083 21643 l
+19086 21637 l
+19088 21631 l
+19091 21625 l
+19094 21620 l
+19097 21615 l
+19099 21611 l
+19102 21608 l
+19105 21606 l
+19108 21606 l
+19110 21606 l
+19113 21608 l
+19116 21611 l
+19119 21616 l
+19121 21622 l
+19124 21628 l
+19127 21636 l
+19130 21645 l
+19132 21655 l
+19135 21665 l
+19138 21675 l
+19141 21686 l
+19143 21697 l
+19146 21708 l
+19149 21719 l
+19152 21730 l
+19154 21741 l
+19157 21751 l
+19160 21760 l
+19163 21769 l
+19165 21778 l
+19168 21785 l
+19171 21792 l
+19174 21798 l
+19176 21804 l
+19179 21808 l
+19182 21812 l
+19185 21815 l
+19187 21816 l
+19190 21817 l
+19193 21817 l
+19196 21816 l
+19198 21814 l
+19201 21812 l
+19204 21808 l
+19207 21803 l
+19209 21798 l
+19212 21792 l
+19215 21785 l
+19218 21776 l
+19220 21768 l
+19223 21758 l
+19226 21747 l
+19229 21736 l
+19231 21723 l
+19234 21710 l
+19237 21696 l
+19239 21682 l
+19242 21666 l
+19245 21650 l
+19248 21632 l
+19250 21614 l
+19253 21595 l
+19256 21574 l
+19259 21552 l
+19261 21528 l
+19264 21502 l
+19267 21473 l
+19270 21440 l
+19272 21403 l
+19275 21358 l
+19278 21301 l
+19281 21225 l
+19283 21106 l
+19286 20804 l
+19289 20972 l
+19292 21152 l
+19294 21243 l
+19297 21304 l
+19300 21349 l
+19303 21383 l
+19305 21411 l
+19308 21434 l
+19311 21453 l
+19314 21468 l
+19316 21481 l
+19319 21492 l
+19322 21501 l
+19325 21509 l
+19327 21515 l
+19330 21521 l
+19333 21526 l
+19336 21531 l
+19338 21535 l
+19341 21539 l
+19344 21543 l
+19347 21547 l
+19349 21551 l
+19352 21555 l
+19355 21560 l
+19358 21564 l
+19360 21569 l
+19363 21574 l
+19366 21579 l
+19369 21585 l
+19371 21590 l
+19374 21596 l
+19377 21601 l
+19380 21607 l
+19382 21613 l
+19385 21618 l
+19388 21624 l
+19390 21630 l
+19393 21635 l
+19396 21640 l
+19399 21646 l
+19401 21651 l
+19404 21656 l
+19407 21660 l
+19410 21665 l
+19412 21669 l
+19415 21674 l
+19418 21678 l
+19421 21682 l
+19423 21686 l
+19426 21690 l
+19429 21693 l
+19432 21697 l
+19434 21700 l
+19437 21703 l
+19440 21706 l
+19443 21708 l
+19445 21711 l
+19448 21713 l
+19451 21715 l
+19454 21717 l
+19456 21719 l
+19459 21721 l
+19462 21723 l
+19465 21725 l
+19467 21727 l
+19470 21729 l
+19473 21731 l
+19476 21733 l
+19478 21736 l
+19481 21738 l
+19484 21741 l
+19487 21745 l
+19489 21749 l
+19492 21753 l
+19495 21757 l
+19498 21762 l
+19500 21767 l
+19503 21772 l
+19506 21777 l
+19509 21782 l
+19511 21788 l
+19514 21793 l
+19517 21798 l
+19520 21804 l
+19522 21809 l
+19525 21814 l
+19528 21819 l
+19530 21823 l
+19533 21828 l
+19536 21832 l
+19539 21836 l
+19541 21840 l
+19544 21843 l
+19547 21846 l
+19550 21850 l
+19552 21852 l
+19555 21855 l
+19558 21857 l
+19561 21860 l
+19563 21861 l
+19566 21863 l
+19569 21864 l
+19572 21865 l
+19574 21866 l
+19577 21866 l
+19580 21866 l
+19583 21865 l
+19585 21864 l
+19588 21862 l
+19591 21860 l
+19594 21858 l
+19596 21855 l
+19599 21851 l
+19602 21848 l
+19605 21843 l
+19607 21839 l
+19610 21834 l
+19613 21829 l
+19616 21823 l
+19618 21817 l
+19621 21812 l
+19624 21806 l
+19627 21800 l
+19629 21794 l
+19632 21788 l
+19635 21783 l
+19638 21778 l
+19640 21773 l
+19643 21768 l
+19646 21764 l
+19649 21760 l
+19651 21757 l
+19654 21754 l
+19657 21751 l
+19660 21748 l
+19662 21746 l
+19665 21744 l
+19668 21742 l
+19671 21740 l
+19673 21739 l
+19676 21737 l
+19679 21736 l
+19681 21734 l
+19684 21732 l
+19687 21731 l
+19690 21729 l
+19692 21728 l
+19695 21726 l
+19698 21724 l
+19701 21723 l
+19703 21721 l
+19706 21720 l
+19709 21718 l
+19712 21717 l
+19714 21717 l
+19717 21716 l
+19720 21716 l
+19723 21717 l
+19725 21718 l
+19728 21719 l
+19731 21722 l
+19734 21725 l
+19736 21728 l
+19739 21732 l
+19742 21737 l
+19745 21743 l
+19747 21748 l
+19750 21755 l
+19753 21761 l
+19756 21768 l
+19758 21775 l
+19761 21782 l
+19764 21789 l
+19767 21796 l
+19769 21803 l
+19772 21809 l
+19775 21815 l
+19778 21821 l
+19780 21826 l
+19783 21830 l
+19786 21833 l
+19789 21836 l
+19791 21838 l
+19794 21839 l
+19797 21839 l
+19800 21838 l
+19802 21836 l
+19805 21832 l
+19808 21828 l
+19811 21823 l
+19813 21816 l
+19816 21808 l
+19819 21799 l
+19822 21789 l
+19824 21778 l
+19827 21765 l
+19830 21751 l
+19832 21737 l
+19835 21721 l
+19838 21704 l
+19841 21686 l
+19843 21667 l
+19846 21648 l
+19849 21628 l
+19852 21608 l
+19854 21587 l
+19857 21567 l
+19860 21546 l
+19863 21527 l
+19865 21509 l
+19868 21492 l
+19871 21478 l
+19874 21466 l
+19876 21456 l
+19879 21449 l
+19882 21445 l
+19885 21444 l
+19887 21444 l
+19890 21447 l
+19893 21452 l
+19896 21457 l
+19898 21464 l
+19901 21471 l
+19904 21479 l
+19907 21486 l
+19909 21493 l
+19912 21501 l
+19915 21507 l
+19918 21514 l
+19920 21520 l
+19923 21526 l
+19926 21531 l
+19929 21536 l
+19931 21541 l
+19934 21545 l
+19937 21549 l
+19940 21552 l
+19942 21556 l
+19945 21558 l
+19948 21561 l
+19951 21563 l
+19953 21565 l
+19956 21567 l
+19959 21568 l
+19962 21569 l
+19964 21569 l
+19967 21569 l
+19970 21569 l
+19973 21569 l
+19975 21568 l
+19978 21567 l
+19981 21566 l
+19983 21565 l
+19986 21563 l
+19989 21562 l
+19992 21560 l
+19994 21558 l
+19997 21556 l
+20000 21554 l
+20003 21552 l
+20005 21551 l
+20008 21549 l
+20011 21548 l
+20014 21546 l
+20016 21546 l
+20019 21546 l
+20022 21546 l
+20025 21547 l
+20027 21549 l
+20030 21551 l
+20033 21554 l
+20036 21557 l
+20038 21561 l
+20041 21566 l
+20044 21571 l
+20047 21576 l
+20049 21582 l
+20052 21588 l
+20055 21594 l
+20058 21599 l
+20060 21605 l
+20063 21609 l
+20066 21614 l
+20069 21617 l
+20071 21620 l
+20074 21621 l
+20077 21622 l
+20080 21621 l
+20082 21620 l
+20085 21616 l
+20088 21612 l
+20091 21605 l
+20093 21598 l
+20096 21588 l
+20099 21577 l
+20102 21563 l
+20104 21548 l
+20107 21530 l
+20110 21509 l
+20113 21484 l
+20115 21455 l
+20118 21420 l
+20121 21377 l
+20123 21322 l
+20126 21245 l
+20129 21122 l
+20132 20778 l
+20134 21022 l
+20137 21190 l
+20140 21278 l
+20143 21337 l
+20145 21381 l
+20148 21414 l
+20151 21441 l
+20154 21462 l
+20156 21479 l
+20159 21493 l
+20162 21504 l
+20165 21513 l
+20167 21520 l
+20170 21525 l
+20173 21528 l
+20176 21530 l
+20178 21531 l
+20181 21530 l
+20184 21529 l
+20187 21526 l
+20189 21521 l
+20192 21516 l
+20195 21509 l
+20198 21500 l
+20200 21489 l
+20203 21476 l
+20206 21461 l
+20209 21441 l
+20211 21418 l
+20214 21388 l
+20217 21350 l
+20220 21299 l
+20222 21227 l
+20225 21106 l
+20228 20736 l
+20231 21031 l
+20233 21198 l
+20236 21289 l
+20239 21352 l
+20242 21399 l
+20244 21436 l
+20247 21466 l
+20250 21491 l
+20253 21512 l
+20255 21529 l
+20258 21544 l
+20261 21556 l
+20264 21567 l
+20266 21575 l
+20269 21582 l
+20272 21588 l
+20274 21593 l
+20277 21596 l
+20280 21598 l
+20283 21600 l
+20285 21601 l
+20288 21601 l
+20291 21601 l
+20294 21600 l
+20296 21598 l
+20299 21596 l
+20302 21593 l
+20305 21590 l
+20307 21585 l
+20310 21580 l
+20313 21573 l
+20316 21565 l
+20318 21556 l
+20321 21544 l
+20324 21530 l
+20327 21513 l
+20329 21492 l
+20332 21466 l
+20335 21434 l
+20338 21393 l
+20340 21339 l
+20343 21263 l
+20346 21135 l
+20349 20718 l
+20351 21071 l
+20354 21229 l
+20357 21314 l
+20360 21371 l
+20362 21413 l
+20365 21444 l
+20368 21469 l
+20371 21488 l
+20373 21503 l
+20376 21514 l
+20379 21522 l
+20382 21527 l
+20384 21531 l
+20387 21532 l
+20390 21532 l
+20393 21531 l
+20395 21528 l
+20398 21525 l
+20401 21522 l
+20404 21518 l
+20406 21515 l
+20409 21512 l
+20412 21509 l
+20415 21506 l
+20417 21504 l
+20420 21502 l
+20423 21500 l
+20425 21499 l
+20428 21497 l
+20431 21494 l
+20434 21491 l
+20436 21486 l
+20439 21480 l
+20442 21471 l
+20445 21461 l
+20447 21447 l
+20450 21430 l
+20453 21408 l
+20456 21380 l
+20458 21345 l
+20461 21298 l
+20464 21231 l
+20467 21126 l
+q
+20469 20881 l
+20472 20942 l
+20475 21150 l
+20478 21251 l
+20480 21317 l
+20483 21365 l
+20486 21403 l
+20489 21433 l
+20491 21457 l
+20494 21477 l
+20497 21494 l
+20500 21508 l
+20502 21519 l
+20505 21528 l
+20508 21534 l
+20511 21539 l
+20513 21542 l
+20516 21544 l
+20519 21543 l
+20522 21541 l
+20524 21538 l
+20527 21532 l
+20530 21525 l
+20533 21516 l
+20535 21505 l
+20538 21491 l
+20541 21476 l
+20544 21459 l
+20546 21439 l
+20549 21418 l
+20552 21393 l
+20555 21366 l
+20557 21337 l
+20560 21304 l
+20563 21268 l
+20565 21228 l
+20568 21183 l
+20571 21132 l
+20574 21073 l
+20576 21000 l
+20579 20905 l
+20582 20755 l
+20585 20178 l
+20587 20695 l
+20590 20828 l
+20593 20895 l
+20596 20935 l
+20598 20958 l
+20601 20969 l
+20604 20968 l
+20607 20956 l
+20609 20929 l
+20612 20880 l
+20615 20791 l
+20618 20574 l
+20620 20599 l
+20623 20827 l
+20626 20934 l
+20629 21002 l
+20631 21049 l
+20634 21081 l
+20637 21100 l
+20640 21109 l
+20642 21105 l
+20645 21086 l
+20648 21045 l
+20651 20965 l
+20653 20750 l
+20656 20808 l
+20659 21041 l
+20662 21160 l
+20664 21242 l
+20667 21306 l
+20670 21358 l
+20673 21402 l
+20675 21439 l
+20678 21471 l
+20681 21499 l
+20684 21524 l
+20686 21545 l
+20689 21564 l
+20692 21580 l
+20695 21593 l
+20697 21605 l
+20700 21614 l
+20703 21621 l
+20706 21627 l
+20708 21630 l
+20711 21632 l
+20714 21631 l
+20716 21628 l
+20719 21623 l
+20722 21616 l
+20725 21606 l
+20727 21592 l
+20730 21575 l
+20733 21554 l
+20736 21527 l
+20738 21493 l
+20741 21448 l
+20744 21386 l
+20747 21293 l
+20749 21108 l
+20752 20961 l
+20755 21248 l
+20758 21363 l
+20760 21434 l
+20763 21485 l
+20766 21524 l
+20769 21555 l
+20771 21580 l
+20774 21600 l
+20777 21617 l
+20780 21630 l
+20782 21640 l
+20785 21649 l
+20788 21655 l
+20791 21659 l
+20793 21661 l
+20796 21662 l
+20799 21662 l
+20802 21660 l
+20804 21656 l
+20807 21651 l
+20810 21645 l
+20813 21638 l
+20815 21629 l
+20818 21619 l
+20821 21608 l
+20824 21595 l
+20826 21580 l
+20829 21564 l
+20832 21547 l
+20835 21527 l
+20837 21505 l
+20840 21480 l
+20843 21453 l
+20846 21422 l
+20848 21387 l
+20851 21345 l
+20854 21295 l
+20857 21231 l
+20859 21142 l
+20862 20990 l
+20865 20437 l
+20867 21010 l
+20870 21143 l
+20873 21222 l
+20876 21279 l
+20878 21323 l
+20881 21359 l
+20884 21390 l
+20887 21418 l
+20889 21442 l
+20892 21464 l
+20895 21485 l
+20898 21503 l
+20900 21520 l
+20903 21536 l
+20906 21550 l
+20909 21563 l
+20911 21574 l
+20914 21584 l
+20917 21593 l
+20920 21600 l
+20922 21605 l
+20925 21609 l
+20928 21611 l
+20931 21611 l
+20933 21610 l
+20936 21607 l
+20939 21603 l
+20942 21596 l
+20944 21588 l
+20947 21578 l
+20950 21566 l
+20953 21552 l
+20955 21536 l
+20958 21517 l
+20961 21497 l
+20964 21474 l
+20966 21448 l
+20969 21420 l
+20972 21388 l
+20975 21351 l
+20977 21309 l
+20980 21261 l
+20983 21201 l
+20986 21125 l
+20988 21016 l
+20991 20802 l
+20994 20726 l
+20997 20968 l
+20999 21069 l
+21002 21132 l
+21005 21178 l
+21008 21214 l
+21010 21243 l
+21013 21269 l
+21016 21291 l
+21018 21311 l
+21021 21330 l
+21024 21347 l
+21027 21364 l
+21029 21380 l
+21032 21395 l
+21035 21409 l
+21038 21422 l
+21040 21435 l
+21043 21447 l
+21046 21458 l
+21049 21468 l
+21051 21478 l
+21054 21486 l
+21057 21494 l
+21060 21501 l
+21062 21506 l
+21065 21511 l
+21068 21514 l
+21071 21517 l
+21073 21518 l
+21076 21518 l
+21079 21517 l
+21082 21514 l
+21084 21510 l
+21087 21505 l
+21090 21498 l
+21093 21490 l
+21095 21481 l
+21098 21470 l
+21101 21457 l
+21104 21442 l
+21106 21425 l
+21109 21407 l
+21112 21386 l
+21115 21363 l
+21117 21337 l
+21120 21309 l
+21123 21277 l
+21126 21241 l
+21128 21200 l
+21131 21154 l
+21134 21101 l
+21137 21037 l
+21139 20959 l
+21142 20854 l
+21145 20682 l
+21148 20223 l
+21150 20689 l
+21153 20805 l
+21156 20871 l
+21158 20919 l
+21161 20959 l
+21164 20997 l
+21167 21034 l
+21169 21072 l
+21172 21111 l
+21175 21150 l
+21178 21189 l
+21180 21227 l
+21183 21263 l
+21186 21298 l
+21189 21330 l
+21191 21360 l
+21194 21388 l
+21197 21414 l
+21200 21437 l
+21202 21458 l
+21205 21476 l
+21208 21493 l
+21211 21508 l
+21213 21520 l
+21216 21531 l
+21219 21540 l
+21222 21548 l
+21224 21553 l
+21227 21558 l
+21230 21561 l
+21233 21563 l
+21235 21563 l
+21238 21563 l
+21241 21561 l
+21244 21559 l
+21246 21556 l
+21249 21552 l
+21252 21547 l
+21255 21541 l
+21257 21535 l
+21260 21528 l
+21263 21520 l
+21266 21511 l
+21268 21500 l
+21271 21489 l
+21274 21475 l
+21277 21460 l
+21279 21442 l
+21282 21420 l
+21285 21394 l
+21288 21362 l
+21290 21321 l
+21293 21266 l
+21296 21184 l
+21299 21033 l
+21301 20637 l
+21304 21094 l
+21307 21228 l
+21309 21311 l
+21312 21372 l
+21315 21419 l
+21318 21458 l
+21320 21491 l
+21323 21519 l
+21326 21544 l
+21329 21565 l
+21331 21584 l
+21334 21600 l
+21337 21615 l
+21340 21627 l
+21342 21638 l
+21345 21648 l
+21348 21656 l
+21351 21663 l
+21353 21668 l
+21356 21673 l
+21359 21676 l
+21362 21678 l
+21364 21679 l
+21367 21679 l
+21370 21677 l
+21373 21675 l
+21375 21671 l
+21378 21665 l
+21381 21659 l
+21384 21650 l
+21386 21639 l
+21389 21626 l
+21392 21611 l
+21395 21592 l
+21397 21569 l
+21400 21541 l
+21403 21507 l
+21406 21464 l
+21408 21407 l
+21411 21325 l
+21414 21186 l
+21417 20410 l
+21419 21174 l
+21422 21317 l
+21425 21398 l
+21428 21454 l
+21430 21496 l
+21433 21529 l
+21436 21556 l
+21439 21577 l
+21441 21595 l
+21444 21609 l
+21447 21621 l
+21450 21631 l
+21452 21638 l
+21455 21644 l
+21458 21647 l
+21460 21649 l
+21463 21649 l
+21466 21648 l
+21469 21645 l
+21471 21641 l
+21474 21635 l
+21477 21627 l
+21480 21618 l
+21482 21607 l
+21485 21594 l
+21488 21579 l
+21491 21562 l
+21493 21543 l
+21496 21521 l
+21499 21497 l
+21502 21470 l
+21504 21439 l
+21507 21403 l
+21510 21363 l
+21513 21316 l
+21515 21261 l
+21518 21194 l
+21521 21109 l
+21524 20992 l
+21526 20789 l
+21529 20527 l
+21532 20817 l
+21535 20887 l
+21537 20895 l
+21540 20855 l
+21543 20730 l
+21546 20428 l
+21548 20847 l
+21551 20989 l
+21554 21078 l
+21557 21141 l
+21559 21188 l
+21562 21224 l
+21565 21251 l
+21568 21270 l
+21570 21283 l
+21573 21288 l
+21576 21288 l
+21579 21280 l
+21581 21263 l
+21584 21237 l
+21587 21195 l
+21590 21129 l
+21592 21009 l
+21595 20545 l
+21598 20983 l
+21600 21144 l
+21603 21237 l
+21606 21302 l
+21609 21352 l
+21611 21392 l
+21614 21425 l
+21617 21452 l
+21620 21475 l
+21622 21495 l
+21625 21511 l
+21628 21525 l
+21631 21536 l
+21633 21546 l
+21636 21554 l
+21639 21561 l
+21642 21566 l
+21644 21569 l
+21647 21572 l
+21650 21574 l
+21653 21574 l
+21655 21574 l
+21658 21573 l
+21661 21571 l
+21664 21568 l
+21666 21565 l
+21669 21561 l
+21672 21555 l
+21675 21550 l
+21677 21543 l
+21680 21535 l
+21683 21527 l
+21686 21517 l
+21688 21506 l
+21691 21494 l
+21694 21480 l
+21697 21464 l
+21699 21446 l
+21702 21425 l
+21705 21400 l
+21708 21372 l
+21710 21337 l
+21713 21294 l
+21716 21239 l
+21719 21163 l
+21721 21040 l
+21724 20696 l
+21727 20939 l
+21730 21107 l
+21732 21196 l
+21735 21255 l
+21738 21298 l
+21741 21332 l
+21743 21360 l
+21746 21382 l
+21749 21401 l
+21751 21417 l
+21754 21431 l
+21757 21443 l
+21760 21454 l
+21762 21465 l
+21765 21475 l
+21768 21485 l
+21771 21496 l
+21773 21506 l
+21776 21517 l
+21779 21529 l
+21782 21540 l
+21784 21552 l
+21787 21564 l
+21790 21577 l
+21793 21588 l
+21795 21600 l
+21798 21611 l
+21801 21621 l
+21804 21630 l
+21806 21639 l
+21809 21646 l
+21812 21651 l
+21815 21656 l
+21817 21658 l
+21820 21660 l
+21823 21659 l
+21826 21657 l
+21828 21652 l
+21831 21646 l
+21834 21637 l
+21837 21626 l
+21839 21613 l
+21842 21596 l
+21845 21576 l
+21848 21552 l
+21850 21524 l
+21853 21489 l
+21856 21445 l
+21859 21390 l
+21861 21314 l
+21864 21195 l
+21867 20898 l
+21870 21054 l
+21872 21234 l
+21875 21324 l
+21878 21383 l
+21881 21426 l
+21883 21459 l
+21886 21485 l
+21889 21507 l
+21892 21525 l
+21894 21540 l
+21897 21554 l
+21900 21565 l
+21902 21576 l
+21905 21585 l
+21908 21594 l
+21911 21602 l
+21913 21610 l
+21916 21617 l
+21919 21623 l
+21922 21629 l
+21924 21635 l
+21927 21639 l
+21930 21643 l
+21933 21647 l
+21935 21650 l
+21938 21651 l
+21941 21652 l
+21944 21652 l
+21946 21651 l
+21949 21649 l
+21952 21646 l
+21955 21642 l
+21957 21636 l
+21960 21630 l
+21963 21622 l
+21966 21612 l
+21968 21601 l
+21971 21588 l
+21974 21574 l
+21977 21557 l
+21979 21538 l
+21982 21515 l
+21985 21489 l
+21988 21457 l
+21990 21418 l
+21993 21369 l
+21996 21302 l
+21999 21201 l
+22001 20990 l
+22004 20945 l
+22007 21185 l
+22010 21292 l
+22012 21359 l
+22015 21409 l
+22018 21446 l
+22021 21476 l
+22023 21500 l
+22026 21519 l
+22029 21534 l
+22032 21545 l
+22034 21554 l
+22037 21560 l
+22040 21564 l
+22043 21565 l
+22045 21565 l
+22048 21562 l
+22051 21558 l
+22053 21552 l
+22056 21545 l
+22059 21536 l
+22062 21526 l
+22064 21515 l
+22067 21503 l
+22070 21490 l
+22073 21476 l
+22075 21462 l
+22078 21448 l
+22081 21434 l
+22084 21421 l
+22086 21409 l
+22089 21398 l
+22092 21390 l
+22095 21383 l
+22097 21379 l
+22100 21378 l
+22103 21380 l
+22106 21384 l
+22108 21391 l
+22111 21399 l
+22114 21408 l
+22117 21419 l
+22119 21430 l
+22122 21441 l
+22125 21453 l
+22128 21463 l
+22130 21474 l
+22133 21483 l
+22136 21492 l
+22139 21500 l
+22141 21507 l
+22144 21513 l
+22147 21519 l
+22150 21524 l
+22152 21527 l
+22155 21531 l
+22158 21533 l
+22161 21535 l
+22163 21537 l
+22166 21538 l
+22169 21539 l
+22172 21540 l
+22174 21542 l
+22177 21544 l
+22180 21548 l
+22183 21552 l
+22185 21559 l
+22188 21568 l
+22191 21580 l
+22193 21595 l
+22196 21613 l
+22199 21635 l
+22202 21660 l
+22204 21687 l
+22207 21717 l
+22210 21750 l
+22213 21785 l
+22215 21821 l
+22218 21859 l
+22221 21897 l
+22224 21937 l
+22226 21977 l
+22229 22017 l
+22232 22058 l
+22235 22099 l
+22237 22140 l
+22240 22181 l
+22243 22222 l
+22246 22263 l
+22248 22304 l
+22251 22345 l
+22254 22385 l
+22257 22426 l
+22259 22467 l
+22262 22507 l
+22265 22548 l
+22268 22588 l
+22270 22629 l
+22273 22669 l
+22276 22709 l
+22279 22749 l
+22281 22789 l
+22284 22829 l
+22287 22868 l
+22290 22908 l
+22292 22947 l
+22295 22986 l
+22298 23025 l
+22301 23063 l
+22303 23102 l
+22306 23139 l
+22309 23177 l
+22312 23213 l
+22314 23249 l
+22317 23284 l
+22320 23318 l
+22323 23351 l
+22325 23382 l
+22328 23411 l
+22331 23438 l
+22334 23463 l
+22336 23484 l
+22339 23501 l
+22342 23513 l
+22344 23520 l
+22347 23519 l
+22350 23510 l
+22353 23489 l
+22355 23451 l
+22358 23388 l
+22361 23272 l
+22364 22903 l
+22366 23193 l
+22369 23351 l
+22372 23430 l
+22375 23476 l
+22377 23502 l
+22380 23516 l
+22383 23520 l
+22386 23515 l
+22388 23505 l
+22391 23490 l
+22394 23470 l
+22397 23447 l
+22399 23421 l
+22402 23392 l
+22405 23361 l
+22408 23329 l
+22410 23296 l
+22413 23261 l
+22416 23225 l
+22419 23189 l
+22421 23152 l
+22424 23114 l
+22427 23076 l
+22430 23038 l
+22432 22999 l
+22435 22960 l
+22438 22921 l
+22441 22881 l
+22443 22842 l
+22446 22802 l
+22449 22762 l
+22452 22723 l
+22454 22683 l
+22457 22642 l
+22460 22602 l
+22463 22562 l
+22465 22522 l
+22468 22481 l
+22471 22440 l
+22474 22399 l
+22476 22358 l
+22479 22317 l
+22482 22275 l
+22485 22233 l
+22487 22190 l
+22490 22147 l
+22493 22103 l
+22495 22059 l
+22498 22013 l
+22501 21967 l
+22504 21919 l
+22506 21870 l
+22509 21819 l
+22512 21766 l
+22515 21710 l
+22517 21653 l
+22520 21592 l
+22523 21529 l
+22526 21464 l
+22528 21400 l
+22531 21340 l
+22534 21292 l
+22537 21261 l
+22539 21254 l
+22542 21266 l
+22545 21292 l
+22548 21324 l
+22550 21356 l
+22553 21387 l
+22556 21415 l
+22559 21440 l
+22561 21462 l
+22564 21481 l
+22567 21498 l
+22570 21512 l
+22572 21524 l
+22575 21535 l
+22578 21543 l
+22581 21551 l
+22583 21556 l
+22586 21561 l
+22589 21564 l
+22592 21566 l
+22594 21567 l
+22597 21567 l
+22600 21565 l
+22603 21562 l
+22605 21558 l
+22608 21552 l
+22611 21545 l
+22614 21536 l
+22616 21526 l
+22619 21515 l
+22622 21503 l
+22625 21489 l
+22627 21475 l
+22630 21460 l
+22633 21446 l
+22635 21432 l
+22638 21420 l
+22641 21411 l
+22644 21405 l
+22646 21403 l
+22649 21405 l
+22652 21411 l
+22655 21421 l
+22657 21433 l
+22660 21447 l
+22663 21462 l
+22666 21478 l
+22668 21494 l
+22671 21509 l
+22674 21523 l
+22677 21536 l
+22679 21547 l
+22682 21558 l
+22685 21567 l
+22688 21574 l
+22690 21580 l
+22693 21585 l
+22696 21589 l
+22699 21591 l
+22701 21592 l
+22704 21591 l
+22707 21590 l
+22710 21587 l
+22712 21583 l
+22715 21578 l
+22718 21571 l
+22721 21563 l
+22723 21553 l
+22726 21542 l
+22729 21530 l
+22732 21515 l
+22734 21497 l
+22737 21477 l
+22740 21454 l
+22743 21425 l
+22745 21391 l
+22748 21348 l
+22751 21291 l
+22754 21209 l
+22756 21063 l
+22759 20500 l
+22762 21093 l
+22765 21231 l
+22767 21315 l
+22770 21375 l
+22773 21422 l
+22776 21460 l
+22778 21493 l
+22781 21521 l
+22784 21546 l
+22786 21568 l
+22789 21587 l
+22792 21605 l
+s
+15897 18987 15897 25037 23041 25037 23041 18987 clp
+0 z x 6 sw
+0 lc
+0 lj
+[] 0 sd
+17732 19653 m
+17732 19726 l
+s
+18294 19653 m
+18294 19726 l
+s
+18856 19653 m
+18856 19726 l
+s
+19418 19653 m
+19418 19726 l
+s
+20543 19653 m
+20543 19726 l
+s
+21105 19653 m
+21105 19726 l
+s
+21667 19653 m
+21667 19726 l
+s
+22230 19653 m
+22230 19726 l
+s
+24 sw
+17169 19653 m
+17169 19774 l
+s
+19981 19653 m
+19981 19774 l
+s
+22792 19653 m
+22792 19774 l
+s
+2 lc
+17169 19653 m
+22798 19653 l
+s
+6 sw
+0 lc
+17169 19776 m
+17242 19776 l
+s
+17169 19859 m
+17242 19859 l
+s
+17169 19918 m
+17242 19918 l
+s
+17169 19964 m
+17242 19964 l
+s
+17169 20001 m
+17242 20001 l
+s
+17169 20033 m
+17242 20033 l
+s
+17169 20060 m
+17242 20060 l
+s
+17169 20084 m
+17242 20084 l
+s
+17169 20248 m
+17242 20248 l
+s
+17169 20331 m
+17242 20331 l
+s
+17169 20390 m
+17242 20390 l
+s
+17169 20436 m
+17242 20436 l
+s
+17169 20473 m
+17242 20473 l
+s
+17169 20505 m
+17242 20505 l
+s
+17169 20532 m
+17242 20532 l
+s
+17169 20557 m
+17242 20557 l
+s
+17169 20720 m
+17242 20720 l
+s
+17169 20804 m
+17242 20804 l
+s
+17169 20863 m
+17242 20863 l
+s
+17169 20908 m
+17242 20908 l
+s
+17169 20946 m
+17242 20946 l
+s
+17169 20977 m
+17242 20977 l
+s
+17169 21005 m
+17242 21005 l
+s
+17169 21029 m
+17242 21029 l
+s
+17169 21193 m
+17242 21193 l
+s
+17169 21276 m
+17242 21276 l
+s
+17169 21335 m
+17242 21335 l
+s
+17169 21381 m
+17242 21381 l
+s
+17169 21418 m
+17242 21418 l
+s
+17169 21450 m
+17242 21450 l
+s
+17169 21477 m
+17242 21477 l
+s
+17169 21501 m
+17242 21501 l
+s
+17169 21665 m
+17242 21665 l
+s
+17169 21748 m
+17242 21748 l
+s
+17169 21807 m
+17242 21807 l
+s
+17169 21853 m
+17242 21853 l
+s
+17169 21890 m
+17242 21890 l
+s
+17169 21922 m
+17242 21922 l
+s
+17169 21949 m
+17242 21949 l
+s
+17169 21973 m
+17242 21973 l
+s
+17169 22137 m
+17242 22137 l
+s
+17169 22220 m
+17242 22220 l
+s
+17169 22279 m
+17242 22279 l
+s
+17169 22325 m
+17242 22325 l
+s
+17169 22362 m
+17242 22362 l
+s
+17169 22394 m
+17242 22394 l
+s
+17169 22421 m
+17242 22421 l
+s
+17169 22446 m
+17242 22446 l
+s
+17169 22609 m
+17242 22609 l
+s
+17169 22692 m
+17242 22692 l
+s
+17169 22751 m
+17242 22751 l
+s
+17169 22797 m
+17242 22797 l
+s
+17169 22835 m
+17242 22835 l
+s
+17169 22866 m
+17242 22866 l
+s
+17169 22894 m
+17242 22894 l
+s
+17169 22918 m
+17242 22918 l
+s
+17169 23082 m
+17242 23082 l
+s
+17169 23165 m
+17242 23165 l
+s
+17169 23224 m
+17242 23224 l
+s
+17169 23269 m
+17242 23269 l
+s
+17169 23307 m
+17242 23307 l
+s
+17169 23338 m
+17242 23338 l
+s
+17169 23366 m
+17242 23366 l
+s
+17169 23390 m
+17242 23390 l
+s
+17169 23554 m
+17242 23554 l
+s
+17169 23637 m
+17242 23637 l
+s
+17169 23696 m
+17242 23696 l
+s
+17169 23742 m
+17242 23742 l
+s
+17169 23779 m
+17242 23779 l
+s
+17169 23811 m
+17242 23811 l
+s
+17169 23838 m
+17242 23838 l
+s
+17169 23862 m
+17242 23862 l
+s
+24 sw
+17169 20106 m
+17290 20106 l
+s
+17169 20578 m
+17290 20578 l
+s
+17169 21050 m
+17290 21050 l
+s
+17169 21523 m
+17290 21523 l
+s
+17169 21995 m
+17290 21995 l
+s
+17169 22467 m
+17290 22467 l
+s
+17169 22939 m
+17290 22939 l
+s
+17169 23412 m
+17290 23412 l
+s
+17169 23884 m
+17290 23884 l
+s
+2 lc
+17169 19653 m
+17169 23884 l
+s
+-260 -0 0 354 260 -0 19854 19058 3 1 sw
+7 7 pfbi
+520.128 ftr
+0 z x 19854 19058 m
+(x) sh
+0 -1008 -354 -0 0 1008 16384 21265 3 7 7 pfbi
+520.128 ftr
+0 z x 16384 21265 m
+gs 90.0 ro
+(e) sh
+gr
+16384 21492 m
+gs 90.0 ro
+(r) sh
+gr
+16384 21666 m
+gs 90.0 ro
+(r) sh
+gr
+16384 21839 m
+gs 90.0 ro
+(o) sh
+gr
+16384 22099 m
+gs 90.0 ro
+(r) sh
+gr
+-529 -0 0 247 529 -0 16905 19346 3 7 7 pfbi
+362.88 fhn
+0 z x 16905 19346 m
+(\255) sh
+17026 19346 m
+(5) sh
+17230 19346 m
+(0) sh
+-204 -0 0 247 204 -0 19879 19346 3 7 7 pfbi
+362.88 fhn
+0 z x 19879 19346 m
+(0) sh
+-408 -0 0 247 408 -0 22588 19346 3 7 7 pfbi
+362.88 fhn
+0 z x 22588 19346 m
+(5) sh
+22792 19346 m
+(0) sh
+-603 -0 0 345 603 -0 16495 19983 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 19983 m
+(1) sh
+16699 19983 m
+(0) sh
+217.728 fhn
+16903 20164 m
+(\255) sh
+16976 20164 m
+(8) sh
+-603 -0 0 345 603 -0 16495 20455 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 20455 m
+(1) sh
+16699 20455 m
+(0) sh
+217.728 fhn
+16903 20636 m
+(\255) sh
+16976 20636 m
+(7) sh
+-603 -0 0 345 603 -0 16495 20927 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 20927 m
+(1) sh
+16699 20927 m
+(0) sh
+217.728 fhn
+16903 21109 m
+(\255) sh
+16976 21109 m
+(6) sh
+-603 -0 0 345 603 -0 16495 21399 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 21399 m
+(1) sh
+16699 21399 m
+(0) sh
+217.728 fhn
+16903 21581 m
+(\255) sh
+16976 21581 m
+(5) sh
+-603 -0 0 345 603 -0 16495 21872 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 21872 m
+(1) sh
+16699 21872 m
+(0) sh
+217.728 fhn
+16903 22053 m
+(\255) sh
+16976 22053 m
+(4) sh
+-603 -0 0 345 603 -0 16495 22344 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 22344 m
+(1) sh
+16699 22344 m
+(0) sh
+217.728 fhn
+16903 22525 m
+(\255) sh
+16976 22525 m
+(3) sh
+-603 -0 0 345 603 -0 16495 22816 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 22816 m
+(1) sh
+16699 22816 m
+(0) sh
+217.728 fhn
+16903 22997 m
+(\255) sh
+16976 22997 m
+(2) sh
+-603 -0 0 345 603 -0 16495 23288 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 23288 m
+(1) sh
+16699 23288 m
+(0) sh
+217.728 fhn
+16903 23470 m
+(\255) sh
+16976 23470 m
+(1) sh
+-531 -0 0 345 531 -0 16567 23760 3 7 7 pfbi
+362.88 fhn
+0 z x 16567 23760 m
+(1) sh
+16771 23760 m
+(0) sh
+217.728 fhn
+16976 23942 m
+(0) sh
+400 ftr
+19959 24460 m
+(t) sh
+20167 24460 m
+(=) sh
+20784 24460 m
+(1) sh
+20984 24460 m
+(5) sh
+21184 24460 m
+(.) sh
+21292 24460 m
+(0) sh
+21492 24460 m
+(9) sh
+21692 24460 m
+(8) sh
+21892 24460 m
+(5) sh
+22092 24460 m
+(0) sh
+15414 18505 15414 25519 23524 25519 23524 18505 clp
+6 sw
+2 lc
+0 lj
+[] 0 sd
+0 z 15901 18991 7136 6042 brc
+15414 12457 15414 19471 23524 19471 23524 12457 clp
+7 z 15898 12940 7142 6048 erc
+17168 13604 17168 17837 22799 17837 22799 13604 clp
+1 z x 24 sw
+0 lc
+0 lj
+[] 0 sd
+17169 15407 m
+17172 15418 l
+17175 15430 l
+17178 15440 l
+17180 15450 l
+17183 15460 l
+17186 15469 l
+17189 15477 l
+17191 15484 l
+17194 15491 l
+17197 15497 l
+17200 15503 l
+17202 15509 l
+17205 15513 l
+17208 15518 l
+17211 15522 l
+17213 15525 l
+17216 15529 l
+17219 15531 l
+17222 15534 l
+17224 15535 l
+17227 15536 l
+17230 15537 l
+17233 15536 l
+17235 15535 l
+17238 15532 l
+17241 15528 l
+17244 15522 l
+17246 15515 l
+17249 15506 l
+17252 15494 l
+17255 15480 l
+17257 15463 l
+17260 15442 l
+17263 15416 l
+17266 15385 l
+17268 15344 l
+17271 15291 l
+17274 15217 l
+17277 15093 l
+17279 14714 l
+17282 15020 l
+17285 15185 l
+17288 15276 l
+17290 15339 l
+17293 15387 l
+17296 15427 l
+17299 15460 l
+17301 15488 l
+17304 15513 l
+17307 15536 l
+17310 15556 l
+17312 15574 l
+17315 15591 l
+17318 15606 l
+17320 15620 l
+17323 15633 l
+17326 15645 l
+17329 15655 l
+17331 15665 l
+17334 15674 l
+17337 15681 l
+17340 15688 l
+17342 15694 l
+17345 15698 l
+17348 15702 l
+17351 15705 l
+17353 15706 l
+17356 15707 l
+17359 15707 l
+17362 15705 l
+17364 15703 l
+17367 15700 l
+17370 15696 l
+17373 15691 l
+17375 15685 l
+17378 15679 l
+17381 15672 l
+17384 15664 l
+17386 15656 l
+17389 15648 l
+17392 15639 l
+17395 15631 l
+17397 15622 l
+17400 15614 l
+17403 15607 l
+17406 15599 l
+17408 15593 l
+17411 15587 l
+17414 15582 l
+17417 15577 l
+17419 15574 l
+17422 15570 l
+17425 15567 l
+17428 15565 l
+17430 15562 l
+17433 15560 l
+17436 15558 l
+17439 15555 l
+17441 15552 l
+17444 15548 l
+17447 15544 l
+17450 15538 l
+17452 15532 l
+17455 15525 l
+17458 15516 l
+17460 15505 l
+17463 15493 l
+17466 15478 l
+17469 15460 l
+17471 15438 l
+17474 15411 l
+17477 15378 l
+17480 15335 l
+17482 15278 l
+17485 15191 l
+17488 15030 l
+17491 14741 l
+17493 15116 l
+17496 15243 l
+17499 15321 l
+17502 15378 l
+17504 15422 l
+17507 15458 l
+17510 15487 l
+17513 15513 l
+17515 15534 l
+17518 15552 l
+17521 15568 l
+17524 15582 l
+17526 15594 l
+17529 15604 l
+17532 15613 l
+17535 15621 l
+17537 15627 l
+17540 15633 l
+17543 15638 l
+17546 15642 l
+17548 15645 l
+17551 15647 l
+17554 15649 l
+17557 15651 l
+17559 15652 l
+17562 15652 l
+17565 15652 l
+17568 15652 l
+17570 15651 l
+17573 15650 l
+17576 15647 l
+17579 15644 l
+17581 15641 l
+17584 15636 l
+17587 15630 l
+17590 15623 l
+17592 15615 l
+17595 15605 l
+17598 15593 l
+17601 15580 l
+17603 15565 l
+17606 15547 l
+17609 15527 l
+17611 15504 l
+17614 15477 l
+17617 15446 l
+17620 15410 l
+17622 15367 l
+17625 15316 l
+17628 15251 l
+17631 15164 l
+17633 15030 l
+17636 14676 l
+17639 14901 l
+17642 15053 l
+17644 15123 l
+17647 15161 l
+17650 15179 l
+17653 15183 l
+17655 15172 l
+17658 15144 l
+17661 15093 l
+17664 14996 l
+17666 14713 l
+17669 14898 l
+17672 15092 l
+17675 15197 l
+17677 15270 l
+17680 15325 l
+17683 15370 l
+17686 15407 l
+17688 15437 l
+17691 15464 l
+17694 15486 l
+17697 15505 l
+17699 15521 l
+17702 15535 l
+17705 15546 l
+17708 15556 l
+17710 15564 l
+17713 15571 l
+17716 15576 l
+17719 15581 l
+17721 15584 l
+17724 15587 l
+17727 15589 l
+17730 15591 l
+17732 15592 l
+17735 15593 l
+17738 15593 l
+17741 15594 l
+17743 15594 l
+17746 15594 l
+17749 15593 l
+17752 15593 l
+17754 15592 l
+17757 15591 l
+17760 15590 l
+17762 15588 l
+17765 15585 l
+17768 15582 l
+17771 15578 l
+17773 15573 l
+17776 15568 l
+17779 15561 l
+17782 15553 l
+17784 15544 l
+17787 15533 l
+17790 15521 l
+17793 15507 l
+17795 15491 l
+17798 15473 l
+17801 15452 l
+17804 15427 l
+17806 15398 l
+17809 15363 l
+17812 15320 l
+17815 15265 l
+17817 15187 l
+17820 15058 l
+17823 14632 l
+17826 15000 l
+17828 15158 l
+17831 15246 l
+17834 15307 l
+17837 15353 l
+17839 15390 l
+17842 15421 l
+17845 15447 l
+17848 15470 l
+17850 15491 l
+17853 15508 l
+17856 15525 l
+17859 15539 l
+17861 15552 l
+17864 15564 l
+17867 15575 l
+17870 15585 l
+17872 15593 l
+17875 15601 l
+17878 15609 l
+17881 15615 l
+17883 15620 l
+17886 15625 l
+17889 15629 l
+17892 15633 l
+17894 15636 l
+17897 15639 l
+17900 15641 l
+17903 15643 l
+17905 15644 l
+17908 15646 l
+17911 15647 l
+17913 15648 l
+17916 15649 l
+17919 15650 l
+17922 15652 l
+17924 15653 l
+17927 15653 l
+17930 15654 l
+17933 15655 l
+17935 15656 l
+17938 15656 l
+17941 15656 l
+17944 15656 l
+17946 15655 l
+17949 15654 l
+17952 15653 l
+17955 15651 l
+17957 15649 l
+17960 15646 l
+17963 15643 l
+17966 15640 l
+17968 15637 l
+17971 15634 l
+17974 15631 l
+17977 15628 l
+17979 15625 l
+17982 15622 l
+17985 15620 l
+17988 15617 l
+17990 15615 l
+17993 15613 l
+17996 15611 l
+17999 15610 l
+18001 15608 l
+18004 15607 l
+18007 15606 l
+18010 15605 l
+18012 15604 l
+18015 15603 l
+18018 15602 l
+18021 15601 l
+18023 15601 l
+18026 15600 l
+18029 15599 l
+18032 15599 l
+18034 15598 l
+18037 15597 l
+18040 15596 l
+18043 15595 l
+18045 15593 l
+18048 15591 l
+18051 15589 l
+18053 15585 l
+18056 15581 l
+18059 15576 l
+18062 15569 l
+18064 15561 l
+18067 15552 l
+18070 15540 l
+18073 15526 l
+18075 15509 l
+18078 15489 l
+18081 15464 l
+18084 15434 l
+18086 15395 l
+18089 15344 l
+18092 15271 l
+18095 15152 l
+18097 14809 l
+18100 15062 l
+18103 15233 l
+18106 15326 l
+18108 15389 l
+18111 15436 l
+18114 15474 l
+18117 15504 l
+18119 15530 l
+18122 15551 l
+18125 15569 l
+18128 15583 l
+18130 15595 l
+18133 15605 l
+18136 15613 l
+18139 15619 l
+18141 15623 l
+18144 15626 l
+18147 15627 l
+18150 15627 l
+18152 15626 l
+18155 15624 l
+18158 15622 l
+18161 15619 l
+18163 15615 l
+18166 15611 l
+18169 15607 l
+18172 15604 l
+18174 15600 l
+18177 15597 l
+18180 15595 l
+18183 15592 l
+18185 15591 l
+18188 15589 l
+18191 15588 l
+18194 15588 l
+18196 15587 l
+18199 15586 l
+18202 15585 l
+18204 15583 l
+18207 15581 l
+18210 15578 l
+18213 15574 l
+18215 15569 l
+18218 15563 l
+18221 15556 l
+18224 15547 l
+18226 15537 l
+18229 15525 l
+18232 15513 l
+18235 15499 l
+18237 15484 l
+18240 15468 l
+18243 15451 l
+18246 15435 l
+18248 15419 l
+18251 15403 l
+18254 15390 l
+18257 15379 l
+18259 15370 l
+18262 15365 l
+18265 15362 l
+18268 15363 l
+18270 15366 l
+18273 15372 l
+18276 15379 l
+18279 15386 l
+18281 15395 l
+18284 15403 l
+18287 15411 l
+18290 15419 l
+18292 15427 l
+18295 15434 l
+18298 15442 l
+18301 15449 l
+18303 15457 l
+18306 15465 l
+18309 15473 l
+18312 15481 l
+18314 15490 l
+18317 15500 l
+18320 15510 l
+18323 15520 l
+18325 15531 l
+18328 15542 l
+18331 15554 l
+18334 15565 l
+18336 15577 l
+18339 15589 l
+18342 15600 l
+18345 15611 l
+18347 15622 l
+18350 15633 l
+18353 15643 l
+18355 15653 l
+18358 15662 l
+18361 15671 l
+18364 15679 l
+18366 15686 l
+18369 15693 l
+18372 15699 l
+18375 15704 l
+18377 15708 l
+18380 15712 l
+18383 15715 l
+18386 15717 l
+18388 15718 l
+18391 15718 l
+18394 15718 l
+18397 15717 l
+18399 15714 l
+18402 15711 l
+18405 15708 l
+18408 15703 l
+18410 15697 l
+18413 15691 l
+18416 15684 l
+18419 15675 l
+18421 15667 l
+18424 15657 l
+18427 15646 l
+18430 15634 l
+18432 15621 l
+18435 15607 l
+18438 15592 l
+18441 15575 l
+18443 15556 l
+18446 15535 l
+18449 15511 l
+18452 15483 l
+18454 15450 l
+18457 15409 l
+18460 15358 l
+18463 15289 l
+18465 15183 l
+18468 14948 l
+18471 14975 l
+18474 15191 l
+18476 15292 l
+18479 15358 l
+18482 15406 l
+18485 15443 l
+18487 15473 l
+18490 15497 l
+18493 15516 l
+18495 15532 l
+18498 15545 l
+18501 15555 l
+18504 15563 l
+18506 15569 l
+18509 15573 l
+18512 15576 l
+18515 15577 l
+18517 15578 l
+18520 15578 l
+18523 15577 l
+18526 15575 l
+18528 15574 l
+18531 15572 l
+18534 15571 l
+18537 15571 l
+18539 15571 l
+18542 15572 l
+18545 15573 l
+18548 15576 l
+18550 15580 l
+18553 15585 l
+18556 15591 l
+18559 15597 l
+18561 15605 l
+18564 15613 l
+18567 15622 l
+18570 15631 l
+18572 15640 l
+18575 15649 l
+18578 15658 l
+18581 15667 l
+18583 15675 l
+18586 15683 l
+18589 15691 l
+18592 15698 l
+18594 15705 l
+18597 15711 l
+18600 15716 l
+18603 15721 l
+18605 15725 l
+18608 15729 l
+18611 15732 l
+18614 15734 l
+18616 15735 l
+18619 15736 l
+18622 15735 l
+18625 15734 l
+18627 15732 l
+18630 15729 l
+18633 15725 l
+18636 15720 l
+18638 15714 l
+18641 15707 l
+18644 15698 l
+18646 15688 l
+18649 15676 l
+18652 15663 l
+18655 15648 l
+18657 15631 l
+18660 15612 l
+18663 15591 l
+18666 15568 l
+18668 15542 l
+18671 15514 l
+18674 15483 l
+18677 15449 l
+18679 15413 l
+18682 15375 l
+18685 15336 l
+18688 15297 l
+18690 15263 l
+18693 15236 l
+18696 15221 l
+18699 15222 l
+18701 15237 l
+18704 15263 l
+18707 15295 l
+18710 15330 l
+18712 15365 l
+18715 15398 l
+18718 15429 l
+18721 15458 l
+18723 15484 l
+18726 15508 l
+18729 15529 l
+18732 15548 l
+18734 15565 l
+18737 15579 l
+18740 15593 l
+18743 15604 l
+18745 15614 l
+18748 15623 l
+18751 15630 l
+18754 15636 l
+18756 15641 l
+18759 15645 l
+18762 15648 l
+18765 15650 l
+18767 15651 l
+18770 15652 l
+18773 15652 l
+18776 15652 l
+18778 15652 l
+18781 15651 l
+18784 15649 l
+18787 15648 l
+18789 15647 l
+18792 15645 l
+18795 15644 l
+18797 15642 l
+18800 15641 l
+18803 15639 l
+18806 15638 l
+18808 15637 l
+18811 15636 l
+18814 15635 l
+18817 15634 l
+18819 15633 l
+18822 15631 l
+18825 15630 l
+18828 15628 l
+18830 15626 l
+18833 15623 l
+18836 15621 l
+18839 15617 l
+18841 15614 l
+18844 15609 l
+18847 15605 l
+18850 15600 l
+18852 15595 l
+18855 15591 l
+18858 15587 l
+18861 15584 l
+18863 15583 l
+18866 15584 l
+18869 15589 l
+18872 15597 l
+18874 15609 l
+18877 15625 l
+18880 15646 l
+18883 15671 l
+18885 15700 l
+18888 15732 l
+18891 15767 l
+18894 15803 l
+18896 15841 l
+18899 15880 l
+18902 15919 l
+18905 15959 l
+18907 15999 l
+18910 16040 l
+18913 16080 l
+18916 16120 l
+18918 16161 l
+18921 16201 l
+18924 16241 l
+18927 16281 l
+18929 16321 l
+18932 16361 l
+18935 16401 l
+18938 16441 l
+18940 16481 l
+18943 16521 l
+18946 16561 l
+18948 16601 l
+18951 16641 l
+18954 16681 l
+18957 16721 l
+18959 16761 l
+18962 16800 l
+18965 16840 l
+18968 16880 l
+18970 16919 l
+18973 16959 l
+18976 16998 l
+18979 17037 l
+18981 17076 l
+18984 17115 l
+18987 17153 l
+18990 17192 l
+18992 17229 l
+18995 17267 l
+18998 17303 l
+19001 17339 l
+19003 17374 l
+19006 17408 l
+19009 17441 l
+19012 17473 l
+19014 17502 l
+19017 17529 l
+19020 17554 l
+19023 17575 l
+19025 17593 l
+19028 17605 l
+19031 17612 l
+19034 17613 l
+19036 17604 l
+19039 17584 l
+19042 17548 l
+19045 17487 l
+19047 17377 l
+19050 17064 l
+19053 17266 l
+19056 17436 l
+19058 17518 l
+19061 17566 l
+19064 17594 l
+19067 17609 l
+19069 17613 l
+19072 17609 l
+19075 17600 l
+19078 17584 l
+19080 17565 l
+19083 17542 l
+19086 17516 l
+19088 17488 l
+19091 17458 l
+19094 17426 l
+19097 17392 l
+19099 17357 l
+19102 17322 l
+19105 17286 l
+19108 17249 l
+19110 17211 l
+19113 17173 l
+19116 17135 l
+19119 17096 l
+19121 17057 l
+19124 17018 l
+19127 16979 l
+19130 16940 l
+19132 16901 l
+19135 16861 l
+19138 16822 l
+19141 16782 l
+19143 16743 l
+19146 16703 l
+19149 16664 l
+19152 16624 l
+19154 16585 l
+19157 16546 l
+19160 16506 l
+19163 16467 l
+19165 16428 l
+19168 16390 l
+19171 16351 l
+19174 16313 l
+19176 16276 l
+19179 16238 l
+19182 16201 l
+19185 16165 l
+19187 16129 l
+19190 16094 l
+19193 16060 l
+19196 16027 l
+19198 15995 l
+19201 15965 l
+19204 15935 l
+19207 15907 l
+19209 15881 l
+19212 15856 l
+19215 15832 l
+19218 15810 l
+19220 15790 l
+19223 15770 l
+19226 15752 l
+19229 15734 l
+19231 15718 l
+19234 15702 l
+19237 15686 l
+19239 15671 l
+19242 15657 l
+19245 15642 l
+19248 15628 l
+19250 15615 l
+19253 15601 l
+19256 15589 l
+19259 15577 l
+19261 15566 l
+19264 15556 l
+19267 15548 l
+19270 15540 l
+19272 15535 l
+19275 15531 l
+19278 15529 l
+19281 15529 l
+19283 15531 l
+19286 15534 l
+19289 15540 l
+19292 15546 l
+19294 15554 l
+19297 15564 l
+19300 15574 l
+19303 15584 l
+19305 15596 l
+19308 15607 l
+19311 15619 l
+19314 15631 l
+19316 15642 l
+19319 15654 l
+19322 15665 l
+19325 15675 l
+19327 15685 l
+19330 15695 l
+19333 15704 l
+19336 15713 l
+19338 15721 l
+19341 15729 l
+19344 15736 l
+19347 15743 l
+19349 15749 l
+19352 15755 l
+19355 15760 l
+19358 15766 l
+19360 15770 l
+19363 15775 l
+19366 15779 l
+19369 15783 l
+19371 15786 l
+19374 15789 l
+19377 15792 l
+19380 15794 l
+19382 15796 l
+19385 15797 l
+19388 15798 l
+19390 15799 l
+19393 15800 l
+19396 15800 l
+19399 15800 l
+19401 15800 l
+19404 15799 l
+19407 15799 l
+19410 15798 l
+19412 15796 l
+19415 15795 l
+19418 15793 l
+19421 15790 l
+19423 15788 l
+19426 15785 l
+19429 15781 l
+19432 15778 l
+19434 15774 l
+19437 15769 l
+19440 15764 l
+19443 15759 l
+19445 15754 l
+19448 15748 l
+19451 15742 l
+19454 15736 l
+19456 15730 l
+19459 15723 l
+19462 15717 l
+19465 15711 l
+19467 15704 l
+19470 15698 l
+19473 15692 l
+19476 15687 l
+19478 15681 l
+19481 15676 l
+19484 15671 l
+19487 15667 l
+19489 15662 l
+19492 15658 l
+19495 15654 l
+19498 15650 l
+19500 15645 l
+19503 15641 l
+19506 15637 l
+19509 15633 l
+19511 15628 l
+19514 15624 l
+19517 15619 l
+19520 15615 l
+19522 15610 l
+19525 15606 l
+19528 15602 l
+19530 15598 l
+19533 15594 l
+19536 15590 l
+19539 15587 l
+19541 15584 l
+19544 15581 l
+19547 15578 l
+19550 15575 l
+19552 15573 l
+19555 15570 l
+19558 15567 l
+19561 15564 l
+19563 15560 l
+19566 15557 l
+19569 15552 l
+19572 15548 l
+19574 15543 l
+19577 15537 l
+19580 15532 l
+19583 15525 l
+19585 15519 l
+19588 15513 l
+19591 15506 l
+19594 15500 l
+19596 15494 l
+19599 15488 l
+19602 15483 l
+19605 15479 l
+19607 15476 l
+19610 15474 l
+19613 15473 l
+19616 15473 l
+19618 15475 l
+19621 15477 l
+19624 15480 l
+19627 15484 l
+19629 15489 l
+19632 15494 l
+19635 15500 l
+19638 15506 l
+19640 15512 l
+19643 15518 l
+19646 15524 l
+19649 15530 l
+19651 15536 l
+19654 15541 l
+19657 15546 l
+19660 15551 l
+19662 15556 l
+19665 15560 l
+19668 15564 l
+19671 15568 l
+19673 15571 l
+19676 15574 l
+19679 15577 l
+19681 15579 l
+19684 15581 l
+19687 15583 l
+19690 15584 l
+19692 15585 l
+19695 15586 l
+19698 15586 l
+19701 15585 l
+19703 15585 l
+19706 15584 l
+19709 15583 l
+19712 15582 l
+19714 15580 l
+19717 15579 l
+19720 15578 l
+19723 15577 l
+19725 15576 l
+19728 15576 l
+19731 15576 l
+19734 15577 l
+19736 15578 l
+19739 15580 l
+19742 15583 l
+19745 15586 l
+19747 15590 l
+19750 15594 l
+19753 15598 l
+19756 15602 l
+19758 15606 l
+19761 15609 l
+19764 15613 l
+19767 15615 l
+19769 15617 l
+19772 15618 l
+19775 15619 l
+19778 15618 l
+19780 15617 l
+19783 15615 l
+19786 15611 l
+19789 15607 l
+19791 15602 l
+19794 15596 l
+19797 15590 l
+19800 15582 l
+19802 15574 l
+19805 15566 l
+19808 15557 l
+19811 15548 l
+19813 15539 l
+19816 15530 l
+19819 15521 l
+19822 15512 l
+19824 15503 l
+19827 15495 l
+19830 15486 l
+19832 15479 l
+19835 15471 l
+19838 15464 l
+19841 15457 l
+19843 15450 l
+19846 15442 l
+19849 15435 l
+19852 15427 l
+19854 15419 l
+19857 15411 l
+19860 15401 l
+19863 15391 l
+19865 15380 l
+19868 15368 l
+19871 15354 l
+19874 15339 l
+19876 15323 l
+19879 15305 l
+19882 15286 l
+19885 15264 l
+19887 15240 l
+19890 15214 l
+19893 15185 l
+19896 15153 l
+19898 15118 l
+19901 15079 l
+19904 15036 l
+19907 14988 l
+19909 14937 l
+19912 14883 l
+19915 14830 l
+19918 14785 l
+19920 14758 l
+19923 14758 l
+19926 14782 l
+19929 14821 l
+19931 14865 l
+19934 14909 l
+19937 14947 l
+19940 14979 l
+19942 15004 l
+19945 15021 l
+19948 15029 l
+19951 15027 l
+19953 15011 l
+19956 14974 l
+19959 14900 l
+19962 14709 l
+19964 14711 l
+19967 14966 l
+19970 15092 l
+19973 15179 l
+19975 15247 l
+19978 15302 l
+19981 15349 l
+19983 15389 l
+19986 15424 l
+19989 15454 l
+19992 15481 l
+19994 15504 l
+19997 15525 l
+20000 15543 l
+20003 15558 l
+20005 15572 l
+20008 15582 l
+20011 15591 l
+20014 15598 l
+20016 15603 l
+20019 15605 l
+20022 15606 l
+20025 15604 l
+20027 15599 l
+20030 15593 l
+20033 15583 l
+20036 15570 l
+20038 15554 l
+20041 15533 l
+20044 15506 l
+20047 15472 l
+20049 15427 l
+20052 15364 l
+20055 15267 l
+20058 15065 l
+20060 14999 l
+20063 15251 l
+20066 15361 l
+20069 15432 l
+20071 15483 l
+20074 15523 l
+20077 15556 l
+20080 15583 l
+20082 15605 l
+20085 15624 l
+20088 15640 l
+20091 15654 l
+20093 15665 l
+20096 15675 l
+20099 15683 l
+20102 15690 l
+20104 15696 l
+20107 15700 l
+20110 15704 l
+20113 15707 l
+20115 15709 l
+20118 15710 l
+20121 15710 l
+20123 15710 l
+20126 15708 l
+20129 15706 l
+20132 15703 l
+20134 15698 l
+20137 15693 l
+20140 15687 l
+20143 15679 l
+20145 15669 l
+20148 15659 l
+20151 15646 l
+20154 15632 l
+20156 15615 l
+20159 15597 l
+20162 15575 l
+20165 15550 l
+20167 15521 l
+20170 15488 l
+20173 15447 l
+20176 15396 l
+20178 15329 l
+20181 15232 l
+20184 15047 l
+20187 14867 l
+20189 15166 l
+20192 15278 l
+20195 15348 l
+20198 15397 l
+20200 15435 l
+20203 15464 l
+20206 15488 l
+20209 15507 l
+20211 15523 l
+20214 15536 l
+20217 15546 l
+20220 15555 l
+20222 15561 l
+20225 15565 l
+20228 15568 l
+20231 15570 l
+20233 15570 l
+20236 15569 l
+20239 15567 l
+20242 15563 l
+20244 15559 l
+20247 15554 l
+20250 15548 l
+20253 15541 l
+20255 15534 l
+20258 15526 l
+20261 15517 l
+20264 15508 l
+20266 15499 l
+20269 15489 l
+20272 15479 l
+20274 15470 l
+20277 15460 l
+20280 15451 l
+20283 15441 l
+20285 15433 l
+20288 15425 l
+20291 15417 l
+20294 15410 l
+20296 15404 l
+20299 15399 l
+20302 15395 l
+20305 15391 l
+20307 15388 l
+20310 15386 l
+20313 15384 l
+20316 15382 l
+20318 15381 l
+20321 15379 l
+20324 15377 l
+20327 15375 l
+20329 15372 l
+20332 15368 l
+20335 15362 l
+20338 15355 l
+20340 15346 l
+20343 15335 l
+20346 15321 l
+20349 15303 l
+20351 15281 l
+20354 15253 l
+20357 15217 l
+20360 15170 l
+20362 15105 l
+20365 15003 l
+20368 14779 l
+20371 14780 l
+20373 15005 l
+20376 15108 l
+20379 15175 l
+20382 15224 l
+20384 15261 l
+20387 15291 l
+20390 15315 l
+20393 15334 l
+20395 15350 l
+20398 15363 l
+20401 15374 l
+20404 15382 l
+20406 15388 l
+20409 15393 l
+20412 15395 l
+20415 15396 l
+20417 15396 l
+20420 15393 l
+20423 15389 l
+20425 15383 l
+20428 15375 l
+20431 15365 l
+20434 15353 l
+20436 15339 l
+20439 15322 l
+20442 15303 l
+20445 15282 l
+20447 15259 l
+20450 15235 l
+20453 15210 l
+20456 15186 l
+20458 15165 l
+20461 15150 l
+20464 15143 l
+20467 15145 l
+q
+20469 15157 l
+20472 15178 l
+20475 15205 l
+20478 15234 l
+20480 15265 l
+20483 15295 l
+20486 15324 l
+20489 15351 l
+20491 15375 l
+20494 15397 l
+20497 15416 l
+20500 15432 l
+20502 15446 l
+20505 15457 l
+20508 15466 l
+20511 15473 l
+20513 15477 l
+20516 15479 l
+20519 15478 l
+20522 15476 l
+20524 15471 l
+20527 15463 l
+20530 15453 l
+20533 15441 l
+20535 15425 l
+20538 15407 l
+20541 15386 l
+20544 15362 l
+20546 15334 l
+20549 15301 l
+20552 15263 l
+20555 15218 l
+20557 15163 l
+20560 15092 l
+20563 14991 l
+20565 14805 l
+20568 14617 l
+20571 14917 l
+20574 15031 l
+20576 15103 l
+20579 15157 l
+20582 15201 l
+20585 15238 l
+20587 15272 l
+20590 15304 l
+20593 15334 l
+20596 15362 l
+20598 15390 l
+20601 15416 l
+20604 15441 l
+20607 15466 l
+20609 15490 l
+20612 15514 l
+20615 15537 l
+20618 15559 l
+20620 15581 l
+20623 15603 l
+20626 15625 l
+20629 15646 l
+20631 15667 l
+20634 15689 l
+20637 15710 l
+20640 15731 l
+20642 15752 l
+20645 15773 l
+20648 15794 l
+20651 15815 l
+20653 15836 l
+20656 15857 l
+20659 15877 l
+20662 15898 l
+20664 15918 l
+20667 15938 l
+20670 15958 l
+20673 15978 l
+20675 15997 l
+20678 16017 l
+20681 16036 l
+20684 16055 l
+20686 16074 l
+20689 16094 l
+20692 16113 l
+20695 16131 l
+20697 16150 l
+20700 16169 l
+20703 16188 l
+20706 16207 l
+20708 16226 l
+20711 16245 l
+20714 16264 l
+20716 16283 l
+20719 16302 l
+20722 16321 l
+20725 16340 l
+20727 16359 l
+20730 16378 l
+20733 16397 l
+20736 16417 l
+20738 16436 l
+20741 16455 l
+20744 16475 l
+20747 16494 l
+20749 16514 l
+20752 16533 l
+20755 16553 l
+20758 16572 l
+20760 16591 l
+20763 16611 l
+20766 16630 l
+20769 16650 l
+20771 16669 l
+20774 16689 l
+20777 16708 l
+20780 16727 l
+20782 16746 l
+20785 16765 l
+20788 16784 l
+20791 16803 l
+20793 16822 l
+20796 16841 l
+20799 16859 l
+20802 16878 l
+20804 16896 l
+20807 16914 l
+20810 16932 l
+20813 16950 l
+20815 16967 l
+20818 16984 l
+20821 17001 l
+20824 17017 l
+20826 17034 l
+20829 17049 l
+20832 17065 l
+20835 17080 l
+20837 17094 l
+20840 17108 l
+20843 17121 l
+20846 17134 l
+20848 17146 l
+20851 17157 l
+20854 17167 l
+20857 17176 l
+20859 17184 l
+20862 17191 l
+20865 17196 l
+20867 17201 l
+20870 17203 l
+20873 17204 l
+20876 17203 l
+20878 17200 l
+20881 17194 l
+20884 17185 l
+20887 17173 l
+20889 17157 l
+20892 17136 l
+20895 17108 l
+20898 17073 l
+20900 17025 l
+20903 16958 l
+20906 16850 l
+20909 16598 l
+20911 16673 l
+20914 16875 l
+20917 16972 l
+20920 17035 l
+20922 17081 l
+20925 17115 l
+20928 17141 l
+20931 17161 l
+20933 17176 l
+20936 17188 l
+20939 17196 l
+20942 17202 l
+20944 17205 l
+20947 17206 l
+20950 17204 l
+20953 17202 l
+20955 17197 l
+20958 17191 l
+20961 17184 l
+20964 17176 l
+20966 17167 l
+20969 17156 l
+20972 17145 l
+20975 17133 l
+20977 17121 l
+20980 17107 l
+20983 17093 l
+20986 17079 l
+20988 17064 l
+20991 17048 l
+20994 17032 l
+20997 17016 l
+20999 17000 l
+21002 16983 l
+21005 16965 l
+21008 16948 l
+21010 16930 l
+21013 16912 l
+21016 16894 l
+21018 16876 l
+21021 16858 l
+21024 16839 l
+21027 16820 l
+21029 16801 l
+21032 16782 l
+21035 16763 l
+21038 16744 l
+21040 16725 l
+21043 16705 l
+21046 16686 l
+21049 16667 l
+21051 16647 l
+21054 16627 l
+21057 16608 l
+21060 16588 l
+21062 16568 l
+21065 16548 l
+21068 16528 l
+21071 16508 l
+21073 16488 l
+21076 16468 l
+21079 16448 l
+21082 16428 l
+21084 16408 l
+21087 16387 l
+21090 16367 l
+21093 16346 l
+21095 16326 l
+21098 16305 l
+21101 16284 l
+21104 16263 l
+21106 16242 l
+21109 16220 l
+21112 16199 l
+21115 16177 l
+21117 16155 l
+21120 16133 l
+21123 16111 l
+21126 16088 l
+21128 16066 l
+21131 16042 l
+21134 16019 l
+21137 15995 l
+21139 15972 l
+21142 15948 l
+21145 15923 l
+21148 15899 l
+21150 15874 l
+21153 15849 l
+21156 15824 l
+21158 15799 l
+21161 15774 l
+21164 15749 l
+21167 15724 l
+21169 15699 l
+21172 15674 l
+21175 15649 l
+21178 15623 l
+21180 15599 l
+21183 15574 l
+21186 15550 l
+21189 15527 l
+21191 15505 l
+21194 15484 l
+21197 15466 l
+21200 15451 l
+21202 15439 l
+21205 15431 l
+21208 15428 l
+21211 15428 l
+21213 15433 l
+21216 15440 l
+21219 15450 l
+21222 15462 l
+21224 15474 l
+21227 15487 l
+21230 15499 l
+21233 15511 l
+21235 15522 l
+21238 15531 l
+21241 15539 l
+21244 15546 l
+21246 15551 l
+21249 15554 l
+21252 15556 l
+21255 15556 l
+21257 15554 l
+21260 15550 l
+21263 15544 l
+21266 15536 l
+21268 15526 l
+21271 15514 l
+21274 15500 l
+21277 15483 l
+21279 15464 l
+21282 15442 l
+21285 15417 l
+21288 15388 l
+21290 15355 l
+21293 15317 l
+21296 15272 l
+21299 15219 l
+21301 15152 l
+21304 15063 l
+21307 14924 l
+21309 14523 l
+21312 14822 l
+21315 14970 l
+21318 15044 l
+21320 15089 l
+21323 15120 l
+21326 15141 l
+21329 15156 l
+21331 15167 l
+21334 15174 l
+21337 15178 l
+21340 15179 l
+21342 15179 l
+21345 15176 l
+21348 15171 l
+21351 15163 l
+21353 15150 l
+21356 15133 l
+21359 15108 l
+21362 15071 l
+21364 15014 l
+21367 14913 l
+21370 14625 l
+21373 14822 l
+21375 15018 l
+21378 15126 l
+21381 15204 l
+21384 15266 l
+21386 15317 l
+21389 15362 l
+21392 15400 l
+21395 15434 l
+21397 15465 l
+21400 15492 l
+21403 15516 l
+21406 15538 l
+21408 15558 l
+21411 15575 l
+21414 15590 l
+21417 15604 l
+21419 15615 l
+21422 15625 l
+21425 15633 l
+21428 15639 l
+21430 15644 l
+21433 15647 l
+21436 15648 l
+21439 15647 l
+21441 15646 l
+21444 15642 l
+21447 15637 l
+21450 15630 l
+21452 15621 l
+21455 15610 l
+21458 15597 l
+21460 15582 l
+21463 15564 l
+21466 15543 l
+21469 15518 l
+21471 15488 l
+21474 15452 l
+21477 15407 l
+21480 15349 l
+21482 15266 l
+21485 15125 l
+21488 14356 l
+21491 15111 l
+21493 15253 l
+21496 15333 l
+21499 15389 l
+21502 15430 l
+21504 15462 l
+21507 15488 l
+21510 15510 l
+21513 15527 l
+21515 15542 l
+21518 15554 l
+21521 15564 l
+21524 15572 l
+21526 15578 l
+21529 15584 l
+21532 15587 l
+21535 15590 l
+21537 15592 l
+21540 15593 l
+21543 15593 l
+21546 15592 l
+21548 15590 l
+21551 15588 l
+21554 15585 l
+21557 15582 l
+21559 15578 l
+21562 15573 l
+21565 15569 l
+21568 15564 l
+21570 15559 l
+21573 15554 l
+21576 15550 l
+21579 15545 l
+21581 15541 l
+21584 15537 l
+21587 15533 l
+21590 15530 l
+21592 15528 l
+21595 15526 l
+21598 15525 l
+21600 15524 l
+21603 15523 l
+21606 15523 l
+21609 15524 l
+21611 15524 l
+21614 15525 l
+21617 15526 l
+21620 15527 l
+21622 15528 l
+21625 15529 l
+21628 15530 l
+21631 15531 l
+21633 15531 l
+21636 15531 l
+21639 15531 l
+21642 15530 l
+21644 15529 l
+21647 15527 l
+21650 15525 l
+21653 15521 l
+21655 15518 l
+21658 15513 l
+21661 15507 l
+21664 15500 l
+21666 15492 l
+21669 15483 l
+21672 15472 l
+21675 15459 l
+21677 15443 l
+21680 15424 l
+21683 15402 l
+21686 15374 l
+21688 15339 l
+21691 15293 l
+21694 15229 l
+21697 15128 l
+21699 14895 l
+21702 14937 l
+21705 15156 l
+21708 15262 l
+21710 15334 l
+21713 15388 l
+21716 15431 l
+21719 15468 l
+21721 15498 l
+21724 15524 l
+21727 15547 l
+21730 15567 l
+21732 15584 l
+21735 15599 l
+21738 15612 l
+21741 15623 l
+21743 15632 l
+21746 15640 l
+21749 15646 l
+21751 15651 l
+21754 15655 l
+21757 15657 l
+21760 15659 l
+21762 15659 l
+21765 15659 l
+21768 15657 l
+21771 15655 l
+21773 15652 l
+21776 15649 l
+21779 15644 l
+21782 15639 l
+21784 15634 l
+21787 15628 l
+21790 15622 l
+21793 15614 l
+21795 15607 l
+21798 15598 l
+21801 15589 l
+21804 15580 l
+21806 15569 l
+21809 15558 l
+21812 15546 l
+21815 15533 l
+21817 15519 l
+21820 15505 l
+21823 15489 l
+21826 15473 l
+21828 15455 l
+21831 15437 l
+21834 15419 l
+21837 15400 l
+21839 15381 l
+21842 15363 l
+21845 15345 l
+21848 15328 l
+21850 15312 l
+21853 15297 l
+21856 15283 l
+21859 15270 l
+21861 15257 l
+21864 15244 l
+21867 15230 l
+21870 15213 l
+21872 15193 l
+21875 15167 l
+21878 15132 l
+21881 15084 l
+21883 15011 l
+21886 14879 l
+21889 13799 l
+21892 14893 l
+21894 15043 l
+21897 15132 l
+21900 15196 l
+21902 15246 l
+21905 15287 l
+21908 15321 l
+21911 15351 l
+21913 15377 l
+21916 15400 l
+21919 15421 l
+21922 15440 l
+21924 15457 l
+21927 15473 l
+21930 15487 l
+21933 15501 l
+21935 15513 l
+21938 15524 l
+21941 15534 l
+21944 15544 l
+21946 15552 l
+21949 15559 l
+21952 15565 l
+21955 15570 l
+21957 15573 l
+21960 15575 l
+21963 15576 l
+21966 15576 l
+21968 15575 l
+21971 15572 l
+21974 15568 l
+21977 15562 l
+21979 15556 l
+21982 15548 l
+21985 15540 l
+21988 15531 l
+21990 15521 l
+21993 15511 l
+21996 15500 l
+21999 15489 l
+22001 15479 l
+22004 15468 l
+22007 15459 l
+22010 15449 l
+22012 15441 l
+22015 15433 l
+22018 15425 l
+22021 15419 l
+22023 15413 l
+22026 15407 l
+22029 15402 l
+22032 15398 l
+22034 15393 l
+22037 15388 l
+22040 15383 l
+22043 15378 l
+22045 15372 l
+22048 15366 l
+22051 15358 l
+22053 15350 l
+22056 15341 l
+22059 15331 l
+22062 15319 l
+22064 15305 l
+22067 15290 l
+22070 15274 l
+22073 15256 l
+22075 15236 l
+22078 15214 l
+22081 15192 l
+22084 15169 l
+22086 15147 l
+22089 15127 l
+22092 15111 l
+22095 15100 l
+22097 15096 l
+22100 15099 l
+22103 15109 l
+22106 15126 l
+22108 15146 l
+22111 15169 l
+22114 15194 l
+22117 15218 l
+22119 15242 l
+22122 15265 l
+22125 15285 l
+22128 15304 l
+22130 15322 l
+22133 15337 l
+22136 15350 l
+22139 15361 l
+22141 15371 l
+22144 15378 l
+22147 15383 l
+22150 15386 l
+22152 15386 l
+22155 15384 l
+22158 15380 l
+22161 15372 l
+22163 15362 l
+22166 15347 l
+22169 15328 l
+22172 15304 l
+22174 15272 l
+22177 15231 l
+22180 15173 l
+22183 15085 l
+22185 14913 l
+22188 14710 l
+22191 15032 l
+22193 15154 l
+22196 15231 l
+22199 15287 l
+22202 15331 l
+22204 15367 l
+22207 15398 l
+22210 15424 l
+22213 15446 l
+22215 15466 l
+22218 15484 l
+22221 15500 l
+22224 15515 l
+22226 15528 l
+22229 15540 l
+22232 15552 l
+22235 15563 l
+22237 15574 l
+22240 15584 l
+22243 15594 l
+22246 15604 l
+22248 15614 l
+22251 15623 l
+22254 15633 l
+22257 15642 l
+22259 15651 l
+22262 15660 l
+22265 15668 l
+22268 15676 l
+22270 15684 l
+22273 15691 l
+22276 15697 l
+22279 15703 l
+22281 15707 l
+22284 15711 l
+22287 15714 l
+22290 15716 l
+22292 15716 l
+22295 15716 l
+22298 15714 l
+22301 15711 l
+22303 15706 l
+22306 15699 l
+22309 15691 l
+22312 15682 l
+22314 15670 l
+22317 15655 l
+22320 15639 l
+22323 15619 l
+22325 15596 l
+22328 15568 l
+22331 15536 l
+22334 15496 l
+22336 15446 l
+22339 15380 l
+22342 15284 l
+22344 15102 l
+22347 14908 l
+22350 15214 l
+22353 15327 l
+22355 15397 l
+22358 15446 l
+22361 15483 l
+22364 15512 l
+22366 15535 l
+22369 15554 l
+22372 15570 l
+22375 15582 l
+22377 15592 l
+22380 15600 l
+22383 15607 l
+22386 15611 l
+22388 15614 l
+22391 15617 l
+22394 15618 l
+22397 15618 l
+22399 15617 l
+22402 15616 l
+22405 15614 l
+22408 15613 l
+22410 15611 l
+22413 15609 l
+22416 15607 l
+22419 15606 l
+22421 15605 l
+22424 15605 l
+22427 15605 l
+22430 15605 l
+22432 15606 l
+22435 15608 l
+22438 15609 l
+22441 15611 l
+22443 15613 l
+22446 15614 l
+22449 15616 l
+22452 15617 l
+22454 15618 l
+22457 15619 l
+22460 15619 l
+22463 15619 l
+22465 15618 l
+22468 15616 l
+22471 15614 l
+22474 15611 l
+22476 15608 l
+22479 15603 l
+22482 15598 l
+22485 15592 l
+22487 15584 l
+22490 15576 l
+22493 15566 l
+22495 15555 l
+22498 15543 l
+22501 15529 l
+22504 15513 l
+22506 15496 l
+22509 15476 l
+22512 15454 l
+22515 15430 l
+22517 15402 l
+22520 15371 l
+22523 15335 l
+22526 15294 l
+22528 15245 l
+22531 15186 l
+22534 15111 l
+22537 15003 l
+22539 14804 l
+22542 14636 l
+22545 14911 l
+22548 15009 l
+22550 15063 l
+22553 15095 l
+22556 15113 l
+22559 15120 l
+22561 15118 l
+22564 15105 l
+22567 15081 l
+22570 15041 l
+22572 14974 l
+22575 14850 l
+22578 14202 l
+22581 14852 l
+22583 15006 l
+22586 15096 l
+22589 15159 l
+22592 15207 l
+22594 15244 l
+22597 15274 l
+22600 15297 l
+22603 15315 l
+22605 15329 l
+22608 15337 l
+22611 15342 l
+22614 15341 l
+22616 15336 l
+22619 15325 l
+22622 15307 l
+22625 15281 l
+22627 15242 l
+22630 15183 l
+22633 15083 l
+22635 14830 l
+22638 14936 l
+22641 15142 l
+22644 15247 l
+22646 15319 l
+22649 15373 l
+22652 15416 l
+22655 15452 l
+22657 15482 l
+22660 15507 l
+22663 15529 l
+22666 15547 l
+22668 15563 l
+22671 15576 l
+22674 15587 l
+22677 15596 l
+22679 15603 l
+22682 15609 l
+22685 15613 l
+22688 15615 l
+22690 15616 l
+22693 15616 l
+22696 15614 l
+22699 15612 l
+22701 15608 l
+22704 15603 l
+22707 15597 l
+22710 15590 l
+22712 15582 l
+22715 15573 l
+22718 15563 l
+22721 15552 l
+22723 15540 l
+22726 15528 l
+22729 15515 l
+22732 15501 l
+22734 15486 l
+22737 15471 l
+22740 15456 l
+22743 15440 l
+22745 15424 l
+22748 15408 l
+22751 15393 l
+22754 15379 l
+22756 15366 l
+22759 15355 l
+22762 15347 l
+22765 15341 l
+22767 15338 l
+22770 15337 l
+22773 15340 l
+22776 15345 l
+22778 15352 l
+22781 15362 l
+22784 15372 l
+22786 15383 l
+22789 15395 l
+22792 15407 l
+s
+15897 12939 15897 18989 23041 18989 23041 12939 clp
+0 z x 6 sw
+0 lc
+0 lj
+[] 0 sd
+17732 13605 m
+17732 13678 l
+s
+18294 13605 m
+18294 13678 l
+s
+18856 13605 m
+18856 13678 l
+s
+19418 13605 m
+19418 13678 l
+s
+20543 13605 m
+20543 13678 l
+s
+21105 13605 m
+21105 13678 l
+s
+21667 13605 m
+21667 13678 l
+s
+22230 13605 m
+22230 13678 l
+s
+24 sw
+17169 13605 m
+17169 13726 l
+s
+19981 13605 m
+19981 13726 l
+s
+22792 13605 m
+22792 13726 l
+s
+2 lc
+17169 13605 m
+22798 13605 l
+s
+6 sw
+0 lc
+17169 13728 m
+17242 13728 l
+s
+17169 13811 m
+17242 13811 l
+s
+17169 13870 m
+17242 13870 l
+s
+17169 13916 m
+17242 13916 l
+s
+17169 13953 m
+17242 13953 l
+s
+17169 13985 m
+17242 13985 l
+s
+17169 14012 m
+17242 14012 l
+s
+17169 14036 m
+17242 14036 l
+s
+17169 14200 m
+17242 14200 l
+s
+17169 14283 m
+17242 14283 l
+s
+17169 14342 m
+17242 14342 l
+s
+17169 14388 m
+17242 14388 l
+s
+17169 14425 m
+17242 14425 l
+s
+17169 14457 m
+17242 14457 l
+s
+17169 14484 m
+17242 14484 l
+s
+17169 14509 m
+17242 14509 l
+s
+17169 14672 m
+17242 14672 l
+s
+17169 14756 m
+17242 14756 l
+s
+17169 14815 m
+17242 14815 l
+s
+17169 14860 m
+17242 14860 l
+s
+17169 14898 m
+17242 14898 l
+s
+17169 14929 m
+17242 14929 l
+s
+17169 14957 m
+17242 14957 l
+s
+17169 14981 m
+17242 14981 l
+s
+17169 15145 m
+17242 15145 l
+s
+17169 15228 m
+17242 15228 l
+s
+17169 15287 m
+17242 15287 l
+s
+17169 15333 m
+17242 15333 l
+s
+17169 15370 m
+17242 15370 l
+s
+17169 15402 m
+17242 15402 l
+s
+17169 15429 m
+17242 15429 l
+s
+17169 15453 m
+17242 15453 l
+s
+17169 15617 m
+17242 15617 l
+s
+17169 15700 m
+17242 15700 l
+s
+17169 15759 m
+17242 15759 l
+s
+17169 15805 m
+17242 15805 l
+s
+17169 15842 m
+17242 15842 l
+s
+17169 15874 m
+17242 15874 l
+s
+17169 15901 m
+17242 15901 l
+s
+17169 15925 m
+17242 15925 l
+s
+17169 16089 m
+17242 16089 l
+s
+17169 16172 m
+17242 16172 l
+s
+17169 16231 m
+17242 16231 l
+s
+17169 16277 m
+17242 16277 l
+s
+17169 16314 m
+17242 16314 l
+s
+17169 16346 m
+17242 16346 l
+s
+17169 16373 m
+17242 16373 l
+s
+17169 16398 m
+17242 16398 l
+s
+17169 16561 m
+17242 16561 l
+s
+17169 16644 m
+17242 16644 l
+s
+17169 16703 m
+17242 16703 l
+s
+17169 16749 m
+17242 16749 l
+s
+17169 16787 m
+17242 16787 l
+s
+17169 16818 m
+17242 16818 l
+s
+17169 16846 m
+17242 16846 l
+s
+17169 16870 m
+17242 16870 l
+s
+17169 17034 m
+17242 17034 l
+s
+17169 17117 m
+17242 17117 l
+s
+17169 17176 m
+17242 17176 l
+s
+17169 17221 m
+17242 17221 l
+s
+17169 17259 m
+17242 17259 l
+s
+17169 17290 m
+17242 17290 l
+s
+17169 17318 m
+17242 17318 l
+s
+17169 17342 m
+17242 17342 l
+s
+17169 17506 m
+17242 17506 l
+s
+17169 17589 m
+17242 17589 l
+s
+17169 17648 m
+17242 17648 l
+s
+17169 17694 m
+17242 17694 l
+s
+17169 17731 m
+17242 17731 l
+s
+17169 17763 m
+17242 17763 l
+s
+17169 17790 m
+17242 17790 l
+s
+17169 17814 m
+17242 17814 l
+s
+24 sw
+17169 14058 m
+17290 14058 l
+s
+17169 14530 m
+17290 14530 l
+s
+17169 15002 m
+17290 15002 l
+s
+17169 15475 m
+17290 15475 l
+s
+17169 15947 m
+17290 15947 l
+s
+17169 16419 m
+17290 16419 l
+s
+17169 16891 m
+17290 16891 l
+s
+17169 17364 m
+17290 17364 l
+s
+17169 17836 m
+17290 17836 l
+s
+2 lc
+17169 13605 m
+17169 17836 l
+s
+-260 -0 0 354 260 -0 19854 13010 3 1 sw
+7 7 pfbi
+520.128 ftr
+0 z x 19854 13010 m
+(x) sh
+0 -1008 -354 -0 0 1008 16384 15217 3 7 7 pfbi
+520.128 ftr
+0 z x 16384 15217 m
+gs 90.0 ro
+(e) sh
+gr
+16384 15444 m
+gs 90.0 ro
+(r) sh
+gr
+16384 15618 m
+gs 90.0 ro
+(r) sh
+gr
+16384 15791 m
+gs 90.0 ro
+(o) sh
+gr
+16384 16051 m
+gs 90.0 ro
+(r) sh
+gr
+-529 -0 0 247 529 -0 16905 13298 3 7 7 pfbi
+362.88 fhn
+0 z x 16905 13298 m
+(\255) sh
+17026 13298 m
+(5) sh
+17230 13298 m
+(0) sh
+-204 -0 0 247 204 -0 19879 13298 3 7 7 pfbi
+362.88 fhn
+0 z x 19879 13298 m
+(0) sh
+-408 -0 0 247 408 -0 22588 13298 3 7 7 pfbi
+362.88 fhn
+0 z x 22588 13298 m
+(5) sh
+22792 13298 m
+(0) sh
+-603 -0 0 345 603 -0 16495 13935 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 13935 m
+(1) sh
+16699 13935 m
+(0) sh
+217.728 fhn
+16903 14116 m
+(\255) sh
+16976 14116 m
+(8) sh
+-603 -0 0 345 603 -0 16495 14407 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 14407 m
+(1) sh
+16699 14407 m
+(0) sh
+217.728 fhn
+16903 14588 m
+(\255) sh
+16976 14588 m
+(7) sh
+-603 -0 0 345 603 -0 16495 14879 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 14879 m
+(1) sh
+16699 14879 m
+(0) sh
+217.728 fhn
+16903 15061 m
+(\255) sh
+16976 15061 m
+(6) sh
+-603 -0 0 345 603 -0 16495 15351 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 15351 m
+(1) sh
+16699 15351 m
+(0) sh
+217.728 fhn
+16903 15533 m
+(\255) sh
+16976 15533 m
+(5) sh
+-603 -0 0 345 603 -0 16495 15824 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 15824 m
+(1) sh
+16699 15824 m
+(0) sh
+217.728 fhn
+16903 16005 m
+(\255) sh
+16976 16005 m
+(4) sh
+-603 -0 0 345 603 -0 16495 16296 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 16296 m
+(1) sh
+16699 16296 m
+(0) sh
+217.728 fhn
+16903 16477 m
+(\255) sh
+16976 16477 m
+(3) sh
+-603 -0 0 345 603 -0 16495 16768 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 16768 m
+(1) sh
+16699 16768 m
+(0) sh
+217.728 fhn
+16903 16949 m
+(\255) sh
+16976 16949 m
+(2) sh
+-603 -0 0 345 603 -0 16495 17240 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 17240 m
+(1) sh
+16699 17240 m
+(0) sh
+217.728 fhn
+16903 17422 m
+(\255) sh
+16976 17422 m
+(1) sh
+-531 -0 0 345 531 -0 16567 17712 3 7 7 pfbi
+362.88 fhn
+0 z x 16567 17712 m
+(1) sh
+16771 17712 m
+(0) sh
+217.728 fhn
+16976 17894 m
+(0) sh
+400 ftr
+19899 18412 m
+(t) sh
+20108 18412 m
+(=) sh
+20724 18412 m
+(3) sh
+20924 18412 m
+(0) sh
+21124 18412 m
+(.) sh
+21233 18412 m
+(0) sh
+21433 18412 m
+(9) sh
+21633 18412 m
+(7) sh
+21833 18412 m
+(0) sh
+22033 18412 m
+(0) sh
+15414 12457 15414 19471 23524 19471 23524 12457 clp
+6 sw
+2 lc
+0 lj
+[] 0 sd
+0 z 15901 12943 7136 6042 brc
+15414 24553 15414 31567 23524 31567 23524 24553 clp
+7 z 15898 25036 7142 6048 erc
+17168 25700 17168 29933 22799 29933 22799 25700 clp
+0 -1 0 1 18133 25701 2 24 sw
+0 lc
+0 lj
+[] 0 sd
+1 pbi
+0 -9 3 -3 1 12 18149 25701 3 1 pbi
+2 -28 3 8 1 20 18165 25701 3 1 pbi
+0 -10 3 -34 3 20 1 24 18182 25701 4 1 pbi
+1 -39 3 -19 3 35 1 23 18198 25701 4 1 pbi
+0 -2 3 -63 3 -4 3 52 0 16 18215 25701 5 1 pbi
+1 -45 3 -41 3 13 3 72 18232 25701 4 1 pbi
+3 -81 3 -20 3 32 2 69 18249 25701 4 1 pbi
+1 -53 3 -56 3 -0 3 54 1 56 18267 25701 5 1 pbi
+3 -100 3 -30 3 21 3 84 0 26 18284 25701 5 1 pbi
+1 -71 3 -64 3 -7 3 45 2 97 18301 25701 5 1 pbi
+0 -19 3 -108 3 -33 3 17 3 77 1 65 18319 25701 6 1 pbi
+2 -104 3 -62 3 -6 3 45 3 127 0 0 18336 25701 6 1 pbi
+0 -66 3 -96 3 -28 3 21 3 81 1 88 18354 25701 6 1 pbi
+0 -6 3 -145 3 -50 3 1 3 53 3 144 0 3 18372 25701 7 1 pbi
+2 -131 3 -74 3 -16 3 32 3 98 1 91 18390 25701 6 1 pbi
+1 -103 3 -102 3 -32 3 16 3 71 2 151 18408 25701 6 1 pbi
+0 -67 3 -134 3 -47 3 2 3 51 3 139 0 57 18426 25701 7 1 pbi
+1 -22 3 -174 3 -62 3 -9 3 37 3 107 1 123 18445 25701 7 1 pbi
+2 -192 3 -75 3 -18 3 27 3 86 2 172 18463 25701 6 1 pbi
+2 -189 3 -87 3 -26 3 19 3 73 3 200 1 11 18481 25701 7 1 pbi
+2 -191 3 -96 3 -31 3 13 3 64 3 168 1 73 18500 25701 7 1 pbi
+1 -199 3 -101 3 -34 3 10 3 58 3 151 1 115 18519 25701 7 1 pbi
+1 -213 3 -102 3 -35 3 9 3 56 3 143 1 143 18538 25701 7 1 pbi
+2 -236 3 -99 3 -34 3 9 3 56 3 143 1 161 18557 25701 7 1 pbi
+2 -266 3 -91 3 -30 3 12 3 59 3 149 2 167 18576 25701 7 1 pbi
+1.822 -241.390 2.745 -138.030 2.745 -53.168 2.745 -8.102 2.745 32.182 2.745 88.135 2.745 252.477 2.745 -90.149 2.745 -181.340 2.745 -67.276
+2.745 -17.260 2.745 23.176 2.745 73.997 2.745 193.501 2.745 67.633 2.745 -235.160 2.745 -80.238 2.745 -24.757 2.745 16.485 2.745 64.661
+2.745 164.254 2.270 160.370 18594.808 25701.120 22 1 pbi
+2 -316 3 -103 3 -38 3 3 3 44 3 110 2 301 18656 25701 7 1 pbi
+1.563 -310.545 2.745 -128.417 2.745 -50.641 2.745 -7.868 2.745 30.471 2.745 82.593 2.745 220.966 2.745 -13.215 2.745 -204.824 2.745 -74.760
+2.745 -23.446 2.745 15.321 2.745 59.962 2.745 146.163 2.103 258.239 18674.590 25701.120 15 1 pbi
+1.540 -350.756 2.745 -126.581 2.745 -50.767 2.745 -9.054 2.745 27.862 2.745 76.548 2.745 193.813 2.745 71.717 2.745 -237.847 2.745 -82.979
+2.745 -29.244 2.745 8.826 2.745 49.666 2.745 118.885 1.623 339.909 18716.251 25701.120 15 1 pbi
+1.448 -411.868 2.745 -124.740 2.745 -51.351 2.745 -11.142 2.745 23.659 2.745 67.403 2.745 159.552 2.745 240.593 2.745 -328.623 2.745 -98.475
+2.745 -38.938 2.745 -1.123 2.745 35.317 2.745 87.456 2.745 235.559 2.745 -48.239 2.745 -194.471 2.745 -73.651 2.745 -24.793 2.745 11.621
+2.745 51.852 2.745 121.680 1.581 372.720 18757.473 25701.120 23 1 pbi
+2.656 -550.255 2.745 -117.274 2.745 -51.008 2.745 -14.330 2.745 16.363 2.745 51.919 2.745 113.021 2.745 402.348 2.745 -333.986 2.745 -144.259
+2.745 -61.127 2.745 -20.656 2.745 10.976 2.745 45.596 2.745 100.930 2.745 297.731 2.745 -173.703 2.745 -165.794 2.745 -67.887 2.745 -24.420
+2.745 8.178 2.745 42.825 2.745 96.531 2.745 272.506 2.745 -126.700 2.745 -175.162 2.745 -70.302 2.745 -25.371 2.745 7.963 2.745 43.322
+2.745 98.506 2.745 287.151 2.745 -155.152 2.745 -168.892 2.745 -67.993 2.745 -23.407 2.745 10.382 2.745 47.169 2.745 107.266 2.745 357.866
+2.745 -271.736 2.745 -149.947 2.745 -61.366 2.745 -18.606 2.745 15.535 2.745 54.827 2.745 125.246 1.469 425.174 18820.728 25701.120 48 1 pbi
+18951 25701 m
+18954 26232 l
+18957 26369 l
+18959 26432 l
+18962 26456 l
+18965 26451 l
+18968 26412 l
+18970 26322 l
+18973 26069 l
+18976 26171 l
+18979 26360 l
+18981 26440 l
+18984 26476 l
+18987 26481 l
+18990 26456 l
+18992 26391 l
+18995 26239 l
+18998 25968 l
+19001 26326 l
+19003 26436 l
+19006 26488 l
+19009 26507 l
+19012 26497 l
+19014 26454 l
+19017 26357 l
+19020 26071 l
+19023 26238 l
+19025 26413 l
+19028 26490 l
+19031 26526 l
+19034 26531 l
+19036 26509 l
+19039 26449 l
+19042 26316 l
+19045 25792 l
+19047 26349 l
+19050 26473 l
+19053 26532 l
+19056 26557 l
+19058 26554 l
+19061 26522 l
+19064 26448 l
+19067 26273 l
+19069 26138 l
+19072 26416 l
+19075 26517 l
+19078 26567 l
+19080 26585 l
+19083 26577 l
+19086 26539 l
+19088 26456 l
+19091 26247 l
+19094 26237 l
+19097 26461 l
+19099 26552 l
+19102 26597 l
+19105 26613 l
+19108 26603 l
+19110 26564 l
+19113 26479 l
+19116 26263 l
+19119 26271 l
+19121 26489 l
+19124 26580 l
+19127 26625 l
+19130 26641 l
+19132 26633 l
+19135 26596 l
+19138 26517 l
+19141 26329 l
+19143 26246 l
+19146 26501 l
+19149 26599 l
+19152 26649 l
+19154 26669 l
+19157 26665 l
+19160 26636 l
+19163 26570 l
+19165 26425 l
+19168 26066 l
+19171 26488 l
+19174 26607 l
+19176 26667 l
+19179 26695 l
+19182 26700 l
+19185 26680 l
+19187 26630 l
+19190 26526 l
+19193 26209 l
+19196 26429 l
+19198 26597 l
+19201 26676 l
+19204 26716 l
+19207 26731 l
+19209 26724 l
+19212 26691 l
+19215 26622 l
+19218 26471 l
+19220 26168 l
+19223 26550 l
+19226 26667 l
+19229 26727 l
+19231 26757 l
+19234 26764 l
+19237 26748 l
+19239 26707 l
+19242 26623 l
+19245 26422 l
+19248 26382 l
+19250 26619 l
+19253 26716 l
+19256 26768 l
+19259 26793 l
+19261 26796 l
+19264 26778 l
+19267 26733 l
+19270 26643 l
+19272 26420 l
+19275 26446 l
+19278 26660 l
+19281 26753 l
+19283 26803 l
+19286 26827 l
+19289 26831 l
+19292 26814 l
+19294 26772 l
+19297 26689 l
+19300 26497 l
+19303 26424 l
+19305 26676 l
+19308 26777 l
+19311 26831 l
+19314 26860 l
+19316 26868 l
+19319 26857 l
+19322 26823 l
+19325 26756 l
+19327 26619 l
+19330 26096 l
+19333 26654 l
+19336 26783 l
+19338 26850 l
+19341 26888 l
+19344 26904 l
+19347 26902 l
+19349 26881 l
+19352 26834 l
+19355 26745 l
+19358 26531 l
+19360 26530 l
+19363 26754 l
+19366 26851 l
+19369 26905 l
+19371 26934 l
+19374 26945 l
+19377 26938 l
+19380 26912 l
+19382 26859 l
+19385 26759 l
+19388 26488 l
+19390 26623 l
+19393 26810 l
+19396 26898 l
+19399 26949 l
+19401 26977 l
+19404 26987 l
+19407 26980 l
+19410 26955 l
+19412 26906 l
+19415 26814 l
+19418 26589 l
+19421 26616 l
+19423 26832 l
+19426 26928 l
+19429 26983 l
+19432 27015 l
+19434 27029 l
+19437 27028 l
+19440 27010 l
+19443 26972 l
+19445 26902 l
+19448 26763 l
+19451 26254 l
+19454 26801 l
+19456 26931 l
+19459 27002 l
+19462 27045 l
+19465 27069 l
+19467 27077 l
+19470 27071 l
+19473 27048 l
+19476 27004 l
+19478 26926 l
+19481 26761 l
+19484 26547 l
+19487 26874 l
+19489 26989 l
+19492 27055 l
+19495 27096 l
+19498 27119 l
+19500 27127 l
+19503 27122 l
+19506 27102 l
+19509 27062 l
+19511 26994 l
+19514 26861 l
+19517 26023 l
+19520 26875 l
+19522 27013 l
+19525 27088 l
+19528 27135 l
+19530 27164 l
+19533 27178 l
+19536 27180 l
+19539 27169 l
+19541 27142 l
+19544 27096 l
+19547 27014 l
+19550 26843 l
+19552 26664 l
+19555 26972 l
+19558 27086 l
+19561 27153 l
+19563 27196 l
+19566 27223 l
+19569 27237 l
+19572 27239 l
+19574 27229 l
+19577 27206 l
+19580 27165 l
+19583 27096 l
+19585 26965 l
+19588 26086 l
+19591 26969 l
+19594 27111 l
+19596 27190 l
+19599 27241 l
+19602 27274 l
+19605 27294 l
+19607 27303 l
+19610 27302 l
+19613 27290 l
+19616 27265 l
+19618 27223 l
+19621 27154 l
+19624 27023 l
+19627 26180 l
+19629 27025 l
+19632 27169 l
+19635 27249 l
+19638 27302 l
+19640 27337 l
+19643 27360 l
+19646 27373 l
+19649 27377 l
+19651 27371 l
+19654 27355 l
+19657 27327 l
+19660 27281 l
+19662 27206 l
+19665 27061 l
+19668 26625 l
+19671 27113 l
+19673 27246 l
+19676 27323 l
+19679 27375 l
+19681 27412 l
+19684 27437 l
+19687 27452 l
+19690 27460 l
+19692 27460 l
+19695 27451 l
+19698 27433 l
+19701 27403 l
+19703 27357 l
+19706 27283 l
+19709 27142 l
+19712 26623 l
+19714 27182 l
+19717 27319 l
+19720 27399 l
+19723 27453 l
+19725 27493 l
+19728 27521 l
+19731 27542 l
+19734 27555 l
+19736 27561 l
+19739 27561 l
+19742 27554 l
+19745 27539 l
+19747 27516 l
+19750 27479 l
+19753 27424 l
+19756 27333 l
+19758 27132 l
+19761 27084 l
+19764 27333 l
+19767 27445 l
+19769 27516 l
+19772 27567 l
+19775 27606 l
+19778 27636 l
+19780 27658 l
+19783 27675 l
+19786 27687 l
+19789 27693 l
+19791 27695 l
+19794 27691 l
+19797 27683 l
+19800 27668 l
+19802 27645 l
+19805 27612 l
+19808 27565 l
+19811 27492 l
+19813 27360 l
+19816 26492 l
+19819 27366 l
+19822 27513 l
+19824 27599 l
+19827 27660 l
+19830 27705 l
+19832 27740 l
+19835 27767 l
+19838 27788 l
+19841 27804 l
+19843 27814 l
+19846 27819 l
+19849 27818 l
+19852 27810 l
+19854 27793 l
+19857 27763 l
+19860 27713 l
+19863 27618 l
+19865 27334 l
+19868 27540 l
+19871 27741 l
+19874 27856 l
+19876 27941 l
+19879 28010 l
+19882 28069 l
+19885 28122 l
+19887 28170 l
+19890 28215 l
+19893 28257 l
+19896 28296 l
+19898 28335 l
+19901 28371 l
+19904 28407 l
+19907 28442 l
+19909 28476 l
+19912 28509 l
+19915 28541 l
+19918 28573 l
+19920 28605 l
+19923 28636 l
+19926 28667 l
+19929 28697 l
+19931 28727 l
+19934 28757 l
+19937 28786 l
+19940 28815 l
+19942 28843 l
+19945 28871 l
+19948 28898 l
+19951 28925 l
+19953 28952 l
+19956 28977 l
+19959 29002 l
+19962 29027 l
+19964 29051 l
+19967 29075 l
+19970 29098 l
+19973 29121 l
+19975 29143 l
+19978 29165 l
+19981 29186 l
+19983 29207 l
+19986 29227 l
+19989 29248 l
+19992 29267 l
+19994 29287 l
+19997 29306 l
+20000 29325 l
+20003 29344 l
+20005 29363 l
+20008 29381 l
+20011 29399 l
+20014 29417 l
+20016 29434 l
+20019 29450 l
+20022 29466 l
+20025 29481 l
+20027 29495 l
+20030 29508 l
+20033 29519 l
+20036 29529 l
+20038 29536 l
+20041 29539 l
+20044 29539 l
+20047 29533 l
+20049 29519 l
+20052 29492 l
+20055 29446 l
+20058 29357 l
+20060 29107 l
+20063 29245 l
+20066 29455 l
+20069 29567 l
+20071 29643 l
+20074 29699 l
+20077 29740 l
+20080 29770 l
+20082 29789 l
+20085 29798 l
+20088 29798 l
+20091 29788 l
+20093 29768 l
+20096 29739 l
+20099 29697 l
+20102 29642 l
+20104 29567 l
+20107 29459 l
+20110 29263 l
+20113 29045 l
+20115 29336 l
+20118 29430 l
+20121 29479 l
+20123 29506 l
+20126 29521 l
+20129 29528 l
+20132 29529 l
+20134 29525 l
+20137 29518 l
+20140 29509 l
+20143 29498 l
+20145 29485 l
+20148 29471 l
+20151 29456 l
+20154 29440 l
+20156 29423 l
+20159 29406 l
+20162 29388 l
+20165 29370 l
+20167 29352 l
+20170 29333 l
+20173 29314 l
+20176 29295 l
+20178 29276 l
+20181 29257 l
+20184 29237 l
+20187 29218 l
+20189 29198 l
+20192 29179 l
+20195 29159 l
+20198 29139 l
+20200 29120 l
+20203 29100 l
+20206 29080 l
+20209 29060 l
+20211 29040 l
+20214 29020 l
+20217 29000 l
+20220 28980 l
+20222 28960 l
+20225 28940 l
+20228 28920 l
+20231 28900 l
+20233 28881 l
+20236 28861 l
+20239 28841 l
+20242 28821 l
+20244 28801 l
+20247 28781 l
+20250 28761 l
+20253 28741 l
+20255 28721 l
+20258 28701 l
+20261 28681 l
+20264 28660 l
+20266 28640 l
+20269 28620 l
+20272 28600 l
+20274 28580 l
+20277 28560 l
+20280 28540 l
+20283 28520 l
+20285 28500 l
+20288 28480 l
+20291 28460 l
+20294 28440 l
+20296 28420 l
+20299 28400 l
+20302 28380 l
+20305 28360 l
+20307 28340 l
+20310 28320 l
+20313 28300 l
+20316 28280 l
+20318 28260 l
+20321 28240 l
+20324 28220 l
+20327 28200 l
+20329 28180 l
+20332 28160 l
+20335 28140 l
+20338 28120 l
+20340 28100 l
+20343 28080 l
+20346 28060 l
+20349 28040 l
+20351 28020 l
+20354 28000 l
+20357 27980 l
+20360 27960 l
+20362 27940 l
+20365 27920 l
+20368 27900 l
+20371 27880 l
+20373 27860 l
+20376 27839 l
+20379 27819 l
+20382 27799 l
+20384 27779 l
+20387 27759 l
+20390 27739 l
+20393 27719 l
+20395 27699 l
+20398 27679 l
+20401 27659 l
+20404 27639 l
+20406 27619 l
+20409 27599 l
+20412 27579 l
+20415 27559 l
+20417 27539 l
+20420 27519 l
+20423 27499 l
+20425 27479 l
+20428 27459 l
+20431 27439 l
+20434 27419 l
+20436 27399 l
+20439 27379 l
+20442 27359 l
+20445 27339 l
+20447 27319 l
+20450 27299 l
+20453 27279 l
+20456 27259 l
+20458 27239 l
+20461 27219 l
+20464 27199 l
+20467 27179 l
+20469 27159 l
+20472 27139 l
+20475 27118 l
+20478 27098 l
+20480 27078 l
+20483 27058 l
+20486 27038 l
+20489 27018 l
+20491 26998 l
+20494 26978 l
+20497 26958 l
+20500 26938 l
+20502 26918 l
+20505 26898 l
+20508 26878 l
+20511 26858 l
+20513 26838 l
+20516 26818 l
+20519 26798 l
+20522 26778 l
+20524 26758 l
+20527 26738 l
+20530 26718 l
+20533 26698 l
+20535 26678 l
+20538 26658 l
+20541 26638 l
+20544 26618 l
+20546 26598 l
+20549 26578 l
+20552 26558 l
+20555 26538 l
+20557 26518 l
+20560 26498 l
+20563 26478 l
+20565 26458 l
+20568 26438 l
+20571 26418 l
+20574 26397 l
+20576 26377 l
+20579 26357 l
+20582 26337 l
+20585 26317 l
+20587 26297 l
+20590 26277 l
+20593 26257 l
+20596 26237 l
+20598 26217 l
+20601 26197 l
+20604 26177 l
+20607 26157 l
+20609 26137 l
+20612 26117 l
+20615 26097 l
+20618 26077 l
+20620 26057 l
+20623 26037 l
+20626 26017 l
+20629 25997 l
+20631 25977 l
+20634 25957 l
+20637 25937 l
+20640 25917 l
+20642 25897 l
+20645 25877 l
+20648 25857 l
+20651 25837 l
+20653 25817 l
+20656 25797 l
+20659 25777 l
+20662 25757 l
+20664 25737 l
+20667 25717 l
+20669 25701 l
+s
+15897 25035 15897 31085 23041 31085 23041 25035 clp
+0 z x 6 sw
+0 lc
+0 lj
+[] 0 sd
+17732 25701 m
+17732 25774 l
+s
+18294 25701 m
+18294 25774 l
+s
+18856 25701 m
+18856 25774 l
+s
+19418 25701 m
+19418 25774 l
+s
+20543 25701 m
+20543 25774 l
+s
+21105 25701 m
+21105 25774 l
+s
+21667 25701 m
+21667 25774 l
+s
+22230 25701 m
+22230 25774 l
+s
+24 sw
+17169 25701 m
+17169 25822 l
+s
+19981 25701 m
+19981 25822 l
+s
+22792 25701 m
+22792 25822 l
+s
+2 lc
+17169 25701 m
+22798 25701 l
+s
+6 sw
+0 lc
+17169 25824 m
+17242 25824 l
+s
+17169 25907 m
+17242 25907 l
+s
+17169 25966 m
+17242 25966 l
+s
+17169 26012 m
+17242 26012 l
+s
+17169 26049 m
+17242 26049 l
+s
+17169 26081 m
+17242 26081 l
+s
+17169 26108 m
+17242 26108 l
+s
+17169 26132 m
+17242 26132 l
+s
+17169 26296 m
+17242 26296 l
+s
+17169 26379 m
+17242 26379 l
+s
+17169 26438 m
+17242 26438 l
+s
+17169 26484 m
+17242 26484 l
+s
+17169 26521 m
+17242 26521 l
+s
+17169 26553 m
+17242 26553 l
+s
+17169 26580 m
+17242 26580 l
+s
+17169 26605 m
+17242 26605 l
+s
+17169 26768 m
+17242 26768 l
+s
+17169 26852 m
+17242 26852 l
+s
+17169 26911 m
+17242 26911 l
+s
+17169 26956 m
+17242 26956 l
+s
+17169 26994 m
+17242 26994 l
+s
+17169 27025 m
+17242 27025 l
+s
+17169 27053 m
+17242 27053 l
+s
+17169 27077 m
+17242 27077 l
+s
+17169 27241 m
+17242 27241 l
+s
+17169 27324 m
+17242 27324 l
+s
+17169 27383 m
+17242 27383 l
+s
+17169 27429 m
+17242 27429 l
+s
+17169 27466 m
+17242 27466 l
+s
+17169 27498 m
+17242 27498 l
+s
+17169 27525 m
+17242 27525 l
+s
+17169 27549 m
+17242 27549 l
+s
+17169 27713 m
+17242 27713 l
+s
+17169 27796 m
+17242 27796 l
+s
+17169 27855 m
+17242 27855 l
+s
+17169 27901 m
+17242 27901 l
+s
+17169 27938 m
+17242 27938 l
+s
+17169 27970 m
+17242 27970 l
+s
+17169 27997 m
+17242 27997 l
+s
+17169 28021 m
+17242 28021 l
+s
+17169 28185 m
+17242 28185 l
+s
+17169 28268 m
+17242 28268 l
+s
+17169 28327 m
+17242 28327 l
+s
+17169 28373 m
+17242 28373 l
+s
+17169 28410 m
+17242 28410 l
+s
+17169 28442 m
+17242 28442 l
+s
+17169 28469 m
+17242 28469 l
+s
+17169 28494 m
+17242 28494 l
+s
+17169 28657 m
+17242 28657 l
+s
+17169 28740 m
+17242 28740 l
+s
+17169 28799 m
+17242 28799 l
+s
+17169 28845 m
+17242 28845 l
+s
+17169 28883 m
+17242 28883 l
+s
+17169 28914 m
+17242 28914 l
+s
+17169 28942 m
+17242 28942 l
+s
+17169 28966 m
+17242 28966 l
+s
+17169 29130 m
+17242 29130 l
+s
+17169 29213 m
+17242 29213 l
+s
+17169 29272 m
+17242 29272 l
+s
+17169 29317 m
+17242 29317 l
+s
+17169 29355 m
+17242 29355 l
+s
+17169 29386 m
+17242 29386 l
+s
+17169 29414 m
+17242 29414 l
+s
+17169 29438 m
+17242 29438 l
+s
+17169 29602 m
+17242 29602 l
+s
+17169 29685 m
+17242 29685 l
+s
+17169 29744 m
+17242 29744 l
+s
+17169 29790 m
+17242 29790 l
+s
+17169 29827 m
+17242 29827 l
+s
+17169 29859 m
+17242 29859 l
+s
+17169 29886 m
+17242 29886 l
+s
+17169 29910 m
+17242 29910 l
+s
+24 sw
+17169 26154 m
+17290 26154 l
+s
+17169 26626 m
+17290 26626 l
+s
+17169 27098 m
+17290 27098 l
+s
+17169 27571 m
+17290 27571 l
+s
+17169 28043 m
+17290 28043 l
+s
+17169 28515 m
+17290 28515 l
+s
+17169 28987 m
+17290 28987 l
+s
+17169 29460 m
+17290 29460 l
+s
+17169 29932 m
+17290 29932 l
+s
+2 lc
+17169 25701 m
+17169 29932 l
+s
+-260 -0 0 354 260 -0 19854 25106 3 1 sw
+7 7 pfbi
+520.128 ftr
+0 z x 19854 25106 m
+(x) sh
+0 -1008 -354 -0 0 1008 16384 27313 3 7 7 pfbi
+520.128 ftr
+0 z x 16384 27313 m
+gs 90.0 ro
+(e) sh
+gr
+16384 27540 m
+gs 90.0 ro
+(r) sh
+gr
+16384 27714 m
+gs 90.0 ro
+(r) sh
+gr
+16384 27887 m
+gs 90.0 ro
+(o) sh
+gr
+16384 28147 m
+gs 90.0 ro
+(r) sh
+gr
+-529 -0 0 247 529 -0 16905 25394 3 7 7 pfbi
+362.88 fhn
+0 z x 16905 25394 m
+(\255) sh
+17026 25394 m
+(5) sh
+17230 25394 m
+(0) sh
+-204 -0 0 247 204 -0 19879 25394 3 7 7 pfbi
+362.88 fhn
+0 z x 19879 25394 m
+(0) sh
+-408 -0 0 247 408 -0 22588 25394 3 7 7 pfbi
+362.88 fhn
+0 z x 22588 25394 m
+(5) sh
+22792 25394 m
+(0) sh
+-603 -0 0 345 603 -0 16495 26031 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 26031 m
+(1) sh
+16699 26031 m
+(0) sh
+217.728 fhn
+16903 26212 m
+(\255) sh
+16976 26212 m
+(8) sh
+-603 -0 0 345 603 -0 16495 26503 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 26503 m
+(1) sh
+16699 26503 m
+(0) sh
+217.728 fhn
+16903 26684 m
+(\255) sh
+16976 26684 m
+(7) sh
+-603 -0 0 345 603 -0 16495 26975 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 26975 m
+(1) sh
+16699 26975 m
+(0) sh
+217.728 fhn
+16903 27157 m
+(\255) sh
+16976 27157 m
+(6) sh
+-603 -0 0 345 603 -0 16495 27447 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 27447 m
+(1) sh
+16699 27447 m
+(0) sh
+217.728 fhn
+16903 27629 m
+(\255) sh
+16976 27629 m
+(5) sh
+-603 -0 0 345 603 -0 16495 27920 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 27920 m
+(1) sh
+16699 27920 m
+(0) sh
+217.728 fhn
+16903 28101 m
+(\255) sh
+16976 28101 m
+(4) sh
+-603 -0 0 345 603 -0 16495 28392 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 28392 m
+(1) sh
+16699 28392 m
+(0) sh
+217.728 fhn
+16903 28573 m
+(\255) sh
+16976 28573 m
+(3) sh
+-603 -0 0 345 603 -0 16495 28864 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 28864 m
+(1) sh
+16699 28864 m
+(0) sh
+217.728 fhn
+16903 29045 m
+(\255) sh
+16976 29045 m
+(2) sh
+-603 -0 0 345 603 -0 16495 29336 3 7 7 pfbi
+362.88 fhn
+0 z x 16495 29336 m
+(1) sh
+16699 29336 m
+(0) sh
+217.728 fhn
+16903 29518 m
+(\255) sh
+16976 29518 m
+(1) sh
+-531 -0 0 345 531 -0 16567 29808 3 7 7 pfbi
+362.88 fhn
+0 z x 16567 29808 m
+(1) sh
+16771 29808 m
+(0) sh
+217.728 fhn
+16976 29990 m
+(0) sh
+400 ftr
+19899 30563 m
+(t) sh
+20108 30563 m
+(=) sh
+20624 30563 m
+(0) sh
+20824 30563 m
+(.) sh
+20933 30563 m
+(1) sh
+21133 30563 m
+(0) sh
+21333 30563 m
+(0) sh
+21533 30563 m
+(0) sh
+21733 30563 m
+(0) sh
+21933 30563 m
+(0) sh
+22133 30563 m
+(0) sh
+400 fhb
+16173 30663 m
+(L) sh
+16411 30663 m
+(i) sh
+16614 30663 m
+(V) sh
+16896 30663 m
+(i) sh
+16993 30663 m
+(s) sh
+17205 30663 m
+(b) sh
+17442 30663 m
+(a) sh
+17672 30663 m
+(l) sh
+16173 30263 m
+(S) sh
+16455 30263 m
+(c) sh
+16667 30263 m
+(h) sh
+16905 30263 m
+(e) sh
+17134 30263 m
+(m) sh
+17487 30263 m
+(e) sh
+15414 24553 15414 31567 23524 31567 23524 24553 clp
+6 sw
+2 lc
+0 lj
+[] 0 sd
+0 z 15901 25039 7136 6042 brc
+gr end
+showpage

@@ -99,3 +99,26 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Latex
+Latex/example.eps
+*.ps
+*.pdf
+*.nlo
+
+*.log
+*.aux
+*.out
+*.dvi
+*.bbl
+*.blg
+
+*.glo
+*.ist
+*.gls
+*.glg
+
+# Fortran
+*.o
+*.out
+*.mod
