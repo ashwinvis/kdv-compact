@@ -1,4 +1,7 @@
 # kdv-compact
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1203231.svg)](https://doi.org/10.5281/zenodo.1203231)
+
 Solving KdV equation with finite difference optimized compact scheme for first- and third-derivatives
 
 All codes are archived and made open sourceunder the BSD license and the LaTeX
