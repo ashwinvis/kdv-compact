@@ -7,7 +7,7 @@ latex := cd $(dir) && pdflatex $(name).tex
 
 latex_files := 
 
-figures :=
+figures := $(patsubst %.eps,%-eps-converted-to.pdf,$(wildcard Fig/*.eps))
 
 .PHONY: all clean cleanall help
 
@@ -28,7 +28,7 @@ $(path).pdf: $(path).log
 	@if [ `grep "Rerun to get cross-references right." $(path).log | wc -l` != 0 ]; then $(latex); fi
 	@if [ `grep "Package natbib Warning: Citation(s) may have changed." $(path).log | wc -l` != 0 ]; then $(latex); fi
 
-$(path).log: $(path).tex $(figures) $(latex_files)
+$(path).log: $(path).tex $(figures) $(latex_files) $(path).bbl
 	$(latex)
 
 $(path).bbl: $(path).aux $(dir)/KdV-To-cite.bib
@@ -36,3 +36,6 @@ $(path).bbl: $(path).aux $(dir)/KdV-To-cite.bib
 
 $(path).aux: $(path).tex
 	$(latex)
+
+%-eps-converted-to.pdf: %.eps
+	epstopdf $< $@
